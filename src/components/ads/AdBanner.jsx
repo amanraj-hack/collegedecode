@@ -1,0 +1,25 @@
+import { useAdSense } from '../../hooks/useAdSense';
+import { ADS_CONFIG } from '../../config/ads';
+
+export default function AdBanner({ type = 'inline', slotId, format = 'auto' }) {
+  useAdSense();
+
+  const className = `ad-banner${type === 'sidebar' ? ' sidebar' : type === 'inline' ? ' inline' : ''}`
+
+  return (
+    <div className={className} style={{ minHeight: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      {ADS_CONFIG.enabled ? (
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block', width: '100%' }}
+          data-ad-client={ADS_CONFIG.publisherId}
+          data-ad-slot={slotId || "placeholder"}
+          data-ad-format={format}
+          data-full-width-responsive="true"
+        />
+      ) : (
+        <span>📢 Ad Space — Google AdSense</span>
+      )}
+    </div>
+  )
+}

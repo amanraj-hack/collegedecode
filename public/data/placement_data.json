@@ -1,0 +1,3107 @@
+[
+  {
+    "institute": "IIT Bombay",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 32.5,
+    "medianPackage": 26.0,
+    "highestPackage": 220.0,
+    "placementPercentage": 98.5
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 34.0,
+    "medianPackage": 28.0,
+    "highestPackage": 240.0,
+    "placementPercentage": 98.8
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 36.2,
+    "medianPackage": 30.0,
+    "highestPackage": 260.0,
+    "placementPercentage": 99.0
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 22.5,
+    "medianPackage": 18.0,
+    "highestPackage": 120.0,
+    "placementPercentage": 95.2
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 24.0,
+    "medianPackage": 19.5,
+    "highestPackage": 135.0,
+    "placementPercentage": 95.8
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 25.5,
+    "medianPackage": 21.0,
+    "highestPackage": 150.0,
+    "placementPercentage": 96.2
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 16.0,
+    "medianPackage": 13.5,
+    "highestPackage": 65.0,
+    "placementPercentage": 88.5
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 17.2,
+    "medianPackage": 14.5,
+    "highestPackage": 72.0,
+    "placementPercentage": 89.2
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 18.5,
+    "medianPackage": 15.5,
+    "highestPackage": 80.0,
+    "placementPercentage": 90.0
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 12.5,
+    "medianPackage": 10.5,
+    "highestPackage": 45.0,
+    "placementPercentage": 82.0
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 13.2,
+    "medianPackage": 11.0,
+    "highestPackage": 48.0,
+    "placementPercentage": 83.5
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 14.0,
+    "medianPackage": 11.5,
+    "highestPackage": 52.0,
+    "placementPercentage": 84.5
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 24.0,
+    "medianPackage": 20.0,
+    "highestPackage": 140.0,
+    "placementPercentage": 96.0
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 25.5,
+    "medianPackage": 21.5,
+    "highestPackage": 155.0,
+    "placementPercentage": 96.5
+  },
+  {
+    "institute": "IIT Bombay",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 27.0,
+    "medianPackage": 23.0,
+    "highestPackage": 170.0,
+    "placementPercentage": 97.0
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 30.0,
+    "medianPackage": 24.0,
+    "highestPackage": 200.0,
+    "placementPercentage": 98.0
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 32.5,
+    "medianPackage": 26.0,
+    "highestPackage": 220.0,
+    "placementPercentage": 98.5
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 34.8,
+    "medianPackage": 28.5,
+    "highestPackage": 245.0,
+    "placementPercentage": 98.8
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 21.0,
+    "medianPackage": 17.0,
+    "highestPackage": 110.0,
+    "placementPercentage": 94.0
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 22.5,
+    "medianPackage": 18.5,
+    "highestPackage": 125.0,
+    "placementPercentage": 94.8
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 24.0,
+    "medianPackage": 20.0,
+    "highestPackage": 140.0,
+    "placementPercentage": 95.5
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 15.0,
+    "medianPackage": 12.5,
+    "highestPackage": 58.0,
+    "placementPercentage": 87.0
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 16.0,
+    "medianPackage": 13.5,
+    "highestPackage": 65.0,
+    "placementPercentage": 88.0
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 17.5,
+    "medianPackage": 14.5,
+    "highestPackage": 72.0,
+    "placementPercentage": 89.0
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 11.5,
+    "medianPackage": 9.5,
+    "highestPackage": 42.0,
+    "placementPercentage": 80.0
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 12.0,
+    "medianPackage": 10.0,
+    "highestPackage": 45.0,
+    "placementPercentage": 81.5
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 13.0,
+    "medianPackage": 10.5,
+    "highestPackage": 48.0,
+    "placementPercentage": 82.5
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 22.5,
+    "medianPackage": 18.5,
+    "highestPackage": 130.0,
+    "placementPercentage": 95.0
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 24.0,
+    "medianPackage": 20.0,
+    "highestPackage": 145.0,
+    "placementPercentage": 95.5
+  },
+  {
+    "institute": "IIT Delhi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 25.5,
+    "medianPackage": 21.5,
+    "highestPackage": 160.0,
+    "placementPercentage": 96.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 28.0,
+    "medianPackage": 22.0,
+    "highestPackage": 185.0,
+    "placementPercentage": 97.5
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 30.0,
+    "medianPackage": 24.0,
+    "highestPackage": 200.0,
+    "placementPercentage": 98.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 32.5,
+    "medianPackage": 26.0,
+    "highestPackage": 220.0,
+    "placementPercentage": 98.5
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 19.5,
+    "medianPackage": 16.0,
+    "highestPackage": 100.0,
+    "placementPercentage": 93.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 21.0,
+    "medianPackage": 17.0,
+    "highestPackage": 112.0,
+    "placementPercentage": 93.8
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 22.5,
+    "medianPackage": 18.5,
+    "highestPackage": 125.0,
+    "placementPercentage": 94.5
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 14.5,
+    "medianPackage": 12.0,
+    "highestPackage": 52.0,
+    "placementPercentage": 86.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 15.5,
+    "medianPackage": 13.0,
+    "highestPackage": 58.0,
+    "placementPercentage": 87.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 16.5,
+    "medianPackage": 14.0,
+    "highestPackage": 65.0,
+    "placementPercentage": 88.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 10.5,
+    "medianPackage": 9.0,
+    "highestPackage": 38.0,
+    "placementPercentage": 78.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 11.0,
+    "medianPackage": 9.5,
+    "highestPackage": 40.0,
+    "placementPercentage": 79.5
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 12.0,
+    "medianPackage": 10.0,
+    "highestPackage": 44.0,
+    "placementPercentage": 81.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 21.0,
+    "medianPackage": 17.5,
+    "highestPackage": 120.0,
+    "placementPercentage": 94.0
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 22.5,
+    "medianPackage": 18.5,
+    "highestPackage": 132.0,
+    "placementPercentage": 94.5
+  },
+  {
+    "institute": "IIT Madras",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 24.0,
+    "medianPackage": 20.0,
+    "highestPackage": 145.0,
+    "placementPercentage": 95.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 26.0,
+    "medianPackage": 21.0,
+    "highestPackage": 175.0,
+    "placementPercentage": 97.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 28.0,
+    "medianPackage": 22.5,
+    "highestPackage": 190.0,
+    "placementPercentage": 97.5
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 30.0,
+    "medianPackage": 24.0,
+    "highestPackage": 210.0,
+    "placementPercentage": 98.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 18.5,
+    "medianPackage": 15.0,
+    "highestPackage": 95.0,
+    "placementPercentage": 92.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 20.0,
+    "medianPackage": 16.0,
+    "highestPackage": 105.0,
+    "placementPercentage": 92.8
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 21.5,
+    "medianPackage": 17.5,
+    "highestPackage": 118.0,
+    "placementPercentage": 93.5
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 13.5,
+    "medianPackage": 11.0,
+    "highestPackage": 48.0,
+    "placementPercentage": 85.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 14.5,
+    "medianPackage": 12.0,
+    "highestPackage": 55.0,
+    "placementPercentage": 86.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 15.5,
+    "medianPackage": 13.0,
+    "highestPackage": 60.0,
+    "placementPercentage": 87.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 35.0,
+    "placementPercentage": 76.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 10.5,
+    "medianPackage": 9.0,
+    "highestPackage": 38.0,
+    "placementPercentage": 77.5
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 11.5,
+    "medianPackage": 9.5,
+    "highestPackage": 42.0,
+    "placementPercentage": 79.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 20.0,
+    "medianPackage": 16.5,
+    "highestPackage": 110.0,
+    "placementPercentage": 93.0
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 21.5,
+    "medianPackage": 17.5,
+    "highestPackage": 122.0,
+    "placementPercentage": 93.5
+  },
+  {
+    "institute": "IIT Kanpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 23.0,
+    "medianPackage": 19.0,
+    "highestPackage": 135.0,
+    "placementPercentage": 94.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 24.0,
+    "medianPackage": 19.5,
+    "highestPackage": 160.0,
+    "placementPercentage": 96.5
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 26.0,
+    "medianPackage": 21.0,
+    "highestPackage": 175.0,
+    "placementPercentage": 97.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 28.0,
+    "medianPackage": 22.5,
+    "highestPackage": 190.0,
+    "placementPercentage": 97.5
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 17.0,
+    "medianPackage": 14.0,
+    "highestPackage": 85.0,
+    "placementPercentage": 91.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 18.5,
+    "medianPackage": 15.0,
+    "highestPackage": 95.0,
+    "placementPercentage": 91.8
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 20.0,
+    "medianPackage": 16.5,
+    "highestPackage": 108.0,
+    "placementPercentage": 92.5
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 12.5,
+    "medianPackage": 10.5,
+    "highestPackage": 45.0,
+    "placementPercentage": 84.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 13.5,
+    "medianPackage": 11.5,
+    "highestPackage": 50.0,
+    "placementPercentage": 85.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 14.5,
+    "medianPackage": 12.5,
+    "highestPackage": 55.0,
+    "placementPercentage": 86.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 9.5,
+    "medianPackage": 8.0,
+    "highestPackage": 32.0,
+    "placementPercentage": 75.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 35.0,
+    "placementPercentage": 76.5
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 11.0,
+    "medianPackage": 9.0,
+    "highestPackage": 38.0,
+    "placementPercentage": 78.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 18.5,
+    "medianPackage": 15.5,
+    "highestPackage": 100.0,
+    "placementPercentage": 92.0
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 20.0,
+    "medianPackage": 16.5,
+    "highestPackage": 112.0,
+    "placementPercentage": 92.5
+  },
+  {
+    "institute": "IIT Kharagpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 21.5,
+    "medianPackage": 18.0,
+    "highestPackage": 125.0,
+    "placementPercentage": 93.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 20.0,
+    "medianPackage": 16.5,
+    "highestPackage": 130.0,
+    "placementPercentage": 94.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 22.0,
+    "medianPackage": 18.0,
+    "highestPackage": 145.0,
+    "placementPercentage": 95.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 24.0,
+    "medianPackage": 19.5,
+    "highestPackage": 160.0,
+    "placementPercentage": 96.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 14.0,
+    "medianPackage": 11.5,
+    "highestPackage": 70.0,
+    "placementPercentage": 88.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 15.0,
+    "medianPackage": 12.5,
+    "highestPackage": 78.0,
+    "placementPercentage": 89.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 16.5,
+    "medianPackage": 13.5,
+    "highestPackage": 88.0,
+    "placementPercentage": 90.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 11.0,
+    "medianPackage": 9.0,
+    "highestPackage": 40.0,
+    "placementPercentage": 80.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 12.0,
+    "medianPackage": 10.0,
+    "highestPackage": 45.0,
+    "placementPercentage": 81.5
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 13.0,
+    "medianPackage": 11.0,
+    "highestPackage": 50.0,
+    "placementPercentage": 83.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 8.5,
+    "medianPackage": 7.0,
+    "highestPackage": 28.0,
+    "placementPercentage": 72.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 9.0,
+    "medianPackage": 7.5,
+    "highestPackage": 30.0,
+    "placementPercentage": 73.5
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 10.0,
+    "medianPackage": 8.0,
+    "highestPackage": 34.0,
+    "placementPercentage": 75.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 15.5,
+    "medianPackage": 12.5,
+    "highestPackage": 82.0,
+    "placementPercentage": 89.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 17.0,
+    "medianPackage": 14.0,
+    "highestPackage": 92.0,
+    "placementPercentage": 90.0
+  },
+  {
+    "institute": "IIT Roorkee",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 18.5,
+    "medianPackage": 15.0,
+    "highestPackage": 105.0,
+    "placementPercentage": 91.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 18.0,
+    "medianPackage": 15.0,
+    "highestPackage": 120.0,
+    "placementPercentage": 93.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 20.0,
+    "medianPackage": 16.5,
+    "highestPackage": 135.0,
+    "placementPercentage": 94.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 22.0,
+    "medianPackage": 18.0,
+    "highestPackage": 150.0,
+    "placementPercentage": 95.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 13.0,
+    "medianPackage": 10.5,
+    "highestPackage": 62.0,
+    "placementPercentage": 86.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 14.0,
+    "medianPackage": 11.5,
+    "highestPackage": 70.0,
+    "placementPercentage": 87.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 15.5,
+    "medianPackage": 12.5,
+    "highestPackage": 80.0,
+    "placementPercentage": 88.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 35.0,
+    "placementPercentage": 78.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 11.0,
+    "medianPackage": 9.0,
+    "highestPackage": 40.0,
+    "placementPercentage": 79.5
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 12.0,
+    "medianPackage": 10.0,
+    "highestPackage": 45.0,
+    "placementPercentage": 81.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 7.5,
+    "medianPackage": 6.5,
+    "highestPackage": 25.0,
+    "placementPercentage": 70.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 8.0,
+    "medianPackage": 7.0,
+    "highestPackage": 28.0,
+    "placementPercentage": 71.5
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 9.0,
+    "medianPackage": 7.5,
+    "highestPackage": 32.0,
+    "placementPercentage": 73.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 14.5,
+    "medianPackage": 12.0,
+    "highestPackage": 75.0,
+    "placementPercentage": 87.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 15.5,
+    "medianPackage": 13.0,
+    "highestPackage": 85.0,
+    "placementPercentage": 88.0
+  },
+  {
+    "institute": "IIT Guwahati",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 17.0,
+    "medianPackage": 14.0,
+    "highestPackage": 95.0,
+    "placementPercentage": 89.0
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 15.0,
+    "medianPackage": 12.8,
+    "highestPackage": 57.8,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 16.2,
+    "medianPackage": 13.8,
+    "highestPackage": 43.7,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 17.4,
+    "medianPackage": 14.8,
+    "highestPackage": 67.0,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.6,
+    "medianPackage": 5.6,
+    "highestPackage": 21.8,
+    "placementPercentage": 70
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 7.1,
+    "medianPackage": 6.0,
+    "highestPackage": 25.0,
+    "placementPercentage": 82
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.6,
+    "medianPackage": 6.5,
+    "highestPackage": 23.4,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 11.3,
+    "medianPackage": 9.6,
+    "highestPackage": 36.5,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 12.2,
+    "medianPackage": 10.4,
+    "highestPackage": 41.0,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 13.1,
+    "medianPackage": 11.1,
+    "highestPackage": 45.4,
+    "placementPercentage": 92
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 9.4,
+    "medianPackage": 8.0,
+    "highestPackage": 24.3,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 10.1,
+    "medianPackage": 8.6,
+    "highestPackage": 34.9,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.9,
+    "medianPackage": 9.3,
+    "highestPackage": 31.1,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 9.4,
+    "medianPackage": 8.0,
+    "highestPackage": 33.4,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 10.1,
+    "medianPackage": 8.6,
+    "highestPackage": 31.1,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT Hyderabad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.9,
+    "medianPackage": 9.3,
+    "highestPackage": 31.2,
+    "placementPercentage": 80
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 14.2,
+    "medianPackage": 12.1,
+    "highestPackage": 39.7,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 15.4,
+    "medianPackage": 13.1,
+    "highestPackage": 39.8,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 16.5,
+    "medianPackage": 14.0,
+    "highestPackage": 57.5,
+    "placementPercentage": 82
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.2,
+    "medianPackage": 5.3,
+    "highestPackage": 23.6,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.7,
+    "medianPackage": 5.7,
+    "highestPackage": 24.7,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.2,
+    "medianPackage": 6.1,
+    "highestPackage": 27.3,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 10.7,
+    "medianPackage": 9.1,
+    "highestPackage": 35.9,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 11.5,
+    "medianPackage": 9.8,
+    "highestPackage": 39.9,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.4,
+    "medianPackage": 10.5,
+    "highestPackage": 43.4,
+    "placementPercentage": 92
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 8.9,
+    "medianPackage": 7.6,
+    "highestPackage": 34.1,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 9.6,
+    "medianPackage": 8.2,
+    "highestPackage": 32.0,
+    "placementPercentage": 84
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 36.2,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 8.9,
+    "medianPackage": 7.6,
+    "highestPackage": 31.4,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 9.6,
+    "medianPackage": 8.2,
+    "highestPackage": 35.7,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT BHU Varanasi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 38.1,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 12.3,
+    "medianPackage": 10.5,
+    "highestPackage": 36.3,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 13.3,
+    "medianPackage": 11.3,
+    "highestPackage": 47.7,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 14.3,
+    "medianPackage": 12.2,
+    "highestPackage": 44.0,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 5.4,
+    "medianPackage": 4.6,
+    "highestPackage": 15.6,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 5.8,
+    "medianPackage": 4.9,
+    "highestPackage": 19.0,
+    "placementPercentage": 84
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 6.3,
+    "medianPackage": 5.4,
+    "highestPackage": 22.7,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 9.3,
+    "medianPackage": 7.9,
+    "highestPackage": 28.1,
+    "placementPercentage": 76
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 26.9,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 10.7,
+    "medianPackage": 9.1,
+    "highestPackage": 38.5,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 7.7,
+    "medianPackage": 6.5,
+    "highestPackage": 30.5,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 8.3,
+    "medianPackage": 7.1,
+    "highestPackage": 23.2,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 8.9,
+    "medianPackage": 7.6,
+    "highestPackage": 25.7,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 7.7,
+    "medianPackage": 6.5,
+    "highestPackage": 29.5,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 8.3,
+    "medianPackage": 7.1,
+    "highestPackage": 24.7,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT ISM Dhanbad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 8.9,
+    "medianPackage": 7.6,
+    "highestPackage": 29.0,
+    "placementPercentage": 90
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 13.8,
+    "medianPackage": 11.7,
+    "highestPackage": 39.1,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 14.9,
+    "medianPackage": 12.7,
+    "highestPackage": 46.9,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 16.0,
+    "medianPackage": 13.6,
+    "highestPackage": 55.2,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.0,
+    "medianPackage": 5.1,
+    "highestPackage": 21.7,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.5,
+    "medianPackage": 5.5,
+    "highestPackage": 17.9,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.0,
+    "medianPackage": 6.0,
+    "highestPackage": 27.4,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 27.1,
+    "placementPercentage": 84
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 11.2,
+    "medianPackage": 9.5,
+    "highestPackage": 40.4,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.0,
+    "medianPackage": 10.2,
+    "highestPackage": 36.5,
+    "placementPercentage": 93
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 8.6,
+    "medianPackage": 7.3,
+    "highestPackage": 24.8,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 9.3,
+    "medianPackage": 7.9,
+    "highestPackage": 35.1,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 26.8,
+    "placementPercentage": 82
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 8.6,
+    "medianPackage": 7.3,
+    "highestPackage": 32.0,
+    "placementPercentage": 94
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 9.3,
+    "medianPackage": 7.9,
+    "highestPackage": 24.5,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Indore",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 32.0,
+    "placementPercentage": 80
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 13.8,
+    "medianPackage": 11.7,
+    "highestPackage": 47.6,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 14.9,
+    "medianPackage": 12.7,
+    "highestPackage": 59.5,
+    "placementPercentage": 80
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 16.0,
+    "medianPackage": 13.6,
+    "highestPackage": 62.0,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.0,
+    "medianPackage": 5.1,
+    "highestPackage": 20.6,
+    "placementPercentage": 94
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.5,
+    "medianPackage": 5.5,
+    "highestPackage": 16.6,
+    "placementPercentage": 76
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.0,
+    "medianPackage": 6.0,
+    "highestPackage": 18.1,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 37.5,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 11.1,
+    "medianPackage": 9.4,
+    "highestPackage": 29.6,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.0,
+    "medianPackage": 10.2,
+    "highestPackage": 43.2,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 8.6,
+    "medianPackage": 7.3,
+    "highestPackage": 25.4,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 9.3,
+    "medianPackage": 7.9,
+    "highestPackage": 27.7,
+    "placementPercentage": 93
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 36.7,
+    "placementPercentage": 81
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 8.6,
+    "medianPackage": 7.3,
+    "highestPackage": 32.0,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 9.3,
+    "medianPackage": 7.9,
+    "highestPackage": 34.6,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT Mandi",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 38.9,
+    "placementPercentage": 76
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 12.1,
+    "medianPackage": 10.3,
+    "highestPackage": 44.6,
+    "placementPercentage": 70
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 13.0,
+    "medianPackage": 11.0,
+    "highestPackage": 47.7,
+    "placementPercentage": 82
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 14.0,
+    "medianPackage": 11.9,
+    "highestPackage": 40.4,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 5.3,
+    "medianPackage": 4.5,
+    "highestPackage": 13.9,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 5.7,
+    "medianPackage": 4.8,
+    "highestPackage": 17.2,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 6.1,
+    "medianPackage": 5.2,
+    "highestPackage": 18.3,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 9.0,
+    "medianPackage": 7.6,
+    "highestPackage": 27.1,
+    "placementPercentage": 80
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 9.8,
+    "medianPackage": 8.3,
+    "highestPackage": 37.3,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 10.5,
+    "medianPackage": 8.9,
+    "highestPackage": 41.8,
+    "placementPercentage": 80
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 7.5,
+    "medianPackage": 6.4,
+    "highestPackage": 21.1,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 8.1,
+    "medianPackage": 6.9,
+    "highestPackage": 29.8,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 8.7,
+    "medianPackage": 7.4,
+    "highestPackage": 24.5,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 7.5,
+    "medianPackage": 6.4,
+    "highestPackage": 28.0,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 8.1,
+    "medianPackage": 6.9,
+    "highestPackage": 25.8,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Ropar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 8.7,
+    "medianPackage": 7.4,
+    "highestPackage": 31.7,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 14.8,
+    "medianPackage": 12.6,
+    "highestPackage": 44.0,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 16.0,
+    "medianPackage": 13.6,
+    "highestPackage": 49.2,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 17.2,
+    "medianPackage": 14.6,
+    "highestPackage": 46.6,
+    "placementPercentage": 81
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.5,
+    "medianPackage": 5.5,
+    "highestPackage": 16.6,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 7.0,
+    "medianPackage": 6.0,
+    "highestPackage": 17.9,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.5,
+    "medianPackage": 6.4,
+    "highestPackage": 25.6,
+    "placementPercentage": 79
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 11.1,
+    "medianPackage": 9.4,
+    "highestPackage": 33.6,
+    "placementPercentage": 76
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 12.0,
+    "medianPackage": 10.2,
+    "highestPackage": 32.3,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.9,
+    "medianPackage": 11.0,
+    "highestPackage": 38.6,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 9.2,
+    "medianPackage": 7.8,
+    "highestPackage": 25.9,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 38.2,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.7,
+    "medianPackage": 9.1,
+    "highestPackage": 38.3,
+    "placementPercentage": 93
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 9.2,
+    "medianPackage": 7.8,
+    "highestPackage": 31.5,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 37.3,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Patna",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.7,
+    "medianPackage": 9.1,
+    "highestPackage": 42.1,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 14.2,
+    "medianPackage": 12.1,
+    "highestPackage": 50.9,
+    "placementPercentage": 90
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 15.4,
+    "medianPackage": 13.1,
+    "highestPackage": 50.1,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 16.5,
+    "medianPackage": 14.0,
+    "highestPackage": 54.7,
+    "placementPercentage": 76
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.2,
+    "medianPackage": 5.3,
+    "highestPackage": 22.4,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.7,
+    "medianPackage": 5.7,
+    "highestPackage": 23.0,
+    "placementPercentage": 84
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.2,
+    "medianPackage": 6.1,
+    "highestPackage": 19.0,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 10.7,
+    "medianPackage": 9.1,
+    "highestPackage": 35.6,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 11.5,
+    "medianPackage": 9.8,
+    "highestPackage": 33.7,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.4,
+    "medianPackage": 10.5,
+    "highestPackage": 33.2,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 8.9,
+    "medianPackage": 7.6,
+    "highestPackage": 34.7,
+    "placementPercentage": 84
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 9.6,
+    "medianPackage": 8.2,
+    "highestPackage": 31.1,
+    "placementPercentage": 82
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 38.9,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 8.9,
+    "medianPackage": 7.6,
+    "highestPackage": 27.3,
+    "placementPercentage": 70
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 9.6,
+    "medianPackage": 8.2,
+    "highestPackage": 31.8,
+    "placementPercentage": 92
+  },
+  {
+    "institute": "IIT Bhubaneswar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 31.6,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 14.5,
+    "medianPackage": 12.3,
+    "highestPackage": 38.6,
+    "placementPercentage": 81
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 15.7,
+    "medianPackage": 13.3,
+    "highestPackage": 53.4,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 16.9,
+    "medianPackage": 14.4,
+    "highestPackage": 49.3,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.4,
+    "medianPackage": 5.4,
+    "highestPackage": 17.2,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.9,
+    "medianPackage": 5.9,
+    "highestPackage": 26.3,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.4,
+    "medianPackage": 6.3,
+    "highestPackage": 23.1,
+    "placementPercentage": 92
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 10.9,
+    "medianPackage": 9.3,
+    "highestPackage": 28.8,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 11.8,
+    "medianPackage": 10.0,
+    "highestPackage": 43.8,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.6,
+    "medianPackage": 10.7,
+    "highestPackage": 45.0,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 9.1,
+    "medianPackage": 7.7,
+    "highestPackage": 35.4,
+    "placementPercentage": 70
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 9.8,
+    "medianPackage": 8.3,
+    "highestPackage": 38.9,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.5,
+    "medianPackage": 8.9,
+    "highestPackage": 27.3,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 9.1,
+    "medianPackage": 7.7,
+    "highestPackage": 33.4,
+    "placementPercentage": 90
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 9.8,
+    "medianPackage": 8.3,
+    "highestPackage": 24.8,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Gandhinagar",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.5,
+    "medianPackage": 8.9,
+    "highestPackage": 27.0,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 12.7,
+    "medianPackage": 10.8,
+    "highestPackage": 37.0,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 13.7,
+    "medianPackage": 11.6,
+    "highestPackage": 38.4,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 14.7,
+    "medianPackage": 12.5,
+    "highestPackage": 51.3,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 5.5,
+    "medianPackage": 4.7,
+    "highestPackage": 16.7,
+    "placementPercentage": 85
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.0,
+    "medianPackage": 5.1,
+    "highestPackage": 19.6,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 6.4,
+    "medianPackage": 5.4,
+    "highestPackage": 18.5,
+    "placementPercentage": 93
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 9.5,
+    "medianPackage": 8.1,
+    "highestPackage": 31.3,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 34.8,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 11.0,
+    "medianPackage": 9.3,
+    "highestPackage": 28.7,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 7.9,
+    "medianPackage": 6.7,
+    "highestPackage": 27.0,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 8.5,
+    "medianPackage": 7.2,
+    "highestPackage": 28.4,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 9.2,
+    "medianPackage": 7.8,
+    "highestPackage": 33.0,
+    "placementPercentage": 94
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 7.9,
+    "medianPackage": 6.7,
+    "highestPackage": 31.5,
+    "placementPercentage": 90
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 8.5,
+    "medianPackage": 7.2,
+    "highestPackage": 33.2,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Jodhpur",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 9.2,
+    "medianPackage": 7.8,
+    "highestPackage": 26.9,
+    "placementPercentage": 70
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 15.9,
+    "medianPackage": 13.5,
+    "highestPackage": 53.8,
+    "placementPercentage": 81
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 17.2,
+    "medianPackage": 14.6,
+    "highestPackage": 60.0,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 18.5,
+    "medianPackage": 15.7,
+    "highestPackage": 67.4,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 7.0,
+    "medianPackage": 6.0,
+    "highestPackage": 22.5,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 7.5,
+    "medianPackage": 6.4,
+    "highestPackage": 29.2,
+    "placementPercentage": 85
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 8.1,
+    "medianPackage": 6.9,
+    "highestPackage": 21.7,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 12.0,
+    "medianPackage": 10.2,
+    "highestPackage": 32.8,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 12.9,
+    "medianPackage": 11.0,
+    "highestPackage": 45.4,
+    "placementPercentage": 85
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 13.9,
+    "medianPackage": 11.8,
+    "highestPackage": 39.3,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 30.8,
+    "placementPercentage": 93
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 10.8,
+    "medianPackage": 9.2,
+    "highestPackage": 29.8,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 11.6,
+    "medianPackage": 9.9,
+    "highestPackage": 38.2,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 10.0,
+    "medianPackage": 8.5,
+    "highestPackage": 27.9,
+    "placementPercentage": 84
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 10.8,
+    "medianPackage": 9.2,
+    "highestPackage": 34.8,
+    "placementPercentage": 82
+  },
+  {
+    "institute": "IIT Tirupati",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 11.6,
+    "medianPackage": 9.9,
+    "highestPackage": 37.1,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 14.2,
+    "medianPackage": 12.1,
+    "highestPackage": 48.4,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 15.4,
+    "medianPackage": 13.1,
+    "highestPackage": 47.6,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 16.5,
+    "medianPackage": 14.0,
+    "highestPackage": 49.5,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.2,
+    "medianPackage": 5.3,
+    "highestPackage": 16.3,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.7,
+    "medianPackage": 5.7,
+    "highestPackage": 23.3,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.2,
+    "medianPackage": 6.1,
+    "highestPackage": 23.7,
+    "placementPercentage": 94
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 10.7,
+    "medianPackage": 9.1,
+    "highestPackage": 29.4,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 11.5,
+    "medianPackage": 9.8,
+    "highestPackage": 30.8,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.4,
+    "medianPackage": 10.5,
+    "highestPackage": 43.4,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 8.9,
+    "medianPackage": 7.6,
+    "highestPackage": 22.4,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 9.6,
+    "medianPackage": 8.2,
+    "highestPackage": 35.0,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 26.7,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 8.9,
+    "medianPackage": 7.6,
+    "highestPackage": 30.8,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 9.6,
+    "medianPackage": 8.2,
+    "highestPackage": 28.5,
+    "placementPercentage": 88
+  },
+  {
+    "institute": "IIT Palakkad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.3,
+    "medianPackage": 8.8,
+    "highestPackage": 38.7,
+    "placementPercentage": 84
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 15.5,
+    "medianPackage": 13.2,
+    "highestPackage": 46.1,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 16.8,
+    "medianPackage": 14.3,
+    "highestPackage": 54.9,
+    "placementPercentage": 85
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 18.0,
+    "medianPackage": 15.3,
+    "highestPackage": 55.9,
+    "placementPercentage": 79
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.8,
+    "medianPackage": 5.8,
+    "highestPackage": 23.7,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 7.3,
+    "medianPackage": 6.2,
+    "highestPackage": 27.0,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.9,
+    "medianPackage": 6.7,
+    "highestPackage": 27.7,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 11.7,
+    "medianPackage": 9.9,
+    "highestPackage": 41.7,
+    "placementPercentage": 90
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 12.6,
+    "medianPackage": 10.7,
+    "highestPackage": 35.6,
+    "placementPercentage": 82
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 13.5,
+    "medianPackage": 11.5,
+    "highestPackage": 37.2,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 9.7,
+    "medianPackage": 8.2,
+    "highestPackage": 25.8,
+    "placementPercentage": 79
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 10.5,
+    "medianPackage": 8.9,
+    "highestPackage": 31.4,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 11.3,
+    "medianPackage": 9.6,
+    "highestPackage": 43.5,
+    "placementPercentage": 71
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 9.7,
+    "medianPackage": 8.2,
+    "highestPackage": 30.5,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 10.5,
+    "medianPackage": 8.9,
+    "highestPackage": 39.0,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Dharwad",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 11.3,
+    "medianPackage": 9.6,
+    "highestPackage": 44.4,
+    "placementPercentage": 85
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 11.6,
+    "medianPackage": 9.9,
+    "highestPackage": 44.0,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 12.5,
+    "medianPackage": 10.6,
+    "highestPackage": 40.8,
+    "placementPercentage": 94
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 13.4,
+    "medianPackage": 11.4,
+    "highestPackage": 38.9,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 5.1,
+    "medianPackage": 4.3,
+    "highestPackage": 13.3,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 5.5,
+    "medianPackage": 4.7,
+    "highestPackage": 21.6,
+    "placementPercentage": 84
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 5.9,
+    "medianPackage": 5.0,
+    "highestPackage": 17.3,
+    "placementPercentage": 80
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 8.7,
+    "medianPackage": 7.4,
+    "highestPackage": 32.1,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 9.4,
+    "medianPackage": 8.0,
+    "highestPackage": 29.9,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 10.1,
+    "medianPackage": 8.6,
+    "highestPackage": 32.8,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 7.2,
+    "medianPackage": 6.1,
+    "highestPackage": 19.5,
+    "placementPercentage": 79
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 7.8,
+    "medianPackage": 6.6,
+    "highestPackage": 29.1,
+    "placementPercentage": 85
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 8.4,
+    "medianPackage": 7.1,
+    "highestPackage": 31.9,
+    "placementPercentage": 92
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 7.2,
+    "medianPackage": 6.1,
+    "highestPackage": 20.5,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 7.8,
+    "medianPackage": 6.6,
+    "highestPackage": 21.3,
+    "placementPercentage": 79
+  },
+  {
+    "institute": "IIT Bhilai",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 8.4,
+    "medianPackage": 7.1,
+    "highestPackage": 33.0,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 14.6,
+    "medianPackage": 12.4,
+    "highestPackage": 36.8,
+    "placementPercentage": 79
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 15.7,
+    "medianPackage": 13.3,
+    "highestPackage": 47.0,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 16.9,
+    "medianPackage": 14.4,
+    "highestPackage": 48.3,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.4,
+    "medianPackage": 5.4,
+    "highestPackage": 19.6,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.9,
+    "medianPackage": 5.9,
+    "highestPackage": 23.5,
+    "placementPercentage": 75
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.4,
+    "medianPackage": 6.3,
+    "highestPackage": 18.6,
+    "placementPercentage": 76
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 10.9,
+    "medianPackage": 9.3,
+    "highestPackage": 34.5,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 11.8,
+    "medianPackage": 10.0,
+    "highestPackage": 33.7,
+    "placementPercentage": 92
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.7,
+    "medianPackage": 10.8,
+    "highestPackage": 32.2,
+    "placementPercentage": 91
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 9.1,
+    "medianPackage": 7.7,
+    "highestPackage": 33.4,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 9.8,
+    "medianPackage": 8.3,
+    "highestPackage": 29.2,
+    "placementPercentage": 80
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.6,
+    "medianPackage": 9.0,
+    "highestPackage": 41.7,
+    "placementPercentage": 93
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 9.1,
+    "medianPackage": 7.7,
+    "highestPackage": 23.2,
+    "placementPercentage": 73
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 9.8,
+    "medianPackage": 8.3,
+    "highestPackage": 35.8,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Goa",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.6,
+    "medianPackage": 9.0,
+    "highestPackage": 40.1,
+    "placementPercentage": 83
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Computer Science and Engineering",
+    "year": 2022,
+    "avgPackage": 14.5,
+    "medianPackage": 12.3,
+    "highestPackage": 41.7,
+    "placementPercentage": 77
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Computer Science and Engineering",
+    "year": 2023,
+    "avgPackage": 15.7,
+    "medianPackage": 13.3,
+    "highestPackage": 53.2,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Computer Science and Engineering",
+    "year": 2024,
+    "avgPackage": 16.9,
+    "medianPackage": 14.4,
+    "highestPackage": 44.4,
+    "placementPercentage": 72
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Civil Engineering",
+    "year": 2022,
+    "avgPackage": 6.4,
+    "medianPackage": 5.4,
+    "highestPackage": 17.7,
+    "placementPercentage": 80
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Civil Engineering",
+    "year": 2023,
+    "avgPackage": 6.9,
+    "medianPackage": 5.9,
+    "highestPackage": 27.3,
+    "placementPercentage": 74
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Civil Engineering",
+    "year": 2024,
+    "avgPackage": 7.4,
+    "medianPackage": 6.3,
+    "highestPackage": 23.2,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Electrical Engineering",
+    "year": 2022,
+    "avgPackage": 10.9,
+    "medianPackage": 9.3,
+    "highestPackage": 40.2,
+    "placementPercentage": 78
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Electrical Engineering",
+    "year": 2023,
+    "avgPackage": 11.8,
+    "medianPackage": 10.0,
+    "highestPackage": 40.7,
+    "placementPercentage": 87
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Electrical Engineering",
+    "year": 2024,
+    "avgPackage": 12.6,
+    "medianPackage": 10.7,
+    "highestPackage": 32.2,
+    "placementPercentage": 90
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Mechanical Engineering",
+    "year": 2022,
+    "avgPackage": 9.1,
+    "medianPackage": 7.7,
+    "highestPackage": 35.2,
+    "placementPercentage": 89
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Mechanical Engineering",
+    "year": 2023,
+    "avgPackage": 9.8,
+    "medianPackage": 8.3,
+    "highestPackage": 27.3,
+    "placementPercentage": 95
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Mechanical Engineering",
+    "year": 2024,
+    "avgPackage": 10.5,
+    "medianPackage": 8.9,
+    "highestPackage": 32.7,
+    "placementPercentage": 86
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2022,
+    "avgPackage": 9.1,
+    "medianPackage": 7.7,
+    "highestPackage": 28.3,
+    "placementPercentage": 85
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2023,
+    "avgPackage": 9.8,
+    "medianPackage": 8.3,
+    "highestPackage": 32.8,
+    "placementPercentage": 93
+  },
+  {
+    "institute": "IIT Jammu",
+    "branch": "Electronics and Communication Engineering",
+    "year": 2024,
+    "avgPackage": 10.5,
+    "medianPackage": 8.9,
+    "highestPackage": 31.3,
+    "placementPercentage": 81
+  }
+]
