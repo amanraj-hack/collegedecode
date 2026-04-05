@@ -28,31 +28,33 @@ function generateInsight(data) {
   if (diff < -first * 0.05) {
     return {
       emoji: '📈',
-      text: `Cutoff is tightening — closing rank dropped ~${pctChange}% since ${validYears[0]}`,
+      text: `OCR is tightening — closing rank dropped ~${pctChange}% since ${validYears[0]}`,
       subtext: 'Competition is rising. Aim for a stronger rank.',
       type: 'rising',
     }
   } else if (diff > first * 0.05) {
     return {
       emoji: '📉',
-      text: `Cutoff is relaxing — closing rank rose ~${pctChange}% since ${validYears[0]}`,
+      text: `OCR is relaxing — closing rank rose ~${pctChange}% since ${validYears[0]}`,
       subtext: 'Slightly easier admission trend. Still prepare well.',
       type: 'falling',
     }
   }
   return {
     emoji: '➡️',
-    text: `Cutoff is relatively stable over ${validYears[0]}–${validYears[validYears.length - 1]}`,
+    text: `OCR is relatively stable over ${validYears[0]}–${validYears[validYears.length - 1]}`,
     subtext: 'Predictable admission pattern — plan accordingly.',
     type: 'stable',
   }
 }
 
 export default function CutoffExplorer() {
-  const [rawData, setRawData] = useState(null)
+  const [metadata, setMetadata] = useState(null)
+  const [dataByYear, setDataByYear] = useState({})
+  const [isDataLoading, setIsDataLoading] = useState(false)
   const [filters, setFilters] = useState({
     instituteType: '',
-    institute: 'IIT Bombay',
+    institute: 'Indian Institute  of Technology Bombay',
     branch: 'Computer Science and Engineering',
     category: 'General',
     gender: 'Gender-Neutral',
@@ -60,12 +62,41 @@ export default function CutoffExplorer() {
   })
 
   useEffect(() => {
-    document.title = 'Cutoff Insights — Collage Decode'
-    fetch('/data/cutoff_data.json')
+    document.title = 'OCR Insights — Collage Decode'
+    fetch('/data/cutoff_metadata.json')
       .then(r => r.json())
-      .then(setRawData)
+      .then(setMetadata)
       .catch(console.error)
   }, [])
+
+  // Optimized fetching logic: only fetch years we don't have
+  useEffect(() => {
+    if (!metadata) return
+
+    const yearsToFetch = filters.year 
+      ? [Number(filters.year)] 
+      : metadata.years
+
+    const missingYears = yearsToFetch.filter(y => !dataByYear[y])
+
+    if (missingYears.length > 0) {
+      setIsDataLoading(true)
+      Promise.all(missingYears.map(y => 
+        fetch(`/data/OCR_${y}.json`).then(r => r.json().then(data => ({ year: y, data })))
+      ))
+      .then(results => {
+        setDataByYear(prev => {
+          const next = { ...prev }
+          results.forEach(res => {
+            next[res.year] = res.data
+          })
+          return next
+        })
+      })
+      .catch(console.error)
+      .finally(() => setIsDataLoading(false))
+    }
+  }, [metadata, filters.year])
 
   const handleFilterChange = useCallback((key, value) => {
     setFilters(prev => {
@@ -78,19 +109,29 @@ export default function CutoffExplorer() {
   }, [])
 
   const filteredInstitutes = useMemo(() => {
-    if (!rawData) return []
-    return rawData.institutes.filter(inst => {
-      const isIIT = inst.startsWith('IIT')
+    if (!metadata) return []
+    return metadata.institutes.filter(inst => {
+      const isIIT = inst.includes('Indian Institute') && inst.includes('Technology') && !inst.includes('Engineering Science')
       if (filters.instituteType === 'IITs') return isIIT
       if (filters.instituteType === 'NITs') return !isIIT
       return true
     })
-  }, [rawData, filters.instituteType])
+  }, [metadata, filters.instituteType])
 
   const filteredData = useMemo(() => {
-    if (!rawData) return []
-    return rawData.cutoffs.filter(d => {
-      const isIIT = d.institute.startsWith('IIT')
+    if (!metadata) return []
+    
+    const targetYears = filters.year ? [Number(filters.year)] : metadata.years
+    let allRecords = []
+    
+    targetYears.forEach(y => {
+      if (dataByYear[y]) {
+        allRecords = allRecords.concat(dataByYear[y])
+      }
+    })
+
+    return allRecords.filter(d => {
+      const isIIT = d.institute.includes('Indian Institute') && d.institute.includes('Technology') && !d.institute.includes('Engineering Science')
       if (filters.instituteType === 'IITs' && !isIIT) return false
       if (filters.instituteType === 'NITs' && isIIT) return false
       if (filters.institute && d.institute !== filters.institute) return false
@@ -100,7 +141,7 @@ export default function CutoffExplorer() {
       if (filters.year && d.year !== Number(filters.year)) return false
       return true
     })
-  }, [rawData, filters])
+  }, [metadata, dataByYear, filters])
 
   const chartTitle = useMemo(() => {
     const parts = []
@@ -112,7 +153,7 @@ export default function CutoffExplorer() {
     if (filters.branch) parts.push(filters.branch)
     if (filters.category) parts.push(`(${filters.category})`)
     if (filters.gender) parts.push(`— ${filters.gender}`)
-    return parts.join(' ') || 'All Cutoff Data'
+    return parts.join(' ') || 'All OCR Data'
   }, [filters])
 
   const yearRange = useMemo(() => {
@@ -125,15 +166,15 @@ export default function CutoffExplorer() {
 
   const insight = useMemo(() => generateInsight(filteredData), [filteredData])
 
-  if (!rawData) {
+  if (!metadata) {
     return <div className="loading"><div className="loading-spinner"></div></div>
   }
 
   return (
     <div className="animate-in">
-      <h1 className="page-title">Cutoff Insights</h1>
+      <h1 className="page-title">OCR Insights</h1>
       <p className="page-subtitle">
-        Explore IIT cutoff trends to understand your chances
+        Explore IIT & NIT opening & closing rank trends to understand your chances
       </p>
 
       <div className="page-with-sidebar">
@@ -143,17 +184,23 @@ export default function CutoffExplorer() {
             options={{
               instituteTypes: ['IITs', 'NITs'],
               institutes: filteredInstitutes,
-              branches: rawData.branches,
-              categories: rawData.categories.filter(c => !c.toLowerCase().includes('pwd')),
-              genders: rawData.genders,
-              years: rawData.years,
+              branches: metadata.branches,
+              categories: metadata.categories.filter(c => !c.toLowerCase().includes('pwd')),
+              genders: metadata.genders,
+              years: metadata.years,
             }}
             onChange={handleFilterChange}
           />
 
+          {isDataLoading && (
+            <div style={{ textAlign: 'center', padding: '1rem', color: 'var(--text-secondary)' }}>
+              ⏳ Loading years...
+            </div>
+          )}
+
           <CutoffChart
             data={filteredData}
-            title={yearRange ? `Cutoff Trend (${yearRange})` : 'Cutoff Trend'}
+            title={yearRange ? `OCR Trend (${yearRange})` : 'OCR Trend'}
             subtitle={chartTitle}
           />
 
@@ -183,7 +230,7 @@ export default function CutoffExplorer() {
             <div className="card">
               <div className="card-header">
                 <div>
-                  <div className="card-title">📋 Cutoff Data Table</div>
+                  <div className="card-title">📋 Data Table</div>
                   <div className="card-subtitle">{filteredData.length} records found</div>
                 </div>
               </div>

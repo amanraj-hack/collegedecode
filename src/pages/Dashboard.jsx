@@ -6,7 +6,7 @@ import * as Icons from 'lucide-react'
 import '../cd-premium.css'
 
 export default function Dashboard() {
-  document.title = 'Collage Decode — JEE Advanced Cutoff & Placement Explorer'
+  document.title = 'Collage Decode — JEE Advanced OCR & Placement Explorer'
 
   return (
     <div className="animate-in" style={{ paddingBottom: '4rem' }}>
@@ -25,7 +25,7 @@ export default function Dashboard() {
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <Link to="/cutoffs" className="btn btn-primary" style={{ padding: '0.75rem 1.75rem', fontSize: '1rem' }}>
-              <Icons.BarChart2 size={18} /> Explore Cutoffs
+              <Icons.BarChart2 size={18} /> Explore OCR
             </Link>
             <Link to="/predict" className="btn btn-secondary" style={{ padding: '0.75rem 1.75rem', fontSize: '1rem', background: 'rgba(255,255,255,0.05)', color: '#fff', borderColor: 'rgba(255,255,255,0.1)' }}>
               <Icons.Target size={18} style={{ marginRight: '0.2rem' }} /> Predict College
