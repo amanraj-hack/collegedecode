@@ -6,18 +6,18 @@ export const dashboardStats = [
   },
   {
     icon: 'GitBranch',
-    value: '5',
+    value: '8+',
     label: 'Branches'
   },
   {
     icon: 'Calendar',
-    value: '6',
+    value: '5',
     label: 'Years of Data'
   },
   {
     icon: 'BarChart2',
-    value: '200+',
-    label: 'Data Points'
+    value: '1 Lakhs+',
+    label: 'Data Sets'
   }
 ];
 
@@ -26,7 +26,7 @@ export const dashboardFeatures = [
     path: '/cutoffs',
     icon: 'TrendingUp',
     iconColor: 'blue',
-    title: 'Cutoff Explorer',
+    title: 'OCR Explorer',
     description: 'Browse opening & closing ranks with interactive line charts. Filter by IIT, branch, category, and gender.'
   },
   {

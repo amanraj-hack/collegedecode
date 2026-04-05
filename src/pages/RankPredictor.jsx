@@ -9,7 +9,7 @@ function processPredictorData(matches, advRank, mainsRank) {
   let totalValidOptions = 0
 
   for (const item of matches) {
-    const isIIT = item.institute.startsWith('IIT')
+    const isIIT = item.institute.includes('Indian Institute') && item.institute.includes('Technology') && !item.institute.includes('Information') && !item.institute.includes('Engineering Science')
     const userRank = isIIT ? advRank : mainsRank
     if (!userRank) continue
 
@@ -70,7 +70,8 @@ const INDIAN_STATES = [
 ]
 
 export default function RankPredictor() {
-  const [rawData, setRawData] = useState(null)
+  const [metadata, setMetadata] = useState(null)
+  const [dataByYear, setDataByYear] = useState({})
   const [examType, setExamType] = useState('JEE Advanced')
   const [homeState, setHomeState] = useState('')
   const [year, setYear] = useState('2025')
@@ -90,14 +91,14 @@ export default function RankPredictor() {
 
   useEffect(() => {
     document.title = 'College Predictor — Collage Decode'
-    fetch('/data/cutoff_data.json')
+    fetch('/data/cutoff_metadata.json')
       .then(r => r.json())
-      .then(setRawData)
+      .then(setMetadata)
       .catch(console.error)
   }, [])
 
-  const handlePredict = useCallback(() => {
-    if (!rawData) return
+  const handlePredict = useCallback(async () => {
+    if (!metadata) return
 
     const userAdvRank = parseInt(advRank, 10)
     const userMainsRank = parseInt(mainsRank, 10)
@@ -116,18 +117,25 @@ export default function RankPredictor() {
 
     setIsLoading(true)
 
-    setTimeout(() => {
-      const latestYear = Math.max(...rawData.years)
+    try {
+      const latestYear = Math.max(...metadata.years)
       const targetYear = (year === '2025' || year === 'AI Algo') ? latestYear : parseInt(year, 10)
 
-      const eligible = rawData.cutoffs
+      let currentYearData = dataByYear[targetYear]
+      if (!currentYearData) {
+        const response = await fetch(`/data/OCR_${targetYear}.json`)
+        currentYearData = await response.json()
+        setDataByYear(prev => ({ ...prev, [targetYear]: currentYearData }))
+      }
+
+      const eligible = currentYearData
         .filter(d => {
           if (d.year !== targetYear) return false
           if (d.category !== category) return false
           if (d.gender !== gender) return false
           if (branchPref !== 'All' && d.branch !== branchPref) return false
 
-          const isIIT = d.institute.startsWith('IIT')
+          const isIIT = d.institute.includes('Indian Institute') && d.institute.includes('Technology') && !d.institute.includes('Information') && !d.institute.includes('Engineering Science')
 
           if (examType === 'JEE Advanced') {
             if (!isIIT) return false
@@ -148,13 +156,16 @@ export default function RankPredictor() {
         matches: eligible,
       })
 
-      setIsLoading(false)
-
       requestAnimationFrame(() => {
         resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
       })
-    }, 350)
-  }, [rawData, examType, homeState, year, advRank, mainsRank, category, gender, branchPref])
+    } catch (error) {
+      console.error('Error during prediction:', error)
+      alert('An error occurred while fetching data. Please try again.')
+    } finally {
+      setIsLoading(false)
+    }
+  }, [metadata, dataByYear, examType, homeState, year, advRank, mainsRank, category, gender, branchPref])
 
   const { bestChoice, safe, target, dream, totalValidOptions } = useMemo(() => {
     if (!results || results.matches.length === 0) {
@@ -163,7 +174,7 @@ export default function RankPredictor() {
     return processPredictorData(results.matches, results.advRank, results.mainsRank)
   }, [results])
 
-  if (!rawData) {
+  if (!metadata) {
     return <div className="loading"><div className="loading-spinner"></div></div>
   }
 
@@ -226,9 +237,9 @@ export default function RankPredictor() {
           {displayedItems.map((item, i) => renderResultItem(item, i))}
         </div>
         {items.length > defaultLimit && (
-          <button 
-            className="btn btn-outline" 
-            style={{ width: '100%', marginTop: '1rem' }} 
+          <button
+            className="btn btn-outline"
+            style={{ width: '100%', marginTop: '1rem' }}
             onClick={() => toggleGroup(groupName)}
           >
             {isExpanded ? 'Show less' : `Show ${items.length - defaultLimit} more options`}
@@ -313,6 +324,25 @@ export default function RankPredictor() {
               </div>
             )}
 
+            {examType === 'JEE Main' && (
+              <div className="form-group" style={{ gridColumn: '1 / -1', marginTop: '-0.5rem' }}>
+                <div style={{
+                  fontSize: '0.75rem',
+                  color: 'var(--text-secondary)',
+                  background: 'var(--accent-glow)',
+                  padding: '0.5rem 0.75rem',
+                  borderRadius: 'var(--radius-sm)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  border: '1px dashed var(--border-glow)'
+                }}>
+                  <span>ℹ️</span>
+                  <span><strong>NITs Selection:</strong> We utilize Other State (OS) ranks for standardized predictions.</span>
+                </div>
+              </div>
+            )}
+
             <div className="form-group">
               <label htmlFor="pred-year">Prediction Year</label>
               <select
@@ -324,11 +354,11 @@ export default function RankPredictor() {
                 <option value="2025">2025</option>
                 <option value="2024">2024</option>
                 <option value="2023">2023</option>
-                <option value="AI Algo">AI Algo</option>
               </select>
             </div>
           </div>
         </div>
+
 
         <hr style={{ margin: '1.5rem 0', borderColor: 'var(--border)', opacity: 0.5 }} />
 
@@ -344,7 +374,7 @@ export default function RankPredictor() {
                 onChange={e => setBranchPref(e.target.value)}
               >
                 <option value="All">All Branches</option>
-                {rawData.branches.map(b => (
+                {metadata.branches.map(b => (
                   <option key={b} value={b}>{b}</option>
                 ))}
               </select>
@@ -358,7 +388,7 @@ export default function RankPredictor() {
                 value={category}
                 onChange={e => setCategory(e.target.value)}
               >
-                {rawData.categories.filter(c => !c.toLowerCase().includes('pwd')).map(c => (
+                {metadata.categories.filter(c => !c.toLowerCase().includes('pwd')).map(c => (
                   <option key={c} value={c}>{c}</option>
                 ))}
               </select>
@@ -372,7 +402,7 @@ export default function RankPredictor() {
                 value={gender}
                 onChange={e => setGender(e.target.value)}
               >
-                {rawData.genders.map(g => (
+                {metadata.genders.map(g => (
                   <option key={g} value={g}>{g}</option>
                 ))}
               </select>
@@ -433,7 +463,7 @@ export default function RankPredictor() {
                 <div className="empty-state">
                   <div className="icon">😞</div>
                   <h3>No matches found</h3>
-                  <p>Your entered rank(s) don't meet the closing cutoff for any eligible institute+branch combination. Try a different preference or rank.</p>
+                  <p>Your entered rank(s) don't meet the closing OCR for any eligible institute+branch combination. Try a different preference or rank.</p>
                 </div>
               ) : (
                 <>
@@ -450,9 +480,9 @@ export default function RankPredictor() {
                       <div className="cta-inner">
                         <div className="cta-text">
                           <span className="cta-icon">📈</span>
-                          <span>View cutoff trends for your options</span>
+                          <span>View OCR trends for your options</span>
                         </div>
-                        <span className="cta-arrow">Cutoff Explorer →</span>
+                        <span className="cta-arrow">OCR Explorer →</span>
                       </div>
                     </Link>
                   </div>

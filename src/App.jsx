@@ -24,9 +24,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/cutoffs" element={<CutoffExplorer />} />
-            <Route path="/placements" element={<PlacementStats />} />
+            <Route path="/placements" element={<ComingSoon />} />
             <Route path="/predict" element={<CollegePredictor />} />
-            <Route path="/colleges" element={<CollegeList />} />
+            <Route path="/colleges" element={<ComingSoon />} />
             <Route path="/college/:id" element={<CollegeDetail />} />
             <Route path="/branches" element={<BranchExplorer />} />
             <Route path="/branch/:slug" element={<BranchDetail />} />

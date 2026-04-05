@@ -55,7 +55,7 @@ export default function AboutContact() {
           margin: '0 auto',
           lineHeight: '1.6'
         }}>
-          An intelligent tool designed by an IIT student to empower JEE aspirants with data-driven college predictions and deep cutoff insights.
+          An intelligent tool designed by an IIT student to empower JEE aspirants with data-driven college predictions and deep OCR insights.
         </p>
       </section>
 
@@ -83,7 +83,7 @@ export default function AboutContact() {
           </div>
           <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem', fontWeight: '700' }}>Algorithm & Accuracy</h3>
           <p style={{ color: 'var(--text-secondary)', lineHeight: '1.7', flex: 1 }}>
-            By iterating through complex cutoff trends, we classify results into <strong style={{ color: 'var(--accent-primary)' }}>Possible</strong>, <strong style={{ color: 'var(--accent-secondary)' }}>Good Chance</strong>, or <strong style={{ color: 'var(--success)' }}>Safe</strong> options. Our metrics provide a robust 95% confidence buffer for JEE aspirants.
+            By iterating through complex OCR trends, we classify results into <strong style={{ color: 'var(--accent-primary)' }}>Possible</strong>, <strong style={{ color: 'var(--accent-secondary)' }}>Good Chance</strong>, or <strong style={{ color: 'var(--success)' }}>Safe</strong> options. Our metrics provide a robust 95% confidence buffer for JEE aspirants.
           </p>
         </div>
       </div>
@@ -143,7 +143,7 @@ export default function AboutContact() {
         <div className="insight-content">
           <div className="insight-text">Important Disclaimer</div>
           <div className="insight-subtext">
-            Predictions are based on historical JoSAA cutoff trends and must be used for guidance only. Seat allocation is dynamic — always consult the official JoSAA portal for final decisions.
+            Predictions are based on historical JoSAA OCR trends and must be used for guidance only. Seat allocation is dynamic — always consult the official JoSAA portal for final decisions.
           </div>
         </div>
       </div>

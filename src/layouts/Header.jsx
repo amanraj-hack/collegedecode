@@ -6,7 +6,7 @@ import logo from '../assets/logo.png'
 const navItems = [
   { path: '/', label: 'Home' },
   { path: '/predict', label: 'College Predictor' },
-  { path: '/cutoffs', label: 'Cutoff Insights' },
+  { path: '/cutoffs', label: 'OCR Insights' },
   { path: '/colleges', label: 'College Analysis' },
   { path: '/branches', label: 'Branch Insights' },
   { path: '/placements', label: 'Placements' },

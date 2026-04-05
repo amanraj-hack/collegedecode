@@ -106,15 +106,15 @@ export default function FilterPanel({ filters, options, onChange }) {
         )}
       </div>
       <div style={{ marginTop: '1.5rem' }}>
-        <button 
-          className="btn btn-primary" 
+        <button
+          className="btn btn-primary"
           style={{ width: '100%', justifyContent: 'center', fontSize: '1rem', padding: '0.75rem' }}
           onClick={() => {
             const el = document.getElementById('cutoff-insight') || document.querySelector('.chart-container')
             if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
           }}
         >
-          📊 View Cutoff Trends
+          📊 View OCR Trends
         </button>
       </div>
     </div>
