@@ -77,20 +77,20 @@ export default function CutoffExplorer() {
 
     if (missingYears.length > 0) {
       setIsDataLoading(true)
-      Promise.all(missingYears.map(y => 
+      Promise.all(missingYears.map(y =>
         fetch(`/data/OCR_${y}.json`).then(r => r.json().then(data => ({ year: y, data })))
       ))
-      .then(results => {
-        setDataByYear(prev => {
-          const next = { ...prev }
-          results.forEach(res => {
-            next[res.year] = res.data
+        .then(results => {
+          setDataByYear(prev => {
+            const next = { ...prev }
+            results.forEach(res => {
+              next[res.year] = res.data
+            })
+            return next
           })
-          return next
         })
-      })
-      .catch(console.error)
-      .finally(() => setIsDataLoading(false))
+        .catch(console.error)
+        .finally(() => setIsDataLoading(false))
     }
   }, [metadata])
 
@@ -116,10 +116,8 @@ export default function CutoffExplorer() {
 
   const filteredData = useMemo(() => {
     if (!metadata) return []
-    
     const targetYears = metadata.years
     let allRecords = []
-    
     targetYears.forEach(y => {
       if (dataByYear[y]) {
         allRecords = allRecords.concat(dataByYear[y])

@@ -6,7 +6,7 @@ import * as Icons from 'lucide-react'
 import '../cd-premium.css'
 
 export default function Dashboard() {
-  document.title = 'Collage Decode — JEE Advanced OCR & Placement Explorer'
+  document.title = 'Collage Decode — JEE Advanced and Mains college predictor and Insights'
 
   return (
     <div className="animate-in" style={{ paddingBottom: '4rem' }}>

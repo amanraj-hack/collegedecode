@@ -7,6 +7,7 @@ export default function BranchExplorer() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    document.title = 'Branch Insights — College Decode'
     fetch('/data/branches_data.json')
       .then(res => res.json())
       .then(data => {

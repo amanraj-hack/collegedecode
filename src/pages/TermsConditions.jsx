@@ -46,7 +46,7 @@ export default function TermsConditions() {
           Welcome to College Decode. By accessing and using this website, you accept and agree to be bound by the following terms and conditions.
         </p>
         <p style={{ marginTop: '1.5rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-          Last Updated: April 7, 2026
+          Last Updated: April 6, 2026
         </p>
       </section>
 
