@@ -58,7 +58,6 @@ export default function CutoffExplorer() {
     branch: 'Computer Science and Engineering',
     category: 'General',
     gender: 'Gender-Neutral',
-    year: '',
   })
 
   useEffect(() => {
@@ -69,14 +68,11 @@ export default function CutoffExplorer() {
       .catch(console.error)
   }, [])
 
-  // Optimized fetching logic: only fetch years we don't have
+  // Optimized fetching logic: fetch all metadata years
   useEffect(() => {
     if (!metadata) return
 
-    const yearsToFetch = filters.year 
-      ? [Number(filters.year)] 
-      : metadata.years
-
+    const yearsToFetch = metadata.years
     const missingYears = yearsToFetch.filter(y => !dataByYear[y])
 
     if (missingYears.length > 0) {
@@ -96,7 +92,7 @@ export default function CutoffExplorer() {
       .catch(console.error)
       .finally(() => setIsDataLoading(false))
     }
-  }, [metadata, filters.year])
+  }, [metadata])
 
   const handleFilterChange = useCallback((key, value) => {
     setFilters(prev => {
@@ -121,7 +117,7 @@ export default function CutoffExplorer() {
   const filteredData = useMemo(() => {
     if (!metadata) return []
     
-    const targetYears = filters.year ? [Number(filters.year)] : metadata.years
+    const targetYears = metadata.years
     let allRecords = []
     
     targetYears.forEach(y => {
@@ -138,7 +134,6 @@ export default function CutoffExplorer() {
       if (filters.branch && d.branch !== filters.branch) return false
       if (filters.category && d.category !== filters.category) return false
       if (filters.gender && d.gender !== filters.gender) return false
-      if (filters.year && d.year !== Number(filters.year)) return false
       return true
     })
   }, [metadata, dataByYear, filters])
@@ -187,7 +182,6 @@ export default function CutoffExplorer() {
               branches: metadata.branches,
               categories: metadata.categories.filter(c => !c.toLowerCase().includes('pwd')),
               genders: metadata.genders,
-              years: metadata.years,
             }}
             onChange={handleFilterChange}
           />

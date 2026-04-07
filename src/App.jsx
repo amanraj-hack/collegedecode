@@ -9,7 +9,9 @@ const PlacementStats = lazy(() => import('./pages/PlacementStats'))
 const CollegePredictor = lazy(() => import('./pages/RankPredictor'))
 const BranchExplorer = lazy(() => import('./pages/BranchExplorer'))
 const BranchDetail = lazy(() => import('./pages/BranchDetail'))
-const AboutContact = lazy(() => import('./pages/AboutContact'))
+const About = lazy(() => import('./pages/About'))
+const Contact = lazy(() => import('./pages/Contact'))
+const TermsConditions = lazy(() => import('./pages/TermsConditions'))
 const CollegeList = lazy(() => import('./pages/CollegeList'))
 const CollegeDetail = lazy(() => import('./pages/CollegeDetail'))
 const ComingSoon = lazy(() => import('./pages/ComingSoon'))
@@ -30,7 +32,9 @@ function App() {
             <Route path="/college/:id" element={<CollegeDetail />} />
             <Route path="/branches" element={<BranchExplorer />} />
             <Route path="/branch/:slug" element={<BranchDetail />} />
-            <Route path="/about-contact" element={<AboutContact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/terms" element={<TermsConditions />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/comingsoon" element={<ComingSoon />} />
           </Routes>

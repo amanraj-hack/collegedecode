@@ -86,24 +86,6 @@ export default function FilterPanel({ filters, options, onChange }) {
             </select>
           </div>
         )}
-
-        {/* Group 4: Year */}
-        {options.years && (
-          <div className="filter-group">
-            <label htmlFor="filter-year">📅 Year</label>
-            <select
-              id="filter-year"
-              className="filter-select"
-              value={filters.year}
-              onChange={e => onChange('year', e.target.value)}
-            >
-              <option value="">All Years</option>
-              {options.years.map(y => (
-                <option key={y} value={y}>{y}</option>
-              ))}
-            </select>
-          </div>
-        )}
       </div>
       <div style={{ marginTop: '1.5rem' }}>
         <button

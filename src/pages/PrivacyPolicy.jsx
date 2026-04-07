@@ -46,19 +46,24 @@ export default function PrivacyPolicy() {
           We believe your data is your own. Collage Decode is built to provide insights without compromising your personal information.
         </p>
         <p style={{ marginTop: '1.5rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-          Last Updated: April 4, 2026
+          Last Updated: April 7, 2026
         </p>
       </section>
 
       {/* Core Principles Grid */}
-      <div className="features-grid" style={{ marginBottom: '4rem' }}>
+      <div className="features-grid" style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+        gap: '1.5rem',
+        marginBottom: '4rem'
+      }}>
         <div className="card" style={{ padding: '2rem' }}>
           <div style={{ color: 'var(--accent-primary)', marginBottom: '1.25rem' }}>
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg>
           </div>
-          <h3 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: '700' }}>Zero PII Collection</h3>
+          <h3 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: '700' }}>Zero Data Collection</h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6' }}>
             We do not collect names, phone numbers, or emails. Your identity remains completely anonymous.
           </p>
@@ -78,20 +83,19 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className="card" style={{ padding: '2rem' }}>
+        {/* <div className="card" style={{ padding: '2rem' }}>
           <div style={{ color: 'var(--success)', marginBottom: '1.25rem' }}>
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+              <polyline points="17 2 12 7 7 2"></polyline>
             </svg>
           </div>
-          <h3 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: '700' }}>No Third-Party Ads</h3>
+          <h3 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: '700' }}>Transparent Ads</h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6' }}>
-            We do not use tracking-based advertising networks. The experience is clean, focused, and private.
+            We use privacy-conscious ads to keep our research tools free for everyone. No creepy tracking.
           </p>
-        </div>
+        </div> */}
       </div>
-
       {/* Contact Section */}
       <div className="card" style={{
         padding: '3rem',

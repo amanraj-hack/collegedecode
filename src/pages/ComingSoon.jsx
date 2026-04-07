@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const TARGET_DATE = '2026-05-15T00:00:00'; // Editable target date variable
+const TARGET_DATE = '2026-05-12T00:00:00'; // Editable target date variable
 
 export default function ComingSoon() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
