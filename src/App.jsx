@@ -16,6 +16,7 @@ const CollegeList = lazy(() => import('./pages/CollegeList'))
 const CollegeDetail = lazy(() => import('./pages/CollegeDetail'))
 const ComingSoon = lazy(() => import('./pages/ComingSoon'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
+const HowPredictorWorks = lazy(() => import('./pages/HowPredictorWorks'))
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/cutoffs" element={<CutoffExplorer />} />
             <Route path="/placements" element={<ComingSoon />} />
             <Route path="/predict" element={<CollegePredictor />} />
+            <Route path="/how-it-works" element={<HowPredictorWorks />} />
             <Route path="/colleges" element={<ComingSoon />} />
             <Route path="/college/:id" element={<CollegeDetail />} />
             <Route path="/branches" element={<BranchExplorer />} />

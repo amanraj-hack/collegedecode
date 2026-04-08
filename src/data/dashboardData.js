@@ -27,7 +27,7 @@ export const dashboardFeatures = [
     icon: 'TrendingUp',
     iconColor: 'blue',
     title: 'OCR Explorer',
-    description: 'Browse opening & closing ranks with interactive line charts. Filter by IIT, branch, category, and gender.'
+    description: 'Browse opening & closing ranks with interactive line charts. Filter by IITs or NITs, branch, category, and gender.'
   },
   {
     path: '/placements',
@@ -41,13 +41,13 @@ export const dashboardFeatures = [
     icon: 'Target',
     iconColor: 'pink',
     title: 'College Predictor',
-    description: 'Enter your JEE Advanced rank to instantly see which IITs and branches you may be eligible for.'
+    description: 'Enter your JEE Advanced or JEE Mains rank to instantly see which IITs & NITs and branches you may be eligible for.'
   },
   {
     path: '/colleges',
     icon: 'Map',
     iconColor: 'teal',
     title: 'College Directory',
-    description: 'Explore deep insights, seat matrix, and unique cultural aspects of all IITs.'
+    description: 'Explore deep insights, seat matrix, and unique aspects of all IITs.'
   }
 ];
