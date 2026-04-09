@@ -1,0 +1,47 @@
+[
+  {
+    "institute": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "branch": "Bio Technology",
+    "category": "General",
+    "gender": "Gender-Neutral",
+    "year": 2025,
+    "openingRank": 58341,
+    "closingRank": 79511
+  },
+  {
+    "institute": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "branch": "Bio Technology",
+    "category": "General",
+    "gender": "Female-Only",
+    "year": 2025,
+    "openingRank": 53648,
+    "closingRank": 65917
+  },
+  {
+    "institute": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "branch": "Bio Technology",
+    "category": "EWS",
+    "gender": "Gender-Neutral",
+    "year": 2025,
+    "openingRank": 12569,
+    "closingRank": 12569
+  },
+  {
+    "institute": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "branch": "Bio Technology",
+    "category": "EWS",
+    "gender": "Female-Only",
+    "year": 2025,
+    "openingRank": 16293,
+    "closingRank": 16293
+  },
+  {
+    "institute": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "branch": "Bio Technology",
+    "category": "OBC-NCL",
+    "gender": "Gender-Neutral",
+    "year": 2025,
+    "openingRank": 33291,
+    "closingRank": 60996
+  }
+]
