@@ -61,7 +61,7 @@ export default function CutoffExplorer() {
   })
 
   useEffect(() => {
-    document.title = 'OCR Insights — Collage Decode'
+    document.title = 'OCR Insights — College Decode'
     fetch('/data/cutoff_metadata.json')
       .then(r => r.json())
       .then(setMetadata)
@@ -99,6 +99,12 @@ export default function CutoffExplorer() {
       const next = { ...prev, [key]: value }
       if (key === 'instituteType') {
         next.institute = ''
+        // Clear branch when institute type changes
+        next.branch = ''
+      }
+      if (key === 'institute' && prev.institute !== value) {
+        // Clear branch when a new institute is selected
+        next.branch = ''
       }
       return next
     })
@@ -114,16 +120,34 @@ export default function CutoffExplorer() {
     })
   }, [metadata, filters.instituteType])
 
-  const filteredData = useMemo(() => {
+  const allRecords = useMemo(() => {
     if (!metadata) return []
     const targetYears = metadata.years
-    let allRecords = []
+    let records = []
     targetYears.forEach(y => {
       if (dataByYear[y]) {
-        allRecords = allRecords.concat(dataByYear[y])
+        records = records.concat(dataByYear[y])
+      }
+    })
+    return records
+  }, [metadata, dataByYear])
+
+  const availableBranches = useMemo(() => {
+    if (!metadata) return []
+    if (!filters.institute) return metadata.branches
+
+    const branchesSet = new Set()
+    allRecords.forEach(d => {
+      if (d.institute === filters.institute) {
+        branchesSet.add(d.branch)
       }
     })
 
+    const branches = Array.from(branchesSet).sort()
+    return branches.length > 0 ? branches : metadata.branches
+  }, [allRecords, filters.institute, metadata])
+
+  const filteredData = useMemo(() => {
     return allRecords.filter(d => {
       const isIIT = d.institute.includes('Indian Institute') && d.institute.includes('Technology') && !d.institute.includes('Engineering Science')
       if (filters.instituteType === 'IITs' && !isIIT) return false
@@ -134,7 +158,7 @@ export default function CutoffExplorer() {
       if (filters.gender && d.gender !== filters.gender) return false
       return true
     })
-  }, [metadata, dataByYear, filters])
+  }, [allRecords, filters])
 
   const chartTitle = useMemo(() => {
     const parts = []
@@ -177,7 +201,7 @@ export default function CutoffExplorer() {
             options={{
               instituteTypes: ['IITs', 'NITs'],
               institutes: filteredInstitutes,
-              branches: metadata.branches,
+              branches: availableBranches,
               categories: metadata.categories.filter(c => !c.toLowerCase().includes('pwd')),
               genders: metadata.genders,
             }}

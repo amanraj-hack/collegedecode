@@ -2,6 +2,7 @@ import { Suspense, lazy } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './layouts/Header'
 import Footer from './layouts/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const CutoffExplorer = lazy(() => import('./pages/CutoffExplorer'))
@@ -21,6 +22,7 @@ const HowPredictorWorks = lazy(() => import('./pages/HowPredictorWorks'))
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Header />
       <main className="main-content">
         <Suspense fallback={<div className="loading"><div className="loading-spinner"></div></div>}>
@@ -30,7 +32,7 @@ function App() {
             <Route path="/placements" element={<ComingSoon />} />
             <Route path="/predict" element={<CollegePredictor />} />
             <Route path="/how-it-works" element={<HowPredictorWorks />} />
-            <Route path="/colleges" element={<ComingSoon />} />
+            <Route path="/colleges" element={<CollegeList />} />
             <Route path="/college/:id" element={<CollegeDetail />} />
             <Route path="/branches" element={<BranchExplorer />} />
             <Route path="/branch/:slug" element={<BranchDetail />} />

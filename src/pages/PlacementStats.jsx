@@ -12,7 +12,7 @@ export default function PlacementStats() {
   })
 
   useEffect(() => {
-    document.title = 'Placement Statistics — Collage Decode'
+    document.title = 'Placement Statistics — College Decode'
     fetch('/data/placement_data.json')
       .then(r => r.json())
       .then(setRawData)

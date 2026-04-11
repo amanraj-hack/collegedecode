@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <p className="footer-text">
-          © {new Date().getFullYear()} Collage Decode — Built for JEE Aspirants
+          © {new Date().getFullYear()} College Decode — Built for JEE Aspirants
         </p>
         <div className="footer-links">
           <Link to="/">Home</Link>

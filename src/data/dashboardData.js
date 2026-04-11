@@ -6,7 +6,7 @@ export const dashboardStats = [
   },
   {
     icon: 'GitBranch',
-    value: '8+',
+    value: '11+',
     label: 'Branches'
   },
   {

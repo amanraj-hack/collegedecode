@@ -9,7 +9,6 @@ const navItems = [
   { path: '/cutoffs', label: 'OCR Insights' },
   { path: '/colleges', label: 'College Analysis' },
   { path: '/branches', label: 'Branch Insights' },
-  { path: '/placements', label: 'Placements' },
 ]
 
 export default function Header() {
@@ -20,7 +19,7 @@ export default function Header() {
     <header className="header">
       <div className="header-inner">
         <Link to="/" className="logo">
-          <img src={logo} alt="Collage Decode Logo" className="logo-img" />
+          <img src={logo} alt="College Decode Logo" className="logo-img" />
           <span>College Decode</span>
         </Link>
 

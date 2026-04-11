@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function PrivacyPolicy() {
-  document.title = 'Privacy Policy — Collage Decode'
+  document.title = 'Privacy Policy — College Decode'
 
   const copyEmail = () => {
     const email = 'amanrajiitp@gmail.com';
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
           margin: '0 auto',
           lineHeight: '1.6'
         }}>
-          We believe your data is your own. Collage Decode is built to provide insights without compromising your personal information.
+          We believe your data is your own. College Decode is built to provide insights without compromising your personal information.
         </p>
         <p style={{ marginTop: '1.5rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
           Last Updated: April 7, 2026

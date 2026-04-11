@@ -375,6 +375,144 @@
         { "question": "Do you enjoy doing experiments and scientific research?", "weight": 2 },
         { "question": "Are you open to pursuing higher studies (MS/PhD)?", "weight": 2 }
       ]
+    },
+    {
+      "slug": "mnc",
+      "name": "Mathematics and Computing",
+      "shortName": "MnC",
+      "icon": "🧮",
+      "color": "#8b5cf6",
+      "overview": "Mathematics and Computing is an elite interdisciplinary program that combines advanced mathematical theory with computer science and financial engineering. It is one of the most prestigious branches in IITs, preparing students for high-end roles in algorithmic trading, data science, software engineering, and scientific computing. Modern MnC students are highly recruited by fintech giants and tech leaders due to their strong analytical and coding foundations.",
+      "syllabus": [
+        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Introduction to Programming", "Engineering Drawing", "English Communication", "Workshop Practice"] },
+        { "semester": 2, "subjects": ["Engineering Mathematics II", "Numerical Analysis", "Data Structures", "Logic in Computer Science", "Basic Electronics", "Environmental Science"] },
+        { "semester": 3, "subjects": ["Discrete Mathematics", "Real Analysis", "Object Oriented Programming", "Linear Algebra", "Probability & Statistics", "Data Structures Lab"] },
+        { "semester": 4, "subjects": ["Design & Analysis of Algorithms", "Modern Algebra", "Operating Systems", "Optimization Techniques", "Database Management Systems", "Algorithm Lab"] },
+        { "semester": 5, "subjects": ["Machine Learning", "Complex Analysis", "Cryptography", "Theory of Computation", "Stochastic Processes", "Minor Project"] },
+        { "semester": 6, "subjects": ["Financial Engineering", "Artificial Intelligence", "Parallel Computing", "Scientific Computing", "Number Theory", "Software Lab"] },
+        { "semester": 7, "subjects": ["Deep Learning", "Big Data Analytics", "Elective I", "Elective II", "Major Project Phase I", "Industrial Training"] },
+        { "semester": 8, "subjects": ["Major Project Phase II", "Elective III", "Seminar", "Comprehensive Viva"] }
+      ],
+      "careers": [
+        { "title": "Quantitative Analyst", "description": "Develop and implement complex mathematical models for financial trading and risk management.", "companies": ["Goldman Sachs", "DE Shaw", "Tower Research", "Citadel", "Morgan Stanley"], "skills": ["Stochastic Calculus", "C++", "Python", "Probability", "Statistics"] },
+        { "title": "Data Scientist", "description": "Extract insights from big data using statistical methods and machine learning algorithms.", "companies": ["Google", "Amazon", "Flipkart", "Meta", "American Express"], "skills": ["Machine Learning", "Statistics", "Python", "SQL", "Linear Algebra"] },
+        { "title": "Software Engineer", "description": "Design and build efficient software systems and high-performance algorithms.", "companies": ["Microsoft", "Oracle", "Uber", "Razorpay"], "skills": ["Algorithms", "System Design", "C++/Java", "Coding"] }
+      ],
+      "salary": [
+        { "year": 2022, "avg": 28, "median": 24, "highest": 160 },
+        { "year": 2023, "avg": 31, "median": 26, "highest": 175 },
+        { "year": 2024, "avg": 34, "median": 28, "highest": 190 }
+      ],
+      "difficulty": { "mathematical": 5, "programming": 4, "workload": 4 },
+      "industryDemand": [
+        { "year": 2019, "score": 80 },
+        { "year": 2020, "score": 82 },
+        { "year": 2021, "score": 88 },
+        { "year": 2022, "score": 92 },
+        { "year": 2023, "score": 95 },
+        { "year": 2024, "score": 97 }
+      ],
+      "topRecruiters": ["Goldman Sachs", "Google", "DE Shaw", "Tower Research", "Microsoft", "Amazon", "Oracle", "Citadel", "Morgan Stanley", "Flipkart"],
+      "skills": ["Real Analysis", "Algorithms", "Machine Learning", "Statistics", "Financial Modeling", "Programming", "Optimization", "Linear Algebra", "Number Theory", "Data Structures"],
+      "quiz": [
+        { "question": "Do you love mathematics as much as you like coding?", "weight": 3 },
+        { "question": "Are you interested in high-frequency trading and finance?", "weight": 2 },
+        { "question": "Do you enjoy abstract logical thinking and proofs?", "weight": 2 },
+        { "question": "Are you comfortable with very rigorous coursework?", "weight": 2 },
+        { "question": "Do you want a career that bridges theory and application?", "weight": 2 }
+      ]
+    },
+    {
+      "slug": "eee",
+      "name": "Electrical and Electronics Engineering",
+      "shortName": "EEE",
+      "icon": "💡",
+      "color": "#fbbf24",
+      "overview": "Electrical and Electronics Engineering (EEE) is a comprehensive field that covers everything from large-scale power generation to micro-scale electronic circuits. It focuses on the application of electricity, electronics, and electromagnetism. EEE students master the bridge between electrical power and electronic control systems, making them highly versatile for roles in energy, automotive, and hardware tech sectors.",
+      "syllabus": [
+        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Basic Electrical Engineering", "Engineering Drawing", "Introduction to Programming", "Workshop"] },
+        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Circuit Theory", "Basic Electronics", "English Communication", "Physics Lab"] },
+        { "semester": 3, "subjects": ["Analog Electronics", "Signals & Systems", "Electromagnetic Theory", "Network Analysis", "Numerical Methods", "Analog Lab"] },
+        { "semester": 4, "subjects": ["Digital Electronics", "Electrical Machines I", "Microprocessors & Microcontrollers", "Control Systems", "Electrical Measurements", "Digital Lab"] },
+        { "semester": 5, "subjects": ["Power Systems I", "Electrical Machines II", "VLSI Design", "Communication Systems", "Power Electronics", "Machine Lab"] },
+        { "semester": 6, "subjects": ["Power Systems II", "Digital Signal Processing", "Embedded Systems", "Elective I", "Control System Design", "Power Lab"] },
+        { "semester": 7, "subjects": ["Switchgear & Protection", "Renewable Energy Systems", "Elective II", "Elective III", "Major Project Phase I", "Industrial Training"] },
+        { "semester": 8, "subjects": ["Major Project Phase II", "Elective IV", "Ethics for Engineers", "Seminar", "Comprehensive Viva"] }
+      ],
+      "careers": [
+        { "title": "Electrical Design Engineer", "description": "Design and develop electrical systems for buildings, infrastructure, and aircraft.", "companies": ["L&T", "Siemens", "ABB", "General Electric", "Boeing"], "skills": ["AutoCAD", "Power Systems", "Circuit Design", "ETAP", "MATLAB"] },
+        { "title": "Electronics Engineer", "description": "Create and optimize electronic circuits and hardware for consumer and industrial tech.", "companies": ["Samsung", "Intel", "Qualcomm", "Texas Instruments", "Apple"], "skills": ["Digital Design", "VLSI", "Embedded C", "Circuit Simulation", "Verilog"] },
+        { "title": "Control Systems Engineer", "description": "Automate industrial processes and robotics using sophisticated control logic.", "companies": ["Honeywell", "Bosch", "Tesla", "Schneider Electric", "ABB"], "skills": ["PLC", "SCADA", "Control Theory", "MATLAB/Simulink", "Robotics"] }
+      ],
+      "salary": [
+        { "year": 2022, "avg": 16, "median": 13, "highest": 85 },
+        { "year": 2023, "avg": 18, "median": 15, "highest": 95 },
+        { "year": 2024, "avg": 20, "median": 17, "highest": 110 }
+      ],
+      "difficulty": { "mathematical": 4, "programming": 3, "workload": 4 },
+      "industryDemand": [
+        { "year": 2019, "score": 70 },
+        { "year": 2020, "score": 72 },
+        { "year": 2021, "score": 75 },
+        { "year": 2022, "score": 78 },
+        { "year": 2023, "score": 82 },
+        { "year": 2024, "score": 85 }
+      ],
+      "topRecruiters": ["Siemens", "General Electric", "L&T", "Samsung", "Intel", "Qualcomm", "NTPC", "BHEL", "ABB", "Texas Instruments"],
+      "skills": ["Circuit Theory", "Control Systems", "Power Electronics", "VLSI", "Embedded Systems", "MATLAB", "Signals & Systems", "Electrical Machines", "Digital Electronics", "PLC"],
+      "quiz": [
+        { "question": "Are you interested in how electricity and machines work together?", "weight": 3 },
+        { "question": "Do you enjoy working with both software and hardware gadgets?", "weight": 3 },
+        { "question": "Are you fascinated by renewable energy and power grids?", "weight": 2 },
+        { "question": "Do you like problem-solving in complex electrical networks?", "weight": 2 },
+        { "question": "Are you interested in robotics and automation?", "weight": 2 }
+      ]
+    },
+    {
+      "slug": "metallurgy",
+      "name": "Metallurgical and Materials Engineering",
+      "shortName": "Meta",
+      "icon": "⚒️",
+      "color": "#94a3b8",
+      "overview": "Metallurgical and Materials Engineering is the science of exploring, designing, and manufacturing new materials for the modern world. It covers everything from extraction of metals to development of high-tech alloys, nanomaterials, and smart composites. This branch is the backbone of aerospace, automotive, energy, and defense sectors, providing the fundamental materials that make advanced technology possible.",
+      "syllabus": [
+        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Engineering Mechanics", "Engineering Drawing", "Introduction to Programming", "Workshop"] },
+        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Thermodynamics", "Materials Science", "English Communication", "Graphics Lab"] },
+        { "semester": 3, "subjects": ["Physical Metallurgy", "Mineral Processing", "Transport Phenomena", "Testing of Materials", "Numerical Methods", "Metallography Lab"] },
+        { "semester": 4, "subjects": ["Iron & Steel Making", "Extractive Metallurgy", "Mechanical Behavior", "Phase Transformations", "Polymer Science", "Extractive Lab"] },
+        { "semester": 5, "subjects": ["Corrosion Engineering", "Heat Treatment", "Casting & Solidification", "Powder Metallurgy", "Material Characterization", "Testing Lab"] },
+        { "semester": 6, "subjects": ["Ceramic Materials", "Composite Materials", "Joining of Materials", "Elective I", "X-Ray Diffraction", "Casting Lab"] },
+        { "semester": 7, "subjects": ["Nanomaterials", "Failure Analysis", "Elective II", "Elective III", "Major Project Phase I", "Industrial Training"] },
+        { "semester": 8, "subjects": ["Major Project Phase II", "Elective IV", "Professional Ethics", "Seminar", "Comprehensive Viva"] }
+      ],
+      "careers": [
+        { "title": "Materials Scientist", "description": "Research and develop new materials with tailored properties for high-performance applications.", "companies": ["DRDO", "ISRO", "Tata Steel", "JSW Steel", "3M"], "skills": ["Characterization", "Material Science", "Nanotechnology", "SEM/TEM", "Research"] },
+        { "title": "Process Metallurgist", "description": "Optimize the extraction and refining processes for metals and alloys in large-scale plants.", "companies": ["Steel Authority of India (SAIL)", "Hindalco", "Vedanta", "Rio Tinto", "ArcelorMittal"], "skills": ["Pyrometallurgy", "Extractive Metallurgy", "Process Control", "Thermodynamics", "Lean"] },
+        { "title": "Quality Assurance Engineer", "description": "Ensure materials meet safety and performance standards for industries like automotive and aerospace.", "companies": ["Boeing", "Airbus", "Tata Motors", "Mahindra", "Rolls Royce"], "skills": ["NDT", "Failure Analysis", "Quality Control", "ASTM Standards", "Metallography"] }
+      ],
+      "salary": [
+        { "year": 2022, "avg": 12, "median": 10, "highest": 55 },
+        { "year": 2023, "avg": 14, "median": 11, "highest": 62 },
+        { "year": 2024, "avg": 15, "median": 13, "highest": 70 }
+      ],
+      "difficulty": { "mathematical": 3, "programming": 2, "workload": 3 },
+      "industryDemand": [
+        { "year": 2019, "score": 50 },
+        { "year": 2020, "score": 52 },
+        { "year": 2021, "score": 55 },
+        { "year": 2022, "score": 60 },
+        { "year": 2023, "score": 65 },
+        { "year": 2024, "score": 68 }
+      ],
+      "topRecruiters": ["Tata Steel", "JSW Steel", "Hindalco", "DRDO", "ISRO", "SAIL", "Boeing", "Airbus", "Vedanta", "ArcelorMittal"],
+      "skills": ["Physical Metallurgy", "Thermodynamics", "Material Science", "Extractive Metallurgy", "Corrosion", "Nanomaterials", "NDT", "Characterization", "Heat Treatment", "Phase Transformations"],
+      "quiz": [
+        { "question": "Are you interested in how metals and alloys are created?", "weight": 3 },
+        { "question": "Do you enjoy chemistry and thermodynamics?", "weight": 2 },
+        { "question": "Are you fascinated by high-tech materials like carbon fiber and nanomaterials?", "weight": 2 },
+        { "question": "Do you want to work in core industries like steel, aerospace, or space?", "weight": 2 },
+        { "question": "Are you interested in researching new materials for the future?", "weight": 2 }
+      ]
     }
   ]
 }

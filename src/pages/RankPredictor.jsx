@@ -90,7 +90,7 @@ export default function RankPredictor() {
   }
 
   useEffect(() => {
-    document.title = 'College Predictor — Collage Decode'
+    document.title = 'College Predictor — College Decode'
     fetch('/data/cutoff_metadata.json')
       .then(r => r.json())
       .then(setMetadata)
