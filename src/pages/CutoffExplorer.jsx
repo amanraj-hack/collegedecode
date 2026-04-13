@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom'
 import FilterPanel from '../components/FilterPanel'
 import CutoffChart from '../components/CutoffChart'
 import AdBanner from '../components/ads/AdBanner'
+import {
+  getDegreeType,
+  getDuration,
+  degreeCssClass,
+} from '../utils/branchGroups'
 
 function generateInsight(data) {
   if (!data || data.length < 2) return null
@@ -142,7 +147,6 @@ export default function CutoffExplorer() {
         branchesSet.add(d.branch)
       }
     })
-
     const branches = Array.from(branchesSet).sort()
     return branches.length > 0 ? branches : metadata.branches
   }, [allRecords, filters.institute, metadata])
@@ -266,17 +270,26 @@ export default function CutoffExplorer() {
                   <tbody>
                     {filteredData
                       .sort((a, b) => b.year - a.year)
-                      .map((row, i) => (
-                        <tr key={i}>
-                          <td>{row.year}</td>
-                          <td>{row.institute}</td>
-                          <td>{row.branch}</td>
-                          <td>{row.category}</td>
-                          <td>{row.gender}</td>
-                          <td style={{ fontWeight: 600, color: 'var(--accent-primary)' }}>{row.openingRank.toLocaleString()}</td>
-                          <td style={{ fontWeight: 600, color: '#ec4899' }}>{row.closingRank.toLocaleString()}</td>
-                        </tr>
-                      ))}
+                      .map((row, i) => {
+                        const degree   = getDegreeType(row.branch)
+                        const duration = getDuration(row.branch)
+                        const degClass = degreeCssClass(degree)
+                        return (
+                          <tr key={i}>
+                            <td>{row.year}</td>
+                            <td>{row.institute}</td>
+                            <td>
+                              <span>{row.branch}</span>
+                              <span className={`branch-badge degree-${degClass}`} style={{ marginLeft:'0.35rem' }}>{degree}</span>
+                              <span className={`branch-badge duration-${duration}yr`} style={{ marginLeft:'0.2rem' }}>{duration}-Yr</span>
+                            </td>
+                            <td>{row.category}</td>
+                            <td>{row.gender}</td>
+                            <td style={{ fontWeight: 600, color: 'var(--accent-primary)' }}>{row.openingRank.toLocaleString()}</td>
+                            <td style={{ fontWeight: 600, color: '#ec4899' }}>{row.closingRank.toLocaleString()}</td>
+                          </tr>
+                        )
+                      })}
                   </tbody>
                 </table>
               </div>

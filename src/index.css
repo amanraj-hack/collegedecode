@@ -2938,3 +2938,34 @@ a:hover {
   height: 100%;
 }
 
+/* ===== BRANCH BADGE PILLS (degree type + duration) ===== */
+.branch-badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.1rem 0.42rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  white-space: nowrap;
+  line-height: 1.6;
+}
+.degree-btech  { background: rgba(99, 102, 241, 0.12); color: #818cf8; }
+.degree-bs     { background: rgba(251, 191, 36, 0.13); color: #fbbf24; }
+.degree-barch  { background: rgba(52, 211, 153, 0.13); color: #34d399; }
+.degree-bplan  { background: rgba(52, 211, 153, 0.13); color: #34d399; }
+.degree-bdes   { background: rgba(244, 114, 182, 0.13); color: #f472b4; }
+.degree-dual   { background: rgba(168, 85, 247, 0.12); color: #c084fc; }
+.duration-4yr  { background: var(--accent-glow, rgba(99,102,241,0.08)); color: var(--accent-primary, #6366f1); }
+.duration-5yr  { background: rgba(168, 85, 247, 0.12); color: #a855f7; }
+.result-branch {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+  margin: 0.2rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

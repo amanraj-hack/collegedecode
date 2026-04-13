@@ -46,9 +46,16 @@ export default function FilterPanel({ filters, options, onChange }) {
             onChange={e => onChange('branch', e.target.value)}
           >
             <option value="">All Branches</option>
-            {options.branches?.map(b => (
-              <option key={b} value={b}>{b}</option>
-            ))}
+            {options.branchGroups
+              ? options.branchGroups.map(g => (
+                  <option key={g.label} value={g.label}>
+                    {g.label} — {g.degree} · {g.duration}-Year
+                  </option>
+                ))
+              : options.branches?.map(b => (
+                  <option key={b} value={b}>{b}</option>
+                ))
+            }
           </select>
         </div>
 

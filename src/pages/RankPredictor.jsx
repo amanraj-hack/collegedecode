@@ -1,6 +1,13 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import AdBanner from '../components/ads/AdBanner'
+import {
+  getAvailableGroups,
+  getRawBranchesForGroup,
+  getDegreeType,
+  getDuration,
+  degreeCssClass,
+} from '../utils/branchGroups'
 
 function processPredictorData(matches, advRank, mainsRank) {
   let safe = []
@@ -133,7 +140,10 @@ export default function RankPredictor() {
           if (d.year !== targetYear) return false
           if (d.category !== category) return false
           if (d.gender !== gender) return false
-          if (branchPref !== 'All' && d.branch !== branchPref) return false
+          if (branchPref !== 'All') {
+            const rawSet = new Set(getRawBranchesForGroup(branchPref))
+            if (!rawSet.has(d.branch)) return false
+          }
 
           const isIIT = d.institute.includes('Indian Institute') && d.institute.includes('Technology') && !d.institute.includes('Information') && !d.institute.includes('Engineering Science')
 
@@ -174,6 +184,12 @@ export default function RankPredictor() {
     return processPredictorData(results.matches, results.advRank, results.mainsRank)
   }, [results])
 
+  // Groups derived from metadata — shown in branch dropdown
+  const availableGroups = useMemo(() => {
+    if (!metadata) return []
+    return getAvailableGroups(metadata.branches)
+  }, [metadata])
+
   if (!metadata) {
     return <div className="loading"><div className="loading-spinner"></div></div>
   }
@@ -188,12 +204,19 @@ export default function RankPredictor() {
     const tagClass = item.category === 'Safe' ? 'tag-safe' : item.category === 'Good Chance' ? 'tag-target' : 'tag-dream'
     const emoji = item.category === 'Safe' ? '✅' : item.category === 'Good Chance' ? '⚖️' : '🎯'
     const badge = getBadgeFromConfidence(item.confidence)
+    const degree   = getDegreeType(item.branch)
+    const duration = getDuration(item.branch)
+    const degClass = degreeCssClass(degree)
 
     return (
       <div className="result-item" key={`${item.institute}-${item.branch}-${i}`}>
         <div className="result-info">
           <h4>{item.institute}</h4>
-          <p>{item.branch}</p>
+          <p className="result-branch">
+            {item.branch}
+            <span className={`branch-badge degree-${degClass}`}>{degree}</span>
+            <span className={`branch-badge duration-${duration}yr`}>{duration}-Year</span>
+          </p>
           <div className="result-tags">
             <span className={`result-tag ${tagClass}`}>{emoji} {item.category}</span>
             <span className={`result-badge ${badge.className}`}>{badge.label} ({item.confidence}%)</span>
@@ -374,8 +397,10 @@ export default function RankPredictor() {
                 onChange={e => setBranchPref(e.target.value)}
               >
                 <option value="All">All Branches</option>
-                {metadata.branches.map(b => (
-                  <option key={b} value={b}>{b}</option>
+                {availableGroups.map(g => (
+                  <option key={g.label} value={g.label}>
+                    {g.label} — {g.degree} · {g.duration}-Year
+                  </option>
                 ))}
               </select>
             </div>
