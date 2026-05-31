@@ -30,13 +30,6 @@ export const dashboardFeatures = [
     description: 'Browse opening & closing ranks with interactive line charts. Filter by IITs or NITs, branch, category, and gender.'
   },
   {
-    path: '/placements',
-    icon: 'Briefcase',
-    iconColor: 'purple',
-    title: 'Placement Statistics',
-    description: 'Compare average, median, and highest packages across IITs and branches with visual charts.'
-  },
-  {
     path: '/predict',
     icon: 'Target',
     iconColor: 'pink',

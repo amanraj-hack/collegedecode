@@ -105,6 +105,19 @@ export default function Contact() {
             </svg>
             Instagram
           </a>
+          <a
+            href="https://t.me/collegedecode"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary"
+            style={{ borderRadius: '100px', padding: '0.6rem 2rem' }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '0.5rem' }}>
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+            Telegram
+          </a>
         </div>
       </div>
 

@@ -6,8 +6,8 @@ import ScrollToTop from './components/ScrollToTop'
 
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const CutoffExplorer = lazy(() => import('./pages/CutoffExplorer'))
-const PlacementStats = lazy(() => import('./pages/PlacementStats'))
 const CollegePredictor = lazy(() => import('./pages/RankPredictor'))
+const CsabPredictor = lazy(() => import('./pages/CsabPredictor'))
 const BranchExplorer = lazy(() => import('./pages/BranchExplorer'))
 const BranchDetail = lazy(() => import('./pages/BranchDetail'))
 const About = lazy(() => import('./pages/About'))
@@ -29,8 +29,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/cutoffs" element={<CutoffExplorer />} />
-            <Route path="/placements" element={<ComingSoon />} />
             <Route path="/predict" element={<CollegePredictor />} />
+            <Route path="/predict-csab" element={<CsabPredictor />} />
             <Route path="/how-it-works" element={<HowPredictorWorks />} />
             <Route path="/colleges" element={<CollegeList />} />
             <Route path="/college/:id" element={<CollegeDetail />} />

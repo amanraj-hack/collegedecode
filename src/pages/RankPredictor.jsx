@@ -204,7 +204,7 @@ export default function RankPredictor() {
     const tagClass = item.category === 'Safe' ? 'tag-safe' : item.category === 'Good Chance' ? 'tag-target' : 'tag-dream'
     const emoji = item.category === 'Safe' ? '✅' : item.category === 'Good Chance' ? '⚖️' : '🎯'
     const badge = getBadgeFromConfidence(item.confidence)
-    const degree   = getDegreeType(item.branch)
+    const degree = getDegreeType(item.branch)
     const duration = getDuration(item.branch)
     const degClass = degreeCssClass(degree)
 
@@ -274,6 +274,52 @@ export default function RankPredictor() {
 
   return (
     <div className="animate-in">
+      {/* Dynamic Top Tabs Switcher */}
+      <div style={{
+        display: 'flex',
+        background: 'var(--bg-card)',
+        border: '1px solid var(--border-color)',
+        padding: '0.35rem',
+        borderRadius: 'var(--radius-lg)',
+        gap: '0.35rem',
+        marginBottom: '2.5rem',
+        maxWidth: '500px',
+        margin: '1rem auto 2.5rem',
+      }}>
+        <div
+          style={{
+            flex: 1,
+            textAlign: 'center',
+            padding: '0.65rem 1rem',
+            borderRadius: 'var(--radius-md)',
+            fontSize: '0.85rem',
+            fontWeight: '700',
+            background: 'var(--primary)',
+            color: 'black',
+            boxShadow: '0 2px 8px rgba(99, 102, 241, 0.3)',
+          }}
+        >
+          🎯 JoSAA Predictor
+        </div>
+        <Link
+          to="/predict-csab"
+          style={{
+            flex: 1,
+            textAlign: 'center',
+            padding: '0.65rem 1rem',
+            borderRadius: 'var(--radius-md)',
+            textDecoration: 'none',
+            fontSize: '0.85rem',
+            fontWeight: '600',
+            color: 'var(--text-secondary)',
+            transition: 'all 0.2s',
+          }}
+          className="hover-glow"
+        >
+          🚀 CSAB Special Rounds
+        </Link>
+      </div>
+
       <h1 className="page-title">🎯 College Predictor</h1>
       <p className="page-subtitle">
         Enter your ranks to find best-fit IITs and NITs with their branches
@@ -487,8 +533,22 @@ export default function RankPredictor() {
               {totalValidOptions === 0 ? (
                 <div className="empty-state">
                   <div className="icon">😞</div>
-                  <h3>No matches found</h3>
-                  <p>Your entered rank(s) don't meet the closing OCR for any eligible institute+branch combination. Try a different preference or rank.</p>
+                  <h3>No matches found in JoSAA</h3>
+                  <p>Your entered rank(s) don't meet the closing OCR for any JoSAA round. Don't worry! CSAB Special Round cutoffs are much more lenient.</p>
+                  <div style={{ marginTop: '1.5rem', width: '100%' }}>
+                    <Link to="/predict-csab" className="cta-card" style={{ background: 'linear-gradient(135deg, rgba(99,102,241,0.08) 0%, rgba(139,92,246,0.08) 100%)', display: 'block' }}>
+                      <div className="cta-inner">
+                        <div className="cta-text">
+                          <span className="cta-icon">🚀</span>
+                          <span style={{ textAlign: 'left' }}>
+                            <strong>Try CSAB Special Round Predictor</strong>
+                            <span style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '0.15rem' }}>Secure a seat in top NITs/IIITs even at a lower rank due to vacant seat leniency!</span>
+                          </span>
+                        </div>
+                        <span className="cta-arrow" style={{ color: 'var(--accent-primary)' }}>CSAB Predictor →</span>
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               ) : (
                 <>
@@ -500,7 +560,16 @@ export default function RankPredictor() {
                   {renderSection('Possible Options', '🎯', dream, 'section-dream', 3, 'Dream')}
 
                   {/* Action Hooks */}
-                  <div className="predictor-actions">
+                  <div className="predictor-actions" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                    <Link to="/predict-csab" className="cta-card" id="predictor-cta-csab" style={{ background: 'linear-gradient(135deg, rgba(99,102,241,0.06) 0%, rgba(139,92,246,0.06) 100%)' }}>
+                      <div className="cta-inner">
+                        <div className="cta-text">
+                          <span className="cta-icon">🚀</span>
+                          <span>Didn't get your dream branch? Check CSAB Special Round chances</span>
+                        </div>
+                        <span className="cta-arrow">CSAB Predictor →</span>
+                      </div>
+                    </Link>
                     <Link to="/cutoffs" className="cta-card" id="predictor-cta-cutoffs">
                       <div className="cta-inner">
                         <div className="cta-text">

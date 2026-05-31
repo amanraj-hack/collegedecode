@@ -20,7 +20,7 @@ export default function Dashboard() {
             Decode Your Engineering <br /><span style={{ color: 'var(--accent-primary)' }}>IITs & NITs</span>
           </h1>
           <p style={{ color: '#94a3b8', fontSize: '1.1rem', maxWidth: '600px', marginBottom: '2rem', lineHeight: 1.6 }}>
-            Explore IIT & NIT OCR, placement stats. Predict your college based on JEE rank with CollegeDecode.
+            Explore IIT & NIT OCR. Predict your college based on JEE rank with CollegeDecode.
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <Link to="/cutoffs" className="btn btn-primary" style={{ padding: '0.75rem 1.75rem', fontSize: '1rem' }}>

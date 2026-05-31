@@ -17,7 +17,7 @@ export default function CollegeList() {
   return (
     <div className="animate-in">
       <h1 className="page-title">College Analysis</h1>
-      <p className="page-subtitle">Select an IIT to see detailed seat matrix, placements, and ranking data.</p>
+      <p className="page-subtitle">Select an IIT to see detailed seat matrix and ranking data.</p>
 
       <div className="card" style={{ padding: '0.75rem 1rem', marginBottom: '1.5rem', borderLeft: '4px solid var(--accent-primary)', background: 'var(--bg-card)', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
         <span style={{ fontWeight: 600, color: 'var(--accent-primary)', marginRight: '0.5rem' }}>Data Source:</span>
