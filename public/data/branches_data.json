@@ -8,45 +8,299 @@
       "color": "#6366f1",
       "overview": "Computer Science and Engineering is the study of computational systems, software development, algorithms, and data structures. Students learn to design and build software systems, work with artificial intelligence, machine learning, cybersecurity, and more. CSE is the most sought-after branch in IITs due to its excellent placement records and versatile career options across tech, finance, and research.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Introduction to Programming (C/Python)", "Engineering Drawing", "English Communication", "Workshop Practice"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Data Structures", "Digital Logic Design", "Basic Electronics", "Environmental Science"] },
-        { "semester": 3, "subjects": ["Discrete Mathematics", "Object-Oriented Programming", "Computer Organization & Architecture", "Linear Algebra", "Probability & Statistics", "Data Structures Lab"] },
-        { "semester": 4, "subjects": ["Algorithm Design & Analysis", "Operating Systems", "Database Management Systems", "Theory of Computation", "Computer Networks", "OS Lab"] },
-        { "semester": 5, "subjects": ["Compiler Design", "Software Engineering", "Artificial Intelligence", "Computer Graphics", "Elective I", "Minor Project"] },
-        { "semester": 6, "subjects": ["Machine Learning", "Distributed Systems", "Information Security", "Elective II", "Elective III", "Software Lab"] },
-        { "semester": 7, "subjects": ["Deep Learning", "Cloud Computing", "Elective IV", "Elective V", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective VI", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Calculus and Linear Algebra",
+            "Physics",
+            "Foundation of Programming (in C)",
+            "Engineering Graphics",
+            "English for professionals",
+            "Electrical sciences"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Probability Theory and Ordinary Differential Equations",
+            "Chemistry",
+            "Data Structures",
+            "Mechanical Fabrication",
+            "Engineering Mechanics",
+            "Indian Knowledge System (IKS)"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Algorithm",
+            "Digital Logic and Computer Organization ",
+            "Discrete Mathematics",
+            "Optimization Techniques",
+            "Artificial Intelligence Concepts ",
+            "HSS Elective - I"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Formal Language and Automata Theory",
+            "Database and Warehousing",
+            "Computer Architecture",
+            "Artificial Intelligence",
+            "IT Workshop "
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Operating System",
+            "Machine Learning",
+            "Computer Network",
+            "Compiler",
+            "IDE-II"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Cyber Security",
+            "Deep Learning",
+            "Internet of Things",
+            "DE-I (CS ELECTIVES LIST)",
+            "Capstone Project"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "DE-II(CS ELECTIVES LIST)",
+            "DE-III (CS ELECTIVES LIST)",
+            "HSS Elective II",
+            "IDE-III",
+            "Summer Internship*/ Summer Project",
+            "Project – I"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "DE-IV (CS Elective List)",
+            "DE-V (CS Elective List)",
+            "DE-VI (CS Elective List)",
+            "Project – II"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Software Engineer", "description": "Design, develop, and maintain software applications and systems at scale. Work on everything from mobile apps to distributed cloud infrastructure.", "companies": ["Google", "Microsoft", "Amazon", "Meta", "Apple", "Netflix"], "skills": ["Data Structures", "System Design", "JavaScript/Python", "Cloud Services", "Git"] },
-        { "title": "Data Scientist", "description": "Analyze complex datasets using statistical methods and machine learning to extract insights and drive business decisions.", "companies": ["Google", "Amazon", "Flipkart", "Goldman Sachs", "McKinsey"], "skills": ["Python/R", "Machine Learning", "Statistics", "SQL", "Data Visualization"] },
-        { "title": "AI/ML Engineer", "description": "Build and deploy artificial intelligence and machine learning models for real-world applications like NLP, computer vision, and recommendation systems.", "companies": ["OpenAI", "Google DeepMind", "NVIDIA", "Microsoft", "Meta AI"], "skills": ["Deep Learning", "PyTorch/TensorFlow", "Mathematics", "Python", "MLOps"] },
-        { "title": "Product Manager", "description": "Lead product strategy, define roadmaps, and work cross-functionally to build products that users love.", "companies": ["Google", "Microsoft", "Razorpay", "Swiggy", "Uber"], "skills": ["Product Thinking", "Analytics", "Communication", "Technical Understanding", "UX"] },
-        { "title": "Quantitative Analyst", "description": "Use mathematical models and programming to analyze financial markets and develop trading strategies.", "companies": ["Goldman Sachs", "Morgan Stanley", "Tower Research", "DE Shaw", "Citadel"], "skills": ["Mathematics", "C++/Python", "Probability", "Statistics", "Financial Modeling"] },
-        { "title": "Startup Founder", "description": "Build your own technology company from scratch. IIT CSE alumni have founded many successful startups.", "companies": ["Flipkart (IIT Delhi)", "Ola (IIT Bombay)", "Zomato", "Razorpay", "CRED"], "skills": ["Full-Stack Development", "Leadership", "Business Acumen", "Problem Solving", "Fundraising"] }
+        {
+          "title": "Software Engineer",
+          "description": "Design, develop, and maintain software applications and systems at scale. Work on everything from mobile apps to distributed cloud infrastructure.",
+          "companies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Meta",
+            "Apple",
+            "Netflix"
+          ],
+          "skills": [
+            "Data Structures",
+            "System Design",
+            "JavaScript/Python",
+            "Cloud Services",
+            "Git"
+          ]
+        },
+        {
+          "title": "Data Scientist",
+          "description": "Analyze complex datasets using statistical methods and machine learning to extract insights and drive business decisions.",
+          "companies": [
+            "Google",
+            "Amazon",
+            "Flipkart",
+            "Goldman Sachs",
+            "McKinsey"
+          ],
+          "skills": [
+            "Python/R",
+            "Machine Learning",
+            "Statistics",
+            "SQL",
+            "Data Visualization"
+          ]
+        },
+        {
+          "title": "AI/ML Engineer",
+          "description": "Build and deploy artificial intelligence and machine learning models for real-world applications like NLP, computer vision, and recommendation systems.",
+          "companies": [
+            "OpenAI",
+            "Google DeepMind",
+            "NVIDIA",
+            "Microsoft",
+            "Meta AI"
+          ],
+          "skills": [
+            "Deep Learning",
+            "PyTorch/TensorFlow",
+            "Mathematics",
+            "Python",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Product Manager",
+          "description": "Lead product strategy, define roadmaps, and work cross-functionally to build products that users love.",
+          "companies": [
+            "Google",
+            "Microsoft",
+            "Razorpay",
+            "Swiggy",
+            "Uber"
+          ],
+          "skills": [
+            "Product Thinking",
+            "Analytics",
+            "Communication",
+            "Technical Understanding",
+            "UX"
+          ]
+        },
+        {
+          "title": "Quantitative Analyst",
+          "description": "Use mathematical models and programming to analyze financial markets and develop trading strategies.",
+          "companies": [
+            "Goldman Sachs",
+            "Morgan Stanley",
+            "Tower Research",
+            "DE Shaw",
+            "Citadel"
+          ],
+          "skills": [
+            "Mathematics",
+            "C++/Python",
+            "Probability",
+            "Statistics",
+            "Financial Modeling"
+          ]
+        },
+        {
+          "title": "Startup Founder",
+          "description": "Build your own technology company from scratch. IIT CSE alumni have founded many successful startups.",
+          "companies": [
+            "Flipkart (IIT Delhi)",
+            "Ola (IIT Bombay)",
+            "Zomato",
+            "Razorpay",
+            "CRED"
+          ],
+          "skills": [
+            "Full-Stack Development",
+            "Leadership",
+            "Business Acumen",
+            "Problem Solving",
+            "Fundraising"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 32, "median": 25, "highest": 220 },
-        { "year": 2023, "avg": 35, "median": 28, "highest": 245 },
-        { "year": 2024, "avg": 38, "median": 30, "highest": 270 }
+        {
+          "year": 2022,
+          "avg": 32,
+          "median": 25,
+          "highest": 220
+        },
+        {
+          "year": 2023,
+          "avg": 35,
+          "median": 28,
+          "highest": 245
+        },
+        {
+          "year": 2024,
+          "avg": 38,
+          "median": 30,
+          "highest": 270
+        }
       ],
-      "difficulty": { "mathematical": 4, "programming": 5, "workload": 4 },
+      "difficulty": {
+        "mathematical": 4,
+        "programming": 5,
+        "workload": 4
+      },
       "industryDemand": [
-        { "year": 2019, "score": 85 },
-        { "year": 2020, "score": 88 },
-        { "year": 2021, "score": 92 },
-        { "year": 2022, "score": 95 },
-        { "year": 2023, "score": 97 },
-        { "year": 2024, "score": 98 }
+        {
+          "year": 2019,
+          "score": 85
+        },
+        {
+          "year": 2020,
+          "score": 88
+        },
+        {
+          "year": 2021,
+          "score": 92
+        },
+        {
+          "year": 2022,
+          "score": 95
+        },
+        {
+          "year": 2023,
+          "score": 97
+        },
+        {
+          "year": 2024,
+          "score": 98
+        }
       ],
-      "topRecruiters": ["Google", "Microsoft", "Amazon", "Meta", "Apple", "Goldman Sachs", "Oracle", "Adobe", "Uber", "Flipkart", "Samsung", "NVIDIA"],
-      "skills": ["Programming", "Data Structures", "Algorithms", "Machine Learning", "System Design", "Databases", "Web Development", "Mathematics", "Problem Solving", "Cloud Computing"],
+      "topRecruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Meta",
+        "Apple",
+        "Goldman Sachs",
+        "Oracle",
+        "Adobe",
+        "Uber",
+        "Flipkart",
+        "Samsung",
+        "NVIDIA"
+      ],
+      "skills": [
+        "Programming",
+        "Data Structures",
+        "Algorithms",
+        "Machine Learning",
+        "System Design",
+        "Databases",
+        "Web Development",
+        "Mathematics",
+        "Problem Solving",
+        "Cloud Computing"
+      ],
       "quiz": [
-        { "question": "Do you enjoy solving logical puzzles and brain teasers?", "weight": 2 },
-        { "question": "Are you interested in building apps or websites?", "weight": 3 },
-        { "question": "Do you like mathematics and abstract thinking?", "weight": 2 },
-        { "question": "Are you fascinated by artificial intelligence and automation?", "weight": 2 },
-        { "question": "Can you spend hours debugging a program without getting frustrated?", "weight": 3 }
+        {
+          "question": "Do you enjoy solving logical puzzles and brain teasers?",
+          "weight": 2
+        },
+        {
+          "question": "Are you interested in building apps or websites?",
+          "weight": 3
+        },
+        {
+          "question": "Do you like mathematics and abstract thinking?",
+          "weight": 2
+        },
+        {
+          "question": "Are you fascinated by artificial intelligence and automation?",
+          "weight": 2
+        },
+        {
+          "question": "Can you spend hours debugging a program without getting frustrated?",
+          "weight": 3
+        }
       ]
     },
     {
@@ -57,45 +311,298 @@
       "color": "#f59e0b",
       "overview": "Electrical Engineering focuses on the study of electrical systems, power generation, electronics, control systems, and signal processing. It bridges hardware and software, giving graduates versatility to work in power, semiconductors, telecommunications, and even software. EE is one of the top branches in IITs with excellent placements across core and non-core sectors.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Basic Electrical Engineering", "Introduction to Programming", "Engineering Drawing", "Workshop Practice"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Circuit Theory", "Electronic Devices", "Digital Systems", "Environmental Science"] },
-        { "semester": 3, "subjects": ["Signals & Systems", "Electromagnetic Theory", "Analog Electronics", "Network Analysis", "Probability & Statistics", "Electronics Lab"] },
-        { "semester": 4, "subjects": ["Control Systems", "Power Systems I", "Microprocessors", "Communication Systems", "Electrical Machines", "Control Lab"] },
-        { "semester": 5, "subjects": ["Power Electronics", "Digital Signal Processing", "VLSI Design", "Instrumentation", "Elective I", "Minor Project"] },
-        { "semester": 6, "subjects": ["Power Systems II", "Embedded Systems", "Elective II", "Elective III", "Machine Learning for EE", "Power Lab"] },
-        { "semester": 7, "subjects": ["Renewable Energy Systems", "Elective IV", "Elective V", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective VI", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Basic Electrical Engineering",
+            "Introduction to Programming",
+            "Engineering Drawing",
+            "Workshop Practice"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Engineering Chemistry",
+            "Circuit Theory",
+            "Electronic Devices",
+            "Digital Systems",
+            "Environmental Science"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Signals & Systems",
+            "Electromagnetic Theory",
+            "Analog Electronics",
+            "Network Analysis",
+            "Probability & Statistics",
+            "Electronics Lab"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Control Systems",
+            "Power Systems I",
+            "Microprocessors",
+            "Communication Systems",
+            "Electrical Machines",
+            "Control Lab"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Power Electronics",
+            "Digital Signal Processing",
+            "VLSI Design",
+            "Instrumentation",
+            "Elective I",
+            "Minor Project"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Power Systems II",
+            "Embedded Systems",
+            "Elective II",
+            "Elective III",
+            "Machine Learning for EE",
+            "Power Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Renewable Energy Systems",
+            "Elective IV",
+            "Elective V",
+            "Major Project Phase I",
+            "Industrial Training"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective VI",
+            "Seminar",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Power Systems Engineer", "description": "Design and maintain electrical power systems for generation, transmission, and distribution of electricity.", "companies": ["NTPC", "Power Grid", "Siemens", "ABB", "Tata Power"], "skills": ["Power Systems", "SCADA", "Protection Systems", "MATLAB", "AutoCAD"] },
-        { "title": "VLSI Design Engineer", "description": "Design integrated circuits and semiconductor chips used in processors, memory, and other electronic components.", "companies": ["Intel", "Qualcomm", "NVIDIA", "Samsung", "Texas Instruments"], "skills": ["Verilog/VHDL", "Digital Design", "CMOS Technology", "EDA Tools", "Signal Integrity"] },
-        { "title": "Software Engineer", "description": "Many EE graduates transition to software roles due to strong analytical and programming foundations.", "companies": ["Google", "Microsoft", "Amazon", "Goldman Sachs", "Uber"], "skills": ["Programming", "Data Structures", "System Design", "Problem Solving", "Algorithms"] },
-        { "title": "Signal Processing Engineer", "description": "Work on processing, analyzing, and interpreting signals for telecommunications, audio, and image systems.", "companies": ["Qualcomm", "Samsung", "MediaTek", "TI", "Broadcom"], "skills": ["DSP", "MATLAB", "Python", "Signal Analysis", "Communication Systems"] },
-        { "title": "Control Systems Engineer", "description": "Design automation and control systems for manufacturing, robotics, and industrial processes.", "companies": ["Honeywell", "Siemens", "ABB", "Bosch", "Rockwell"], "skills": ["Control Theory", "PLC", "SCADA", "MATLAB/Simulink", "Robotics"] },
-        { "title": "Research Scientist", "description": "Pursue cutting-edge research in areas like quantum computing, renewable energy, or semiconductor physics.", "companies": ["MIT", "Stanford", "IISc", "DRDO", "ISRO"], "skills": ["Mathematics", "Research Methods", "Publication", "MATLAB", "Python"] }
+        {
+          "title": "Power Systems Engineer",
+          "description": "Design and maintain electrical power systems for generation, transmission, and distribution of electricity.",
+          "companies": [
+            "NTPC",
+            "Power Grid",
+            "Siemens",
+            "ABB",
+            "Tata Power"
+          ],
+          "skills": [
+            "Power Systems",
+            "SCADA",
+            "Protection Systems",
+            "MATLAB",
+            "AutoCAD"
+          ]
+        },
+        {
+          "title": "VLSI Design Engineer",
+          "description": "Design integrated circuits and semiconductor chips used in processors, memory, and other electronic components.",
+          "companies": [
+            "Intel",
+            "Qualcomm",
+            "NVIDIA",
+            "Samsung",
+            "Texas Instruments"
+          ],
+          "skills": [
+            "Verilog/VHDL",
+            "Digital Design",
+            "CMOS Technology",
+            "EDA Tools",
+            "Signal Integrity"
+          ]
+        },
+        {
+          "title": "Software Engineer",
+          "description": "Many EE graduates transition to software roles due to strong analytical and programming foundations.",
+          "companies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Goldman Sachs",
+            "Uber"
+          ],
+          "skills": [
+            "Programming",
+            "Data Structures",
+            "System Design",
+            "Problem Solving",
+            "Algorithms"
+          ]
+        },
+        {
+          "title": "Signal Processing Engineer",
+          "description": "Work on processing, analyzing, and interpreting signals for telecommunications, audio, and image systems.",
+          "companies": [
+            "Qualcomm",
+            "Samsung",
+            "MediaTek",
+            "TI",
+            "Broadcom"
+          ],
+          "skills": [
+            "DSP",
+            "MATLAB",
+            "Python",
+            "Signal Analysis",
+            "Communication Systems"
+          ]
+        },
+        {
+          "title": "Control Systems Engineer",
+          "description": "Design automation and control systems for manufacturing, robotics, and industrial processes.",
+          "companies": [
+            "Honeywell",
+            "Siemens",
+            "ABB",
+            "Bosch",
+            "Rockwell"
+          ],
+          "skills": [
+            "Control Theory",
+            "PLC",
+            "SCADA",
+            "MATLAB/Simulink",
+            "Robotics"
+          ]
+        },
+        {
+          "title": "Research Scientist",
+          "description": "Pursue cutting-edge research in areas like quantum computing, renewable energy, or semiconductor physics.",
+          "companies": [
+            "MIT",
+            "Stanford",
+            "IISc",
+            "DRDO",
+            "ISRO"
+          ],
+          "skills": [
+            "Mathematics",
+            "Research Methods",
+            "Publication",
+            "MATLAB",
+            "Python"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 22, "median": 18, "highest": 130 },
-        { "year": 2023, "avg": 24, "median": 20, "highest": 145 },
-        { "year": 2024, "avg": 26, "median": 21, "highest": 160 }
+        {
+          "year": 2022,
+          "avg": 22,
+          "median": 18,
+          "highest": 130
+        },
+        {
+          "year": 2023,
+          "avg": 24,
+          "median": 20,
+          "highest": 145
+        },
+        {
+          "year": 2024,
+          "avg": 26,
+          "median": 21,
+          "highest": 160
+        }
       ],
-      "difficulty": { "mathematical": 5, "programming": 3, "workload": 4 },
+      "difficulty": {
+        "mathematical": 5,
+        "programming": 3,
+        "workload": 4
+      },
       "industryDemand": [
-        { "year": 2019, "score": 75 },
-        { "year": 2020, "score": 76 },
-        { "year": 2021, "score": 78 },
-        { "year": 2022, "score": 82 },
-        { "year": 2023, "score": 85 },
-        { "year": 2024, "score": 88 }
+        {
+          "year": 2019,
+          "score": 75
+        },
+        {
+          "year": 2020,
+          "score": 76
+        },
+        {
+          "year": 2021,
+          "score": 78
+        },
+        {
+          "year": 2022,
+          "score": 82
+        },
+        {
+          "year": 2023,
+          "score": 85
+        },
+        {
+          "year": 2024,
+          "score": 88
+        }
       ],
-      "topRecruiters": ["Intel", "Qualcomm", "Texas Instruments", "NVIDIA", "Samsung", "Siemens", "Google", "Microsoft", "Goldman Sachs", "Analog Devices"],
-      "skills": ["Circuit Design", "Signal Processing", "VLSI", "Control Systems", "Power Electronics", "MATLAB", "Programming", "Mathematics", "Embedded Systems", "PCB Design"],
+      "topRecruiters": [
+        "Intel",
+        "Qualcomm",
+        "Texas Instruments",
+        "NVIDIA",
+        "Samsung",
+        "Siemens",
+        "Google",
+        "Microsoft",
+        "Goldman Sachs",
+        "Analog Devices"
+      ],
+      "skills": [
+        "Circuit Design",
+        "Signal Processing",
+        "VLSI",
+        "Control Systems",
+        "Power Electronics",
+        "MATLAB",
+        "Programming",
+        "Mathematics",
+        "Embedded Systems",
+        "PCB Design"
+      ],
       "quiz": [
-        { "question": "Are you interested in how electrical circuits and systems work?", "weight": 3 },
-        { "question": "Do you enjoy working with hardware and electronic gadgets?", "weight": 3 },
-        { "question": "Are you comfortable with advanced mathematics?", "weight": 2 },
-        { "question": "Are you interested in semiconductors and chip design?", "weight": 2 },
-        { "question": "Do you like understanding how signals and communication systems work?", "weight": 2 }
+        {
+          "question": "Are you interested in how electrical circuits and systems work?",
+          "weight": 3
+        },
+        {
+          "question": "Do you enjoy working with hardware and electronic gadgets?",
+          "weight": 3
+        },
+        {
+          "question": "Are you comfortable with advanced mathematics?",
+          "weight": 2
+        },
+        {
+          "question": "Are you interested in semiconductors and chip design?",
+          "weight": 2
+        },
+        {
+          "question": "Do you like understanding how signals and communication systems work?",
+          "weight": 2
+        }
       ]
     },
     {
@@ -106,29 +613,125 @@
       "color": "#8b5cf6",
       "overview": "ECE bridges hardware and software, focusing on electronic devices, circuits, communication equipment, and embedded systems.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Basic Electrical Engineering", "Introduction to Programming"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Circuit Theory", "Electronic Devices", "Digital Logic"] },
-        { "semester": 3, "subjects": ["Signals & Systems", "Electromagnetic Theory", "Analog Electronics", "Network Analysis"] },
-        { "semester": 4, "subjects": ["Microprocessors", "Communication Systems", "Digital Signal Processing", "Control Systems"] },
-        { "semester": 5, "subjects": ["VLSI Design", "Data Communications", "Wireless Networks", "Elective I"] },
-        { "semester": 6, "subjects": ["Embedded Systems", "Information Theory", "Elective II", "Elective III"] },
-        { "semester": 7, "subjects": ["Optical Communication", "Elective IV", "Major Project Phase I"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective VI", "Seminar"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Basic Electrical Engineering",
+            "Introduction to Programming"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Circuit Theory",
+            "Electronic Devices",
+            "Digital Logic"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Signals & Systems",
+            "Electromagnetic Theory",
+            "Analog Electronics",
+            "Network Analysis"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Microprocessors",
+            "Communication Systems",
+            "Digital Signal Processing",
+            "Control Systems"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "VLSI Design",
+            "Data Communications",
+            "Wireless Networks",
+            "Elective I"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Embedded Systems",
+            "Information Theory",
+            "Elective II",
+            "Elective III"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Optical Communication",
+            "Elective IV",
+            "Major Project Phase I"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective VI",
+            "Seminar"
+          ]
+        }
       ],
       "careers": [
-        { "title": "VLSI Engineer", "description": "Design semiconductor chips.", "companies": ["Intel", "Qualcomm"], "skills": ["Verilog", "Digital Design"] }
+        {
+          "title": "VLSI Engineer",
+          "description": "Design semiconductor chips.",
+          "companies": [
+            "Intel",
+            "Qualcomm"
+          ],
+          "skills": [
+            "Verilog",
+            "Digital Design"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2024, "avg": 25, "median": 20, "highest": 150 }
+        {
+          "year": 2024,
+          "avg": 25,
+          "median": 20,
+          "highest": 150
+        }
       ],
-      "difficulty": { "mathematical": 4, "programming": 4, "workload": 4 },
+      "difficulty": {
+        "mathematical": 4,
+        "programming": 4,
+        "workload": 4
+      },
       "industryDemand": [
-        { "year": 2024, "score": 90 }
+        {
+          "year": 2024,
+          "score": 90
+        }
       ],
-      "topRecruiters": ["Qualcomm", "Intel", "Texas Instruments"],
-      "skills": ["VLSI", "Signal Processing", "Embedded Systems"],
+      "topRecruiters": [
+        "Qualcomm",
+        "Intel",
+        "Texas Instruments"
+      ],
+      "skills": [
+        "VLSI",
+        "Signal Processing",
+        "Embedded Systems"
+      ],
       "quiz": [
-        { "question": "Are you interested in how hardware and software integrate?", "weight": 3 }
+        {
+          "question": "Are you interested in how hardware and software integrate?",
+          "weight": 3
+        }
       ]
     },
     {
@@ -139,45 +742,298 @@
       "color": "#ef4444",
       "overview": "Mechanical Engineering is one of the broadest and oldest engineering disciplines, covering thermodynamics, mechanics, material science, manufacturing, and robotics. Students learn to design, analyze, and build physical systems from automobiles to spacecraft. The branch offers diverse career paths in automotive, aerospace, energy, manufacturing, and increasingly in robotics and automation.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Engineering Mechanics", "Introduction to Programming", "Engineering Drawing", "Workshop Practice"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Thermodynamics", "Material Science", "Manufacturing Processes", "Environmental Science"] },
-        { "semester": 3, "subjects": ["Fluid Mechanics", "Strength of Materials", "Kinematics of Machines", "Numerical Methods", "Engineering Materials", "Fluid Mechanics Lab"] },
-        { "semester": 4, "subjects": ["Heat Transfer", "Dynamics of Machines", "Machine Design I", "Manufacturing Technology", "Control Engineering", "Heat Transfer Lab"] },
-        { "semester": 5, "subjects": ["IC Engines", "Machine Design II", "CAD/CAM", "Robotics", "Elective I", "Minor Project"] },
-        { "semester": 6, "subjects": ["Finite Element Methods", "Vibration Engineering", "Industrial Engineering", "Elective II", "Elective III", "CAD Lab"] },
-        { "semester": 7, "subjects": ["Mechatronics", "Elective IV", "Elective V", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective VI", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Engineering Mechanics",
+            "Introduction to Programming",
+            "Engineering Drawing",
+            "Workshop Practice"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Engineering Chemistry",
+            "Thermodynamics",
+            "Material Science",
+            "Manufacturing Processes",
+            "Environmental Science"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Fluid Mechanics",
+            "Strength of Materials",
+            "Kinematics of Machines",
+            "Numerical Methods",
+            "Engineering Materials",
+            "Fluid Mechanics Lab"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Heat Transfer",
+            "Dynamics of Machines",
+            "Machine Design I",
+            "Manufacturing Technology",
+            "Control Engineering",
+            "Heat Transfer Lab"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "IC Engines",
+            "Machine Design II",
+            "CAD/CAM",
+            "Robotics",
+            "Elective I",
+            "Minor Project"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Finite Element Methods",
+            "Vibration Engineering",
+            "Industrial Engineering",
+            "Elective II",
+            "Elective III",
+            "CAD Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Mechatronics",
+            "Elective IV",
+            "Elective V",
+            "Major Project Phase I",
+            "Industrial Training"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective VI",
+            "Seminar",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Design Engineer", "description": "Design mechanical components and systems using CAD software for automotive, aerospace, and consumer products.", "companies": ["Tata Motors", "Mahindra", "Bosch", "Honda", "Caterpillar"], "skills": ["CAD (SolidWorks/CATIA)", "FEA", "GD&T", "Material Science", "Engineering Drawing"] },
-        { "title": "Automotive Engineer", "description": "Develop and improve vehicle systems including powertrain, chassis, and EV technology.", "companies": ["Tesla", "Tata Motors", "Hyundai", "BMW", "Maruti Suzuki"], "skills": ["Vehicle Dynamics", "IC Engines", "EV Systems", "MATLAB", "Thermodynamics"] },
-        { "title": "Robotics Engineer", "description": "Design, build, and program robots for industrial automation, healthcare, and consumer applications.", "companies": ["Boston Dynamics", "ABB", "FANUC", "Bosch", "ISRO"], "skills": ["ROS", "Control Systems", "Mechatronics", "Programming", "Sensors & Actuators"] },
-        { "title": "Management Consultant", "description": "Many ME graduates pivot to consulting using their analytical and problem-solving skills.", "companies": ["McKinsey", "BCG", "Bain", "Deloitte", "Accenture"], "skills": ["Analytical Thinking", "Problem Solving", "Communication", "Data Analysis", "Business Strategy"] },
-        { "title": "Energy Engineer", "description": "Work on power generation, renewable energy systems, and energy efficiency in buildings and industry.", "companies": ["NTPC", "BHEL", "Siemens Energy", "Vestas", "Adani Green"], "skills": ["Thermodynamics", "Power Plant Design", "CFD", "Renewable Energy", "MATLAB"] },
-        { "title": "Manufacturing Engineer", "description": "Optimize manufacturing processes and quality control in factories and production facilities.", "companies": ["Bosch", "L&T", "Tata Steel", "Mahindra", "GE"], "skills": ["Lean Manufacturing", "Six Sigma", "CNC", "Quality Control", "AutoCAD"] }
+        {
+          "title": "Design Engineer",
+          "description": "Design mechanical components and systems using CAD software for automotive, aerospace, and consumer products.",
+          "companies": [
+            "Tata Motors",
+            "Mahindra",
+            "Bosch",
+            "Honda",
+            "Caterpillar"
+          ],
+          "skills": [
+            "CAD (SolidWorks/CATIA)",
+            "FEA",
+            "GD&T",
+            "Material Science",
+            "Engineering Drawing"
+          ]
+        },
+        {
+          "title": "Automotive Engineer",
+          "description": "Develop and improve vehicle systems including powertrain, chassis, and EV technology.",
+          "companies": [
+            "Tesla",
+            "Tata Motors",
+            "Hyundai",
+            "BMW",
+            "Maruti Suzuki"
+          ],
+          "skills": [
+            "Vehicle Dynamics",
+            "IC Engines",
+            "EV Systems",
+            "MATLAB",
+            "Thermodynamics"
+          ]
+        },
+        {
+          "title": "Robotics Engineer",
+          "description": "Design, build, and program robots for industrial automation, healthcare, and consumer applications.",
+          "companies": [
+            "Boston Dynamics",
+            "ABB",
+            "FANUC",
+            "Bosch",
+            "ISRO"
+          ],
+          "skills": [
+            "ROS",
+            "Control Systems",
+            "Mechatronics",
+            "Programming",
+            "Sensors & Actuators"
+          ]
+        },
+        {
+          "title": "Management Consultant",
+          "description": "Many ME graduates pivot to consulting using their analytical and problem-solving skills.",
+          "companies": [
+            "McKinsey",
+            "BCG",
+            "Bain",
+            "Deloitte",
+            "Accenture"
+          ],
+          "skills": [
+            "Analytical Thinking",
+            "Problem Solving",
+            "Communication",
+            "Data Analysis",
+            "Business Strategy"
+          ]
+        },
+        {
+          "title": "Energy Engineer",
+          "description": "Work on power generation, renewable energy systems, and energy efficiency in buildings and industry.",
+          "companies": [
+            "NTPC",
+            "BHEL",
+            "Siemens Energy",
+            "Vestas",
+            "Adani Green"
+          ],
+          "skills": [
+            "Thermodynamics",
+            "Power Plant Design",
+            "CFD",
+            "Renewable Energy",
+            "MATLAB"
+          ]
+        },
+        {
+          "title": "Manufacturing Engineer",
+          "description": "Optimize manufacturing processes and quality control in factories and production facilities.",
+          "companies": [
+            "Bosch",
+            "L&T",
+            "Tata Steel",
+            "Mahindra",
+            "GE"
+          ],
+          "skills": [
+            "Lean Manufacturing",
+            "Six Sigma",
+            "CNC",
+            "Quality Control",
+            "AutoCAD"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 15, "median": 12, "highest": 65 },
-        { "year": 2023, "avg": 16, "median": 13, "highest": 72 },
-        { "year": 2024, "avg": 18, "median": 15, "highest": 80 }
+        {
+          "year": 2022,
+          "avg": 15,
+          "median": 12,
+          "highest": 65
+        },
+        {
+          "year": 2023,
+          "avg": 16,
+          "median": 13,
+          "highest": 72
+        },
+        {
+          "year": 2024,
+          "avg": 18,
+          "median": 15,
+          "highest": 80
+        }
       ],
-      "difficulty": { "mathematical": 4, "programming": 2, "workload": 4 },
+      "difficulty": {
+        "mathematical": 4,
+        "programming": 2,
+        "workload": 4
+      },
       "industryDemand": [
-        { "year": 2019, "score": 65 },
-        { "year": 2020, "score": 60 },
-        { "year": 2021, "score": 62 },
-        { "year": 2022, "score": 68 },
-        { "year": 2023, "score": 72 },
-        { "year": 2024, "score": 75 }
+        {
+          "year": 2019,
+          "score": 65
+        },
+        {
+          "year": 2020,
+          "score": 60
+        },
+        {
+          "year": 2021,
+          "score": 62
+        },
+        {
+          "year": 2022,
+          "score": 68
+        },
+        {
+          "year": 2023,
+          "score": 72
+        },
+        {
+          "year": 2024,
+          "score": 75
+        }
       ],
-      "topRecruiters": ["Tata Motors", "Maruti Suzuki", "L&T", "Bosch", "Mahindra", "Honda", "BHEL", "Caterpillar", "Samsung", "McKinsey"],
-      "skills": ["CAD/CAM", "Thermodynamics", "Fluid Mechanics", "Material Science", "Manufacturing", "FEA", "Robotics", "MATLAB", "3D Printing", "Project Management"],
+      "topRecruiters": [
+        "Tata Motors",
+        "Maruti Suzuki",
+        "L&T",
+        "Bosch",
+        "Mahindra",
+        "Honda",
+        "BHEL",
+        "Caterpillar",
+        "Samsung",
+        "McKinsey"
+      ],
+      "skills": [
+        "CAD/CAM",
+        "Thermodynamics",
+        "Fluid Mechanics",
+        "Material Science",
+        "Manufacturing",
+        "FEA",
+        "Robotics",
+        "MATLAB",
+        "3D Printing",
+        "Project Management"
+      ],
       "quiz": [
-        { "question": "Do you like understanding how machines and engines work?", "weight": 3 },
-        { "question": "Are you interested in building or designing physical products?", "weight": 3 },
-        { "question": "Do you enjoy physics, especially mechanics and thermodynamics?", "weight": 2 },
-        { "question": "Are you interested in automobiles, robotics, or aerospace?", "weight": 2 },
-        { "question": "Do you like hands-on work with tools and workshops?", "weight": 2 }
+        {
+          "question": "Do you like understanding how machines and engines work?",
+          "weight": 3
+        },
+        {
+          "question": "Are you interested in building or designing physical products?",
+          "weight": 3
+        },
+        {
+          "question": "Do you enjoy physics, especially mechanics and thermodynamics?",
+          "weight": 2
+        },
+        {
+          "question": "Are you interested in automobiles, robotics, or aerospace?",
+          "weight": 2
+        },
+        {
+          "question": "Do you like hands-on work with tools and workshops?",
+          "weight": 2
+        }
       ]
     },
     {
@@ -188,45 +1044,298 @@
       "color": "#22c55e",
       "overview": "Civil Engineering deals with the design, construction, and maintenance of infrastructure — buildings, bridges, roads, dams, and water systems. It is fundamental to nation-building and offers careers in construction, urban planning, environmental engineering, and project management. Civil Engineering is ideal for those passionate about creating lasting physical structures that serve society.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Engineering Mechanics", "Introduction to Programming", "Engineering Drawing", "Workshop Practice"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Surveying", "Building Materials", "Fluid Mechanics", "Environmental Science"] },
-        { "semester": 3, "subjects": ["Structural Analysis I", "Concrete Technology", "Geotechnical Engineering I", "Hydraulics", "Numerical Methods", "Surveying Lab"] },
-        { "semester": 4, "subjects": ["Structural Analysis II", "Steel Design", "Geotechnical Engineering II", "Transportation Engineering", "Hydrology", "Geotech Lab"] },
-        { "semester": 5, "subjects": ["Reinforced Concrete Design", "Environmental Engineering I", "Construction Management", "Earthquake Engineering", "Elective I", "Minor Project"] },
-        { "semester": 6, "subjects": ["Environmental Engineering II", "Bridge Engineering", "Foundation Engineering", "Elective II", "Elective III", "Construction Lab"] },
-        { "semester": 7, "subjects": ["Smart City Planning", "Elective IV", "Elective V", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective VI", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Engineering Mechanics",
+            "Introduction to Programming",
+            "Engineering Drawing",
+            "Workshop Practice"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Engineering Chemistry",
+            "Surveying",
+            "Building Materials",
+            "Fluid Mechanics",
+            "Environmental Science"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Structural Analysis I",
+            "Concrete Technology",
+            "Geotechnical Engineering I",
+            "Hydraulics",
+            "Numerical Methods",
+            "Surveying Lab"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Structural Analysis II",
+            "Steel Design",
+            "Geotechnical Engineering II",
+            "Transportation Engineering",
+            "Hydrology",
+            "Geotech Lab"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Reinforced Concrete Design",
+            "Environmental Engineering I",
+            "Construction Management",
+            "Earthquake Engineering",
+            "Elective I",
+            "Minor Project"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Environmental Engineering II",
+            "Bridge Engineering",
+            "Foundation Engineering",
+            "Elective II",
+            "Elective III",
+            "Construction Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Smart City Planning",
+            "Elective IV",
+            "Elective V",
+            "Major Project Phase I",
+            "Industrial Training"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective VI",
+            "Seminar",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Structural Engineer", "description": "Design and analyze structures like buildings, bridges, and dams to ensure safety and stability.", "companies": ["L&T", "Arup", "AECOM", "Jacobs", "Mott MacDonald"], "skills": ["Structural Analysis", "STAAD Pro", "ETABS", "Concrete Design", "Steel Design"] },
-        { "title": "Construction Manager", "description": "Manage large-scale construction projects, coordinating teams, budgets, and timelines.", "companies": ["L&T", "DLF", "Shapoorji Pallonji", "Godrej Properties", "Tata Projects"], "skills": ["Project Management", "Scheduling", "Budgeting", "AutoCAD", "Leadership"] },
-        { "title": "Urban Planner", "description": "Plan and design cities, towns, and urban spaces for sustainable development.", "companies": ["Smart City Mission", "CPWD", "McKinsey", "World Bank", "UNDP"], "skills": ["GIS", "Urban Design", "Policy Analysis", "Data Analysis", "Sustainability"] },
-        { "title": "Environmental Engineer", "description": "Work on water treatment, waste management, and environmental remediation projects.", "companies": ["Veolia", "Suez", "CPCB", "World Bank", "WHO"], "skills": ["Water Treatment", "Environmental Impact Assessment", "Chemistry", "Regulatory Compliance", "Sustainability"] },
-        { "title": "Government Services (IAS/IES)", "description": "Many civil engineers pursue Indian Engineering Services or IAS for impactful government careers.", "companies": ["UPSC", "State PWD", "Railways", "CPWD", "NHAI"], "skills": ["General Studies", "Technical Knowledge", "Communication", "Leadership", "Ethics"] },
-        { "title": "Transportation Engineer", "description": "Design road networks, highway systems, and public transit infrastructure.", "companies": ["NHAI", "DMRC", "L&T", "IRB Infrastructure", "RITES"], "skills": ["Traffic Engineering", "Highway Design", "GIS", "AutoCAD", "Transportation Planning"] }
+        {
+          "title": "Structural Engineer",
+          "description": "Design and analyze structures like buildings, bridges, and dams to ensure safety and stability.",
+          "companies": [
+            "L&T",
+            "Arup",
+            "AECOM",
+            "Jacobs",
+            "Mott MacDonald"
+          ],
+          "skills": [
+            "Structural Analysis",
+            "STAAD Pro",
+            "ETABS",
+            "Concrete Design",
+            "Steel Design"
+          ]
+        },
+        {
+          "title": "Construction Manager",
+          "description": "Manage large-scale construction projects, coordinating teams, budgets, and timelines.",
+          "companies": [
+            "L&T",
+            "DLF",
+            "Shapoorji Pallonji",
+            "Godrej Properties",
+            "Tata Projects"
+          ],
+          "skills": [
+            "Project Management",
+            "Scheduling",
+            "Budgeting",
+            "AutoCAD",
+            "Leadership"
+          ]
+        },
+        {
+          "title": "Urban Planner",
+          "description": "Plan and design cities, towns, and urban spaces for sustainable development.",
+          "companies": [
+            "Smart City Mission",
+            "CPWD",
+            "McKinsey",
+            "World Bank",
+            "UNDP"
+          ],
+          "skills": [
+            "GIS",
+            "Urban Design",
+            "Policy Analysis",
+            "Data Analysis",
+            "Sustainability"
+          ]
+        },
+        {
+          "title": "Environmental Engineer",
+          "description": "Work on water treatment, waste management, and environmental remediation projects.",
+          "companies": [
+            "Veolia",
+            "Suez",
+            "CPCB",
+            "World Bank",
+            "WHO"
+          ],
+          "skills": [
+            "Water Treatment",
+            "Environmental Impact Assessment",
+            "Chemistry",
+            "Regulatory Compliance",
+            "Sustainability"
+          ]
+        },
+        {
+          "title": "Government Services (IAS/IES)",
+          "description": "Many civil engineers pursue Indian Engineering Services or IAS for impactful government careers.",
+          "companies": [
+            "UPSC",
+            "State PWD",
+            "Railways",
+            "CPWD",
+            "NHAI"
+          ],
+          "skills": [
+            "General Studies",
+            "Technical Knowledge",
+            "Communication",
+            "Leadership",
+            "Ethics"
+          ]
+        },
+        {
+          "title": "Transportation Engineer",
+          "description": "Design road networks, highway systems, and public transit infrastructure.",
+          "companies": [
+            "NHAI",
+            "DMRC",
+            "L&T",
+            "IRB Infrastructure",
+            "RITES"
+          ],
+          "skills": [
+            "Traffic Engineering",
+            "Highway Design",
+            "GIS",
+            "AutoCAD",
+            "Transportation Planning"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 11, "median": 9, "highest": 42 },
-        { "year": 2023, "avg": 12, "median": 10, "highest": 48 },
-        { "year": 2024, "avg": 13, "median": 11, "highest": 52 }
+        {
+          "year": 2022,
+          "avg": 11,
+          "median": 9,
+          "highest": 42
+        },
+        {
+          "year": 2023,
+          "avg": 12,
+          "median": 10,
+          "highest": 48
+        },
+        {
+          "year": 2024,
+          "avg": 13,
+          "median": 11,
+          "highest": 52
+        }
       ],
-      "difficulty": { "mathematical": 3, "programming": 1, "workload": 3 },
+      "difficulty": {
+        "mathematical": 3,
+        "programming": 1,
+        "workload": 3
+      },
       "industryDemand": [
-        { "year": 2019, "score": 55 },
-        { "year": 2020, "score": 48 },
-        { "year": 2021, "score": 52 },
-        { "year": 2022, "score": 58 },
-        { "year": 2023, "score": 62 },
-        { "year": 2024, "score": 65 }
+        {
+          "year": 2019,
+          "score": 55
+        },
+        {
+          "year": 2020,
+          "score": 48
+        },
+        {
+          "year": 2021,
+          "score": 52
+        },
+        {
+          "year": 2022,
+          "score": 58
+        },
+        {
+          "year": 2023,
+          "score": 62
+        },
+        {
+          "year": 2024,
+          "score": 65
+        }
       ],
-      "topRecruiters": ["L&T", "Shapoorji Pallonji", "DLF", "NHAI", "Tata Projects", "Godrej Properties", "CPWD", "Smart City Mission", "Arup", "AECOM"],
-      "skills": ["Structural Analysis", "AutoCAD", "STAAD Pro", "Surveying", "Concrete Design", "Geotechnical Engineering", "Project Management", "GIS", "Environmental Impact", "BIM"],
+      "topRecruiters": [
+        "L&T",
+        "Shapoorji Pallonji",
+        "DLF",
+        "NHAI",
+        "Tata Projects",
+        "Godrej Properties",
+        "CPWD",
+        "Smart City Mission",
+        "Arup",
+        "AECOM"
+      ],
+      "skills": [
+        "Structural Analysis",
+        "AutoCAD",
+        "STAAD Pro",
+        "Surveying",
+        "Concrete Design",
+        "Geotechnical Engineering",
+        "Project Management",
+        "GIS",
+        "Environmental Impact",
+        "BIM"
+      ],
       "quiz": [
-        { "question": "Are you interested in how bridges, buildings, and dams are built?", "weight": 3 },
-        { "question": "Do you care about sustainable city planning and infrastructure?", "weight": 3 },
-        { "question": "Are you comfortable with fieldwork and site visits?", "weight": 2 },
-        { "question": "Do you like physics, especially mechanics and structures?", "weight": 2 },
-        { "question": "Are you drawn to government or public service careers?", "weight": 2 }
+        {
+          "question": "Are you interested in how bridges, buildings, and dams are built?",
+          "weight": 3
+        },
+        {
+          "question": "Do you care about sustainable city planning and infrastructure?",
+          "weight": 3
+        },
+        {
+          "question": "Are you comfortable with fieldwork and site visits?",
+          "weight": 2
+        },
+        {
+          "question": "Do you like physics, especially mechanics and structures?",
+          "weight": 2
+        },
+        {
+          "question": "Are you drawn to government or public service careers?",
+          "weight": 2
+        }
       ]
     },
     {
@@ -237,45 +1346,298 @@
       "color": "#14b8a6",
       "overview": "Chemical Engineering combines chemistry, physics, mathematics, and biology to design and optimize processes for producing chemicals, fuels, pharmaceuticals, food, and materials at industrial scale. It is critical to industries like petrochemicals, pharmaceuticals, FMCG, and emerging fields like biotechnology and sustainable energy. Chemical engineers are among the most versatile engineers.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Engineering Chemistry", "Introduction to Programming", "Engineering Drawing", "Workshop Practice"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Organic Chemistry", "Material & Energy Balance", "Fluid Mechanics", "Basic Electrical Engineering", "Environmental Science"] },
-        { "semester": 3, "subjects": ["Chemical Engineering Thermodynamics", "Heat Transfer", "Particle Technology", "Physical Chemistry", "Numerical Methods", "Heat Transfer Lab"] },
-        { "semester": 4, "subjects": ["Mass Transfer", "Chemical Reaction Engineering", "Process Dynamics & Control", "Separation Processes", "Biochemistry", "Mass Transfer Lab"] },
-        { "semester": 5, "subjects": ["Process Equipment Design", "Transport Phenomena", "Polymer Technology", "Elective I", "Process Simulation", "Minor Project"] },
-        { "semester": 6, "subjects": ["Plant Design & Economics", "Environmental Engineering", "Petrochemical Technology", "Elective II", "Elective III", "Process Lab"] },
-        { "semester": 7, "subjects": ["Bioprocess Engineering", "Elective IV", "Elective V", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective VI", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Engineering Chemistry",
+            "Introduction to Programming",
+            "Engineering Drawing",
+            "Workshop Practice"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Organic Chemistry",
+            "Material & Energy Balance",
+            "Fluid Mechanics",
+            "Basic Electrical Engineering",
+            "Environmental Science"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Chemical Engineering Thermodynamics",
+            "Heat Transfer",
+            "Particle Technology",
+            "Physical Chemistry",
+            "Numerical Methods",
+            "Heat Transfer Lab"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Mass Transfer",
+            "Chemical Reaction Engineering",
+            "Process Dynamics & Control",
+            "Separation Processes",
+            "Biochemistry",
+            "Mass Transfer Lab"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Process Equipment Design",
+            "Transport Phenomena",
+            "Polymer Technology",
+            "Elective I",
+            "Process Simulation",
+            "Minor Project"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Plant Design & Economics",
+            "Environmental Engineering",
+            "Petrochemical Technology",
+            "Elective II",
+            "Elective III",
+            "Process Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Bioprocess Engineering",
+            "Elective IV",
+            "Elective V",
+            "Major Project Phase I",
+            "Industrial Training"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective VI",
+            "Seminar",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Process Engineer", "description": "Design and optimize chemical manufacturing processes for efficiency, safety, and cost-effectiveness.", "companies": ["Reliance Industries", "IOCL", "BPCL", "BASF", "Dow Chemical"], "skills": ["Process Simulation", "ASPEN", "Chemical Kinetics", "Process Safety", "Thermodynamics"] },
-        { "title": "Pharmaceutical Engineer", "description": "Develop and scale-up drug manufacturing processes in pharmaceutical companies.", "companies": ["Dr Reddy's", "Cipla", "Sun Pharma", "Pfizer", "Novartis"], "skills": ["Drug Formulation", "GMP", "Bioprocess", "Quality Control", "Regulatory Affairs"] },
-        { "title": "Data Analyst / Consultant", "description": "Many chemical engineers use their analytical skills to transition into consulting or analytics roles.", "companies": ["McKinsey", "BCG", "Deloitte", "EY", "Accenture"], "skills": ["Analytics", "Problem Solving", "Excel", "SQL", "Business Strategy"] },
-        { "title": "Environmental Engineer", "description": "Design systems for pollution control, waste treatment, and sustainable industrial processes.", "companies": ["Veolia", "Suez", "CPCB", "Tata Power", "Adani Green"], "skills": ["Waste Treatment", "Environmental Regulations", "Sustainability", "Process Design", "Chemistry"] },
-        { "title": "Materials Scientist", "description": "Research and develop new materials for applications in energy, electronics, and manufacturing.", "companies": ["Tata Steel", "DRDO", "ISRO", "3M", "Corning"], "skills": ["Material Science", "Characterization", "Research", "Nanotechnology", "Polymer Science"] },
-        { "title": "Petroleum Engineer", "description": "Work on extraction, refining, and processing of crude oil and natural gas.", "companies": ["ONGC", "Reliance", "Shell", "IOCL", "Schlumberger"], "skills": ["Reservoir Engineering", "Drilling", "Refining", "Process Simulation", "Geology"] }
+        {
+          "title": "Process Engineer",
+          "description": "Design and optimize chemical manufacturing processes for efficiency, safety, and cost-effectiveness.",
+          "companies": [
+            "Reliance Industries",
+            "IOCL",
+            "BPCL",
+            "BASF",
+            "Dow Chemical"
+          ],
+          "skills": [
+            "Process Simulation",
+            "ASPEN",
+            "Chemical Kinetics",
+            "Process Safety",
+            "Thermodynamics"
+          ]
+        },
+        {
+          "title": "Pharmaceutical Engineer",
+          "description": "Develop and scale-up drug manufacturing processes in pharmaceutical companies.",
+          "companies": [
+            "Dr Reddy's",
+            "Cipla",
+            "Sun Pharma",
+            "Pfizer",
+            "Novartis"
+          ],
+          "skills": [
+            "Drug Formulation",
+            "GMP",
+            "Bioprocess",
+            "Quality Control",
+            "Regulatory Affairs"
+          ]
+        },
+        {
+          "title": "Data Analyst / Consultant",
+          "description": "Many chemical engineers use their analytical skills to transition into consulting or analytics roles.",
+          "companies": [
+            "McKinsey",
+            "BCG",
+            "Deloitte",
+            "EY",
+            "Accenture"
+          ],
+          "skills": [
+            "Analytics",
+            "Problem Solving",
+            "Excel",
+            "SQL",
+            "Business Strategy"
+          ]
+        },
+        {
+          "title": "Environmental Engineer",
+          "description": "Design systems for pollution control, waste treatment, and sustainable industrial processes.",
+          "companies": [
+            "Veolia",
+            "Suez",
+            "CPCB",
+            "Tata Power",
+            "Adani Green"
+          ],
+          "skills": [
+            "Waste Treatment",
+            "Environmental Regulations",
+            "Sustainability",
+            "Process Design",
+            "Chemistry"
+          ]
+        },
+        {
+          "title": "Materials Scientist",
+          "description": "Research and develop new materials for applications in energy, electronics, and manufacturing.",
+          "companies": [
+            "Tata Steel",
+            "DRDO",
+            "ISRO",
+            "3M",
+            "Corning"
+          ],
+          "skills": [
+            "Material Science",
+            "Characterization",
+            "Research",
+            "Nanotechnology",
+            "Polymer Science"
+          ]
+        },
+        {
+          "title": "Petroleum Engineer",
+          "description": "Work on extraction, refining, and processing of crude oil and natural gas.",
+          "companies": [
+            "ONGC",
+            "Reliance",
+            "Shell",
+            "IOCL",
+            "Schlumberger"
+          ],
+          "skills": [
+            "Reservoir Engineering",
+            "Drilling",
+            "Refining",
+            "Process Simulation",
+            "Geology"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 13, "median": 10, "highest": 55 },
-        { "year": 2023, "avg": 14, "median": 11, "highest": 60 },
-        { "year": 2024, "avg": 16, "median": 13, "highest": 68 }
+        {
+          "year": 2022,
+          "avg": 13,
+          "median": 10,
+          "highest": 55
+        },
+        {
+          "year": 2023,
+          "avg": 14,
+          "median": 11,
+          "highest": 60
+        },
+        {
+          "year": 2024,
+          "avg": 16,
+          "median": 13,
+          "highest": 68
+        }
       ],
-      "difficulty": { "mathematical": 3, "programming": 2, "workload": 4 },
+      "difficulty": {
+        "mathematical": 3,
+        "programming": 2,
+        "workload": 4
+      },
       "industryDemand": [
-        { "year": 2019, "score": 58 },
-        { "year": 2020, "score": 55 },
-        { "year": 2021, "score": 60 },
-        { "year": 2022, "score": 65 },
-        { "year": 2023, "score": 70 },
-        { "year": 2024, "score": 72 }
+        {
+          "year": 2019,
+          "score": 58
+        },
+        {
+          "year": 2020,
+          "score": 55
+        },
+        {
+          "year": 2021,
+          "score": 60
+        },
+        {
+          "year": 2022,
+          "score": 65
+        },
+        {
+          "year": 2023,
+          "score": 70
+        },
+        {
+          "year": 2024,
+          "score": 72
+        }
       ],
-      "topRecruiters": ["Reliance Industries", "IOCL", "BPCL", "HPCL", "BASF", "Dow Chemical", "Shell", "Dr Reddy's", "Cipla", "McKinsey"],
-      "skills": ["Process Design", "Thermodynamics", "Mass Transfer", "ASPEN/HYSYS", "Chemical Kinetics", "Process Safety", "Polymer Science", "Environmental Engineering", "Quality Control", "Plant Design"],
+      "topRecruiters": [
+        "Reliance Industries",
+        "IOCL",
+        "BPCL",
+        "HPCL",
+        "BASF",
+        "Dow Chemical",
+        "Shell",
+        "Dr Reddy's",
+        "Cipla",
+        "McKinsey"
+      ],
+      "skills": [
+        "Process Design",
+        "Thermodynamics",
+        "Mass Transfer",
+        "ASPEN/HYSYS",
+        "Chemical Kinetics",
+        "Process Safety",
+        "Polymer Science",
+        "Environmental Engineering",
+        "Quality Control",
+        "Plant Design"
+      ],
       "quiz": [
-        { "question": "Do you enjoy chemistry and chemical reactions?", "weight": 3 },
-        { "question": "Are you interested in how factories and industrial plants work?", "weight": 3 },
-        { "question": "Do you care about environmental sustainability and clean energy?", "weight": 2 },
-        { "question": "Are you interested in pharmaceuticals and drug development?", "weight": 2 },
-        { "question": "Do you like optimizing processes and making things more efficient?", "weight": 2 }
+        {
+          "question": "Do you enjoy chemistry and chemical reactions?",
+          "weight": 3
+        },
+        {
+          "question": "Are you interested in how factories and industrial plants work?",
+          "weight": 3
+        },
+        {
+          "question": "Do you care about environmental sustainability and clean energy?",
+          "weight": 2
+        },
+        {
+          "question": "Are you interested in pharmaceuticals and drug development?",
+          "weight": 2
+        },
+        {
+          "question": "Do you like optimizing processes and making things more efficient?",
+          "weight": 2
+        }
       ]
     },
     {
@@ -286,45 +1648,298 @@
       "color": "#3b82f6",
       "overview": "Aerospace Engineering deals with the design, development, and testing of aircraft, spacecraft, satellites, and missiles. It combines aerodynamics, propulsion, structures, and control systems. This branch is ideal for those fascinated by flight, space exploration, and defense technology. With India's growing space and defense sectors (ISRO, HAL, DRDO), aerospace offers exciting career opportunities.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Engineering Mechanics", "Introduction to Programming", "Engineering Drawing", "Workshop Practice"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Thermodynamics", "Material Science", "Fluid Mechanics", "Environmental Science"] },
-        { "semester": 3, "subjects": ["Aerodynamics I", "Flight Mechanics", "Aircraft Structures I", "Numerical Methods", "Propulsion I", "Aero Lab I"] },
-        { "semester": 4, "subjects": ["Aerodynamics II", "Aircraft Structures II", "Propulsion II", "Control Systems", "Spacecraft Dynamics", "Wind Tunnel Lab"] },
-        { "semester": 5, "subjects": ["Aircraft Design", "Computational Fluid Dynamics", "Avionics", "Composite Materials", "Elective I", "Minor Project"] },
-        { "semester": 6, "subjects": ["Spacecraft Design", "Helicopter Aerodynamics", "Finite Element Methods", "Elective II", "Elective III", "Simulation Lab"] },
-        { "semester": 7, "subjects": ["UAV Design", "Elective IV", "Elective V", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective VI", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Engineering Mechanics",
+            "Introduction to Programming",
+            "Engineering Drawing",
+            "Workshop Practice"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Engineering Chemistry",
+            "Thermodynamics",
+            "Material Science",
+            "Fluid Mechanics",
+            "Environmental Science"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Aerodynamics I",
+            "Flight Mechanics",
+            "Aircraft Structures I",
+            "Numerical Methods",
+            "Propulsion I",
+            "Aero Lab I"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Aerodynamics II",
+            "Aircraft Structures II",
+            "Propulsion II",
+            "Control Systems",
+            "Spacecraft Dynamics",
+            "Wind Tunnel Lab"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Aircraft Design",
+            "Computational Fluid Dynamics",
+            "Avionics",
+            "Composite Materials",
+            "Elective I",
+            "Minor Project"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Spacecraft Design",
+            "Helicopter Aerodynamics",
+            "Finite Element Methods",
+            "Elective II",
+            "Elective III",
+            "Simulation Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "UAV Design",
+            "Elective IV",
+            "Elective V",
+            "Major Project Phase I",
+            "Industrial Training"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective VI",
+            "Seminar",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Aerospace Design Engineer", "description": "Design aircraft, spacecraft, and satellite systems using advanced simulation and CAD tools.", "companies": ["ISRO", "HAL", "Boeing", "Airbus", "DRDO"], "skills": ["Aerodynamics", "CAD (CATIA)", "CFD", "FEA", "Aircraft Design"] },
-        { "title": "Propulsion Engineer", "description": "Design and develop rocket engines, jet engines, and propulsion systems for aircraft and spacecraft.", "companies": ["ISRO", "GE Aviation", "Rolls Royce", "Safran", "SpaceX"], "skills": ["Thermodynamics", "Combustion", "Fluid Mechanics", "MATLAB", "Testing"] },
-        { "title": "Satellite Systems Engineer", "description": "Design and operate satellite systems for communication, navigation, and remote sensing.", "companies": ["ISRO", "OneWeb", "Planet Labs", "Airbus Space", "Lockheed Martin"], "skills": ["Orbital Mechanics", "Spacecraft Systems", "Electronics", "Signal Processing", "Testing"] },
-        { "title": "Defense Scientist", "description": "Work on missile systems, fighter aircraft, and defense technology for national security.", "companies": ["DRDO", "HAL", "BrahMos", "BEL", "DRDL"], "skills": ["Guided Missiles", "Radar Systems", "Control Systems", "Aerodynamics", "Security Clearance"] },
-        { "title": "UAV/Drone Engineer", "description": "Design and develop unmanned aerial vehicles for commercial, agricultural, and defense applications.", "companies": ["ideaForge", "Garuda Aerospace", "Joby Aviation", "Archer", "EHang"], "skills": ["Drone Design", "Control Systems", "Electronics", "Programming", "Regulations"] },
-        { "title": "Research Scientist", "description": "Pursue advanced research in aerodynamics, propulsion, space science, or materials at universities and labs.", "companies": ["ISRO", "NASA", "DLR", "JAXA", "IISc"], "skills": ["Research Methods", "CFD", "Mathematics", "Python/MATLAB", "Publication"] }
+        {
+          "title": "Aerospace Design Engineer",
+          "description": "Design aircraft, spacecraft, and satellite systems using advanced simulation and CAD tools.",
+          "companies": [
+            "ISRO",
+            "HAL",
+            "Boeing",
+            "Airbus",
+            "DRDO"
+          ],
+          "skills": [
+            "Aerodynamics",
+            "CAD (CATIA)",
+            "CFD",
+            "FEA",
+            "Aircraft Design"
+          ]
+        },
+        {
+          "title": "Propulsion Engineer",
+          "description": "Design and develop rocket engines, jet engines, and propulsion systems for aircraft and spacecraft.",
+          "companies": [
+            "ISRO",
+            "GE Aviation",
+            "Rolls Royce",
+            "Safran",
+            "SpaceX"
+          ],
+          "skills": [
+            "Thermodynamics",
+            "Combustion",
+            "Fluid Mechanics",
+            "MATLAB",
+            "Testing"
+          ]
+        },
+        {
+          "title": "Satellite Systems Engineer",
+          "description": "Design and operate satellite systems for communication, navigation, and remote sensing.",
+          "companies": [
+            "ISRO",
+            "OneWeb",
+            "Planet Labs",
+            "Airbus Space",
+            "Lockheed Martin"
+          ],
+          "skills": [
+            "Orbital Mechanics",
+            "Spacecraft Systems",
+            "Electronics",
+            "Signal Processing",
+            "Testing"
+          ]
+        },
+        {
+          "title": "Defense Scientist",
+          "description": "Work on missile systems, fighter aircraft, and defense technology for national security.",
+          "companies": [
+            "DRDO",
+            "HAL",
+            "BrahMos",
+            "BEL",
+            "DRDL"
+          ],
+          "skills": [
+            "Guided Missiles",
+            "Radar Systems",
+            "Control Systems",
+            "Aerodynamics",
+            "Security Clearance"
+          ]
+        },
+        {
+          "title": "UAV/Drone Engineer",
+          "description": "Design and develop unmanned aerial vehicles for commercial, agricultural, and defense applications.",
+          "companies": [
+            "ideaForge",
+            "Garuda Aerospace",
+            "Joby Aviation",
+            "Archer",
+            "EHang"
+          ],
+          "skills": [
+            "Drone Design",
+            "Control Systems",
+            "Electronics",
+            "Programming",
+            "Regulations"
+          ]
+        },
+        {
+          "title": "Research Scientist",
+          "description": "Pursue advanced research in aerodynamics, propulsion, space science, or materials at universities and labs.",
+          "companies": [
+            "ISRO",
+            "NASA",
+            "DLR",
+            "JAXA",
+            "IISc"
+          ],
+          "skills": [
+            "Research Methods",
+            "CFD",
+            "Mathematics",
+            "Python/MATLAB",
+            "Publication"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 14, "median": 11, "highest": 50 },
-        { "year": 2023, "avg": 16, "median": 13, "highest": 58 },
-        { "year": 2024, "avg": 18, "median": 15, "highest": 65 }
+        {
+          "year": 2022,
+          "avg": 14,
+          "median": 11,
+          "highest": 50
+        },
+        {
+          "year": 2023,
+          "avg": 16,
+          "median": 13,
+          "highest": 58
+        },
+        {
+          "year": 2024,
+          "avg": 18,
+          "median": 15,
+          "highest": 65
+        }
       ],
-      "difficulty": { "mathematical": 5, "programming": 3, "workload": 5 },
+      "difficulty": {
+        "mathematical": 5,
+        "programming": 3,
+        "workload": 5
+      },
       "industryDemand": [
-        { "year": 2019, "score": 55 },
-        { "year": 2020, "score": 52 },
-        { "year": 2021, "score": 58 },
-        { "year": 2022, "score": 65 },
-        { "year": 2023, "score": 72 },
-        { "year": 2024, "score": 78 }
+        {
+          "year": 2019,
+          "score": 55
+        },
+        {
+          "year": 2020,
+          "score": 52
+        },
+        {
+          "year": 2021,
+          "score": 58
+        },
+        {
+          "year": 2022,
+          "score": 65
+        },
+        {
+          "year": 2023,
+          "score": 72
+        },
+        {
+          "year": 2024,
+          "score": 78
+        }
       ],
-      "topRecruiters": ["ISRO", "HAL", "DRDO", "Boeing", "Airbus", "GE Aviation", "Rolls Royce", "Lockheed Martin", "BrahMos", "ideaForge"],
-      "skills": ["Aerodynamics", "Propulsion", "Structural Analysis", "CFD", "MATLAB", "CAD (CATIA)", "Flight Mechanics", "Control Systems", "Composites", "Orbital Mechanics"],
+      "topRecruiters": [
+        "ISRO",
+        "HAL",
+        "DRDO",
+        "Boeing",
+        "Airbus",
+        "GE Aviation",
+        "Rolls Royce",
+        "Lockheed Martin",
+        "BrahMos",
+        "ideaForge"
+      ],
+      "skills": [
+        "Aerodynamics",
+        "Propulsion",
+        "Structural Analysis",
+        "CFD",
+        "MATLAB",
+        "CAD (CATIA)",
+        "Flight Mechanics",
+        "Control Systems",
+        "Composites",
+        "Orbital Mechanics"
+      ],
       "quiz": [
-        { "question": "Are you fascinated by aircraft, rockets, and space exploration?", "weight": 3 },
-        { "question": "Do you enjoy physics, especially mechanics and fluid dynamics?", "weight": 3 },
-        { "question": "Are you interested in defense technology and national security?", "weight": 2 },
-        { "question": "Can you handle highly rigorous academic coursework?", "weight": 2 },
-        { "question": "Do you dream of designing satellites or space missions?", "weight": 2 }
+        {
+          "question": "Are you fascinated by aircraft, rockets, and space exploration?",
+          "weight": 3
+        },
+        {
+          "question": "Do you enjoy physics, especially mechanics and fluid dynamics?",
+          "weight": 3
+        },
+        {
+          "question": "Are you interested in defense technology and national security?",
+          "weight": 2
+        },
+        {
+          "question": "Can you handle highly rigorous academic coursework?",
+          "weight": 2
+        },
+        {
+          "question": "Do you dream of designing satellites or space missions?",
+          "weight": 2
+        }
       ]
     },
     {
@@ -335,45 +1950,298 @@
       "color": "#ec4899",
       "overview": "Engineering Physics bridges the gap between theoretical physics and practical engineering applications. Students study quantum mechanics, semiconductor physics, optics, nanotechnology, and computational physics. This branch produces highly analytical graduates who excel in research, semiconductors, data science, and cutting-edge technology development. It is offered at a limited number of IITs and attracts students who love deep scientific exploration.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Classical Mechanics", "Introduction to Programming", "Engineering Drawing", "Chemistry", "English Communication"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Electrodynamics", "Quantum Physics I", "Data Structures", "Optics", "Environmental Science"] },
-        { "semester": 3, "subjects": ["Quantum Physics II", "Statistical Mechanics", "Solid State Physics", "Analog Electronics", "Numerical Methods", "Physics Lab I"] },
-        { "semester": 4, "subjects": ["Semiconductor Physics", "Nuclear Physics", "Laser Physics", "Digital Electronics", "Mathematical Physics", "Physics Lab II"] },
-        { "semester": 5, "subjects": ["Nanotechnology", "Computational Physics", "Photonics", "Materials Science", "Elective I", "Minor Project"] },
-        { "semester": 6, "subjects": ["Quantum Computing", "Plasma Physics", "Advanced Optics", "Elective II", "Elective III", "Computational Lab"] },
-        { "semester": 7, "subjects": ["Advanced Topics in Physics", "Elective IV", "Elective V", "Major Project Phase I", "Research Internship"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective VI", "Thesis Defense", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Classical Mechanics",
+            "Introduction to Programming",
+            "Engineering Drawing",
+            "Chemistry",
+            "English Communication"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Electrodynamics",
+            "Quantum Physics I",
+            "Data Structures",
+            "Optics",
+            "Environmental Science"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Quantum Physics II",
+            "Statistical Mechanics",
+            "Solid State Physics",
+            "Analog Electronics",
+            "Numerical Methods",
+            "Physics Lab I"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Semiconductor Physics",
+            "Nuclear Physics",
+            "Laser Physics",
+            "Digital Electronics",
+            "Mathematical Physics",
+            "Physics Lab II"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Nanotechnology",
+            "Computational Physics",
+            "Photonics",
+            "Materials Science",
+            "Elective I",
+            "Minor Project"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Quantum Computing",
+            "Plasma Physics",
+            "Advanced Optics",
+            "Elective II",
+            "Elective III",
+            "Computational Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Advanced Topics in Physics",
+            "Elective IV",
+            "Elective V",
+            "Major Project Phase I",
+            "Research Internship"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective VI",
+            "Thesis Defense",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Research Scientist", "description": "Conduct fundamental research in physics, materials science, quantum computing, or nanotechnology at top institutions.", "companies": ["CERN", "IISc", "TIFR", "MIT", "Max Planck Institute"], "skills": ["Research Methodology", "Mathematics", "Python/MATLAB", "Experimental Design", "Publication"] },
-        { "title": "Semiconductor Engineer", "description": "Work on semiconductor device design, fabrication, and testing for the chip industry.", "companies": ["Intel", "TSMC", "Samsung", "Applied Materials", "ASML"], "skills": ["Semiconductor Physics", "Cleanroom Processing", "Device Physics", "Characterization", "TCAD"] },
-        { "title": "Data Scientist", "description": "Apply strong mathematical and computational skills to data science and machine learning problems.", "companies": ["Google", "Amazon", "Goldman Sachs", "Microsoft", "Flipkart"], "skills": ["Python", "Machine Learning", "Statistics", "Linear Algebra", "Data Visualization"] },
-        { "title": "Quantitative Analyst", "description": "Use advanced physics and mathematics skills for quantitative finance and algorithmic trading.", "companies": ["DE Shaw", "Tower Research", "Citadel", "Goldman Sachs", "Morgan Stanley"], "skills": ["Mathematics", "C++/Python", "Stochastic Calculus", "Financial Modeling", "Statistics"] },
-        { "title": "Photonics Engineer", "description": "Design optical systems, lasers, and fiber-optic communication systems.", "companies": ["Corning", "Hamamatsu", "Thorlabs", "IPG Photonics", "II-VI"], "skills": ["Optics", "Laser Physics", "Fiber Optics", "Optical Design", "Instrumentation"] },
-        { "title": "Quantum Computing Researcher", "description": "Work on the cutting edge of quantum computing hardware and algorithms.", "companies": ["IBM", "Google Quantum", "Microsoft", "IonQ", "Rigetti"], "skills": ["Quantum Mechanics", "Linear Algebra", "Python (Qiskit)", "Quantum Algorithms", "Cryogenics"] }
+        {
+          "title": "Research Scientist",
+          "description": "Conduct fundamental research in physics, materials science, quantum computing, or nanotechnology at top institutions.",
+          "companies": [
+            "CERN",
+            "IISc",
+            "TIFR",
+            "MIT",
+            "Max Planck Institute"
+          ],
+          "skills": [
+            "Research Methodology",
+            "Mathematics",
+            "Python/MATLAB",
+            "Experimental Design",
+            "Publication"
+          ]
+        },
+        {
+          "title": "Semiconductor Engineer",
+          "description": "Work on semiconductor device design, fabrication, and testing for the chip industry.",
+          "companies": [
+            "Intel",
+            "TSMC",
+            "Samsung",
+            "Applied Materials",
+            "ASML"
+          ],
+          "skills": [
+            "Semiconductor Physics",
+            "Cleanroom Processing",
+            "Device Physics",
+            "Characterization",
+            "TCAD"
+          ]
+        },
+        {
+          "title": "Data Scientist",
+          "description": "Apply strong mathematical and computational skills to data science and machine learning problems.",
+          "companies": [
+            "Google",
+            "Amazon",
+            "Goldman Sachs",
+            "Microsoft",
+            "Flipkart"
+          ],
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "Statistics",
+            "Linear Algebra",
+            "Data Visualization"
+          ]
+        },
+        {
+          "title": "Quantitative Analyst",
+          "description": "Use advanced physics and mathematics skills for quantitative finance and algorithmic trading.",
+          "companies": [
+            "DE Shaw",
+            "Tower Research",
+            "Citadel",
+            "Goldman Sachs",
+            "Morgan Stanley"
+          ],
+          "skills": [
+            "Mathematics",
+            "C++/Python",
+            "Stochastic Calculus",
+            "Financial Modeling",
+            "Statistics"
+          ]
+        },
+        {
+          "title": "Photonics Engineer",
+          "description": "Design optical systems, lasers, and fiber-optic communication systems.",
+          "companies": [
+            "Corning",
+            "Hamamatsu",
+            "Thorlabs",
+            "IPG Photonics",
+            "II-VI"
+          ],
+          "skills": [
+            "Optics",
+            "Laser Physics",
+            "Fiber Optics",
+            "Optical Design",
+            "Instrumentation"
+          ]
+        },
+        {
+          "title": "Quantum Computing Researcher",
+          "description": "Work on the cutting edge of quantum computing hardware and algorithms.",
+          "companies": [
+            "IBM",
+            "Google Quantum",
+            "Microsoft",
+            "IonQ",
+            "Rigetti"
+          ],
+          "skills": [
+            "Quantum Mechanics",
+            "Linear Algebra",
+            "Python (Qiskit)",
+            "Quantum Algorithms",
+            "Cryogenics"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 18, "median": 14, "highest": 80 },
-        { "year": 2023, "avg": 20, "median": 16, "highest": 95 },
-        { "year": 2024, "avg": 22, "median": 18, "highest": 110 }
+        {
+          "year": 2022,
+          "avg": 18,
+          "median": 14,
+          "highest": 80
+        },
+        {
+          "year": 2023,
+          "avg": 20,
+          "median": 16,
+          "highest": 95
+        },
+        {
+          "year": 2024,
+          "avg": 22,
+          "median": 18,
+          "highest": 110
+        }
       ],
-      "difficulty": { "mathematical": 5, "programming": 4, "workload": 5 },
+      "difficulty": {
+        "mathematical": 5,
+        "programming": 4,
+        "workload": 5
+      },
       "industryDemand": [
-        { "year": 2019, "score": 60 },
-        { "year": 2020, "score": 62 },
-        { "year": 2021, "score": 68 },
-        { "year": 2022, "score": 75 },
-        { "year": 2023, "score": 80 },
-        { "year": 2024, "score": 85 }
+        {
+          "year": 2019,
+          "score": 60
+        },
+        {
+          "year": 2020,
+          "score": 62
+        },
+        {
+          "year": 2021,
+          "score": 68
+        },
+        {
+          "year": 2022,
+          "score": 75
+        },
+        {
+          "year": 2023,
+          "score": 80
+        },
+        {
+          "year": 2024,
+          "score": 85
+        }
       ],
-      "topRecruiters": ["Google", "Intel", "Goldman Sachs", "DE Shaw", "Microsoft", "IBM", "Samsung", "Applied Materials", "Tower Research", "CERN"],
-      "skills": ["Quantum Mechanics", "Semiconductor Physics", "Computational Physics", "Mathematics", "Python/MATLAB", "Optics", "Nanotechnology", "Data Analysis", "Research Methods", "Machine Learning"],
+      "topRecruiters": [
+        "Google",
+        "Intel",
+        "Goldman Sachs",
+        "DE Shaw",
+        "Microsoft",
+        "IBM",
+        "Samsung",
+        "Applied Materials",
+        "Tower Research",
+        "CERN"
+      ],
+      "skills": [
+        "Quantum Mechanics",
+        "Semiconductor Physics",
+        "Computational Physics",
+        "Mathematics",
+        "Python/MATLAB",
+        "Optics",
+        "Nanotechnology",
+        "Data Analysis",
+        "Research Methods",
+        "Machine Learning"
+      ],
       "quiz": [
-        { "question": "Do you love physics and want to explore it deeply?", "weight": 3 },
-        { "question": "Are you comfortable with very advanced mathematics?", "weight": 3 },
-        { "question": "Are you interested in quantum computing or nanotechnology?", "weight": 2 },
-        { "question": "Do you enjoy doing experiments and scientific research?", "weight": 2 },
-        { "question": "Are you open to pursuing higher studies (MS/PhD)?", "weight": 2 }
+        {
+          "question": "Do you love physics and want to explore it deeply?",
+          "weight": 3
+        },
+        {
+          "question": "Are you comfortable with very advanced mathematics?",
+          "weight": 3
+        },
+        {
+          "question": "Are you interested in quantum computing or nanotechnology?",
+          "weight": 2
+        },
+        {
+          "question": "Do you enjoy doing experiments and scientific research?",
+          "weight": 2
+        },
+        {
+          "question": "Are you open to pursuing higher studies (MS/PhD)?",
+          "weight": 2
+        }
       ]
     },
     {
@@ -384,42 +2252,243 @@
       "color": "#8b5cf6",
       "overview": "Mathematics and Computing is an elite interdisciplinary program that combines advanced mathematical theory with computer science and financial engineering. It is one of the most prestigious branches in IITs, preparing students for high-end roles in algorithmic trading, data science, software engineering, and scientific computing. Modern MnC students are highly recruited by fintech giants and tech leaders due to their strong analytical and coding foundations.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Introduction to Programming", "Engineering Drawing", "English Communication", "Workshop Practice"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Numerical Analysis", "Data Structures", "Logic in Computer Science", "Basic Electronics", "Environmental Science"] },
-        { "semester": 3, "subjects": ["Discrete Mathematics", "Real Analysis", "Object Oriented Programming", "Linear Algebra", "Probability & Statistics", "Data Structures Lab"] },
-        { "semester": 4, "subjects": ["Design & Analysis of Algorithms", "Modern Algebra", "Operating Systems", "Optimization Techniques", "Database Management Systems", "Algorithm Lab"] },
-        { "semester": 5, "subjects": ["Machine Learning", "Complex Analysis", "Cryptography", "Theory of Computation", "Stochastic Processes", "Minor Project"] },
-        { "semester": 6, "subjects": ["Financial Engineering", "Artificial Intelligence", "Parallel Computing", "Scientific Computing", "Number Theory", "Software Lab"] },
-        { "semester": 7, "subjects": ["Deep Learning", "Big Data Analytics", "Elective I", "Elective II", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective III", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Introduction to Programming",
+            "Engineering Drawing",
+            "English Communication",
+            "Workshop Practice"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Numerical Analysis",
+            "Data Structures",
+            "Logic in Computer Science",
+            "Basic Electronics",
+            "Environmental Science"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Discrete Mathematics",
+            "Real Analysis",
+            "Object Oriented Programming",
+            "Linear Algebra",
+            "Probability & Statistics",
+            "Data Structures Lab"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Design & Analysis of Algorithms",
+            "Modern Algebra",
+            "Operating Systems",
+            "Optimization Techniques",
+            "Database Management Systems",
+            "Algorithm Lab"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Machine Learning",
+            "Complex Analysis",
+            "Cryptography",
+            "Theory of Computation",
+            "Stochastic Processes",
+            "Minor Project"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Financial Engineering",
+            "Artificial Intelligence",
+            "Parallel Computing",
+            "Scientific Computing",
+            "Number Theory",
+            "Software Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Deep Learning",
+            "Big Data Analytics",
+            "Elective I",
+            "Elective II",
+            "Major Project Phase I",
+            "Industrial Training"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective III",
+            "Seminar",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Quantitative Analyst", "description": "Develop and implement complex mathematical models for financial trading and risk management.", "companies": ["Goldman Sachs", "DE Shaw", "Tower Research", "Citadel", "Morgan Stanley"], "skills": ["Stochastic Calculus", "C++", "Python", "Probability", "Statistics"] },
-        { "title": "Data Scientist", "description": "Extract insights from big data using statistical methods and machine learning algorithms.", "companies": ["Google", "Amazon", "Flipkart", "Meta", "American Express"], "skills": ["Machine Learning", "Statistics", "Python", "SQL", "Linear Algebra"] },
-        { "title": "Software Engineer", "description": "Design and build efficient software systems and high-performance algorithms.", "companies": ["Microsoft", "Oracle", "Uber", "Razorpay"], "skills": ["Algorithms", "System Design", "C++/Java", "Coding"] }
+        {
+          "title": "Quantitative Analyst",
+          "description": "Develop and implement complex mathematical models for financial trading and risk management.",
+          "companies": [
+            "Goldman Sachs",
+            "DE Shaw",
+            "Tower Research",
+            "Citadel",
+            "Morgan Stanley"
+          ],
+          "skills": [
+            "Stochastic Calculus",
+            "C++",
+            "Python",
+            "Probability",
+            "Statistics"
+          ]
+        },
+        {
+          "title": "Data Scientist",
+          "description": "Extract insights from big data using statistical methods and machine learning algorithms.",
+          "companies": [
+            "Google",
+            "Amazon",
+            "Flipkart",
+            "Meta",
+            "American Express"
+          ],
+          "skills": [
+            "Machine Learning",
+            "Statistics",
+            "Python",
+            "SQL",
+            "Linear Algebra"
+          ]
+        },
+        {
+          "title": "Software Engineer",
+          "description": "Design and build efficient software systems and high-performance algorithms.",
+          "companies": [
+            "Microsoft",
+            "Oracle",
+            "Uber",
+            "Razorpay"
+          ],
+          "skills": [
+            "Algorithms",
+            "System Design",
+            "C++/Java",
+            "Coding"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 28, "median": 24, "highest": 160 },
-        { "year": 2023, "avg": 31, "median": 26, "highest": 175 },
-        { "year": 2024, "avg": 34, "median": 28, "highest": 190 }
+        {
+          "year": 2022,
+          "avg": 28,
+          "median": 24,
+          "highest": 160
+        },
+        {
+          "year": 2023,
+          "avg": 31,
+          "median": 26,
+          "highest": 175
+        },
+        {
+          "year": 2024,
+          "avg": 34,
+          "median": 28,
+          "highest": 190
+        }
       ],
-      "difficulty": { "mathematical": 5, "programming": 4, "workload": 4 },
+      "difficulty": {
+        "mathematical": 5,
+        "programming": 4,
+        "workload": 4
+      },
       "industryDemand": [
-        { "year": 2019, "score": 80 },
-        { "year": 2020, "score": 82 },
-        { "year": 2021, "score": 88 },
-        { "year": 2022, "score": 92 },
-        { "year": 2023, "score": 95 },
-        { "year": 2024, "score": 97 }
+        {
+          "year": 2019,
+          "score": 80
+        },
+        {
+          "year": 2020,
+          "score": 82
+        },
+        {
+          "year": 2021,
+          "score": 88
+        },
+        {
+          "year": 2022,
+          "score": 92
+        },
+        {
+          "year": 2023,
+          "score": 95
+        },
+        {
+          "year": 2024,
+          "score": 97
+        }
       ],
-      "topRecruiters": ["Goldman Sachs", "Google", "DE Shaw", "Tower Research", "Microsoft", "Amazon", "Oracle", "Citadel", "Morgan Stanley", "Flipkart"],
-      "skills": ["Real Analysis", "Algorithms", "Machine Learning", "Statistics", "Financial Modeling", "Programming", "Optimization", "Linear Algebra", "Number Theory", "Data Structures"],
+      "topRecruiters": [
+        "Goldman Sachs",
+        "Google",
+        "DE Shaw",
+        "Tower Research",
+        "Microsoft",
+        "Amazon",
+        "Oracle",
+        "Citadel",
+        "Morgan Stanley",
+        "Flipkart"
+      ],
+      "skills": [
+        "Real Analysis",
+        "Algorithms",
+        "Machine Learning",
+        "Statistics",
+        "Financial Modeling",
+        "Programming",
+        "Optimization",
+        "Linear Algebra",
+        "Number Theory",
+        "Data Structures"
+      ],
       "quiz": [
-        { "question": "Do you love mathematics as much as you like coding?", "weight": 3 },
-        { "question": "Are you interested in high-frequency trading and finance?", "weight": 2 },
-        { "question": "Do you enjoy abstract logical thinking and proofs?", "weight": 2 },
-        { "question": "Are you comfortable with very rigorous coursework?", "weight": 2 },
-        { "question": "Do you want a career that bridges theory and application?", "weight": 2 }
+        {
+          "question": "Do you love mathematics as much as you like coding?",
+          "weight": 3
+        },
+        {
+          "question": "Are you interested in high-frequency trading and finance?",
+          "weight": 2
+        },
+        {
+          "question": "Do you enjoy abstract logical thinking and proofs?",
+          "weight": 2
+        },
+        {
+          "question": "Are you comfortable with very rigorous coursework?",
+          "weight": 2
+        },
+        {
+          "question": "Do you want a career that bridges theory and application?",
+          "weight": 2
+        }
       ]
     },
     {
@@ -430,42 +2499,246 @@
       "color": "#fbbf24",
       "overview": "Electrical and Electronics Engineering (EEE) is a comprehensive field that covers everything from large-scale power generation to micro-scale electronic circuits. It focuses on the application of electricity, electronics, and electromagnetism. EEE students master the bridge between electrical power and electronic control systems, making them highly versatile for roles in energy, automotive, and hardware tech sectors.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Basic Electrical Engineering", "Engineering Drawing", "Introduction to Programming", "Workshop"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Circuit Theory", "Basic Electronics", "English Communication", "Physics Lab"] },
-        { "semester": 3, "subjects": ["Analog Electronics", "Signals & Systems", "Electromagnetic Theory", "Network Analysis", "Numerical Methods", "Analog Lab"] },
-        { "semester": 4, "subjects": ["Digital Electronics", "Electrical Machines I", "Microprocessors & Microcontrollers", "Control Systems", "Electrical Measurements", "Digital Lab"] },
-        { "semester": 5, "subjects": ["Power Systems I", "Electrical Machines II", "VLSI Design", "Communication Systems", "Power Electronics", "Machine Lab"] },
-        { "semester": 6, "subjects": ["Power Systems II", "Digital Signal Processing", "Embedded Systems", "Elective I", "Control System Design", "Power Lab"] },
-        { "semester": 7, "subjects": ["Switchgear & Protection", "Renewable Energy Systems", "Elective II", "Elective III", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective IV", "Ethics for Engineers", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Basic Electrical Engineering",
+            "Engineering Drawing",
+            "Introduction to Programming",
+            "Workshop"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Engineering Chemistry",
+            "Circuit Theory",
+            "Basic Electronics",
+            "English Communication",
+            "Physics Lab"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Analog Electronics",
+            "Signals & Systems",
+            "Electromagnetic Theory",
+            "Network Analysis",
+            "Numerical Methods",
+            "Analog Lab"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Digital Electronics",
+            "Electrical Machines I",
+            "Microprocessors & Microcontrollers",
+            "Control Systems",
+            "Electrical Measurements",
+            "Digital Lab"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Power Systems I",
+            "Electrical Machines II",
+            "VLSI Design",
+            "Communication Systems",
+            "Power Electronics",
+            "Machine Lab"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Power Systems II",
+            "Digital Signal Processing",
+            "Embedded Systems",
+            "Elective I",
+            "Control System Design",
+            "Power Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Switchgear & Protection",
+            "Renewable Energy Systems",
+            "Elective II",
+            "Elective III",
+            "Major Project Phase I",
+            "Industrial Training"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective IV",
+            "Ethics for Engineers",
+            "Seminar",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Electrical Design Engineer", "description": "Design and develop electrical systems for buildings, infrastructure, and aircraft.", "companies": ["L&T", "Siemens", "ABB", "General Electric", "Boeing"], "skills": ["AutoCAD", "Power Systems", "Circuit Design", "ETAP", "MATLAB"] },
-        { "title": "Electronics Engineer", "description": "Create and optimize electronic circuits and hardware for consumer and industrial tech.", "companies": ["Samsung", "Intel", "Qualcomm", "Texas Instruments", "Apple"], "skills": ["Digital Design", "VLSI", "Embedded C", "Circuit Simulation", "Verilog"] },
-        { "title": "Control Systems Engineer", "description": "Automate industrial processes and robotics using sophisticated control logic.", "companies": ["Honeywell", "Bosch", "Tesla", "Schneider Electric", "ABB"], "skills": ["PLC", "SCADA", "Control Theory", "MATLAB/Simulink", "Robotics"] }
+        {
+          "title": "Electrical Design Engineer",
+          "description": "Design and develop electrical systems for buildings, infrastructure, and aircraft.",
+          "companies": [
+            "L&T",
+            "Siemens",
+            "ABB",
+            "General Electric",
+            "Boeing"
+          ],
+          "skills": [
+            "AutoCAD",
+            "Power Systems",
+            "Circuit Design",
+            "ETAP",
+            "MATLAB"
+          ]
+        },
+        {
+          "title": "Electronics Engineer",
+          "description": "Create and optimize electronic circuits and hardware for consumer and industrial tech.",
+          "companies": [
+            "Samsung",
+            "Intel",
+            "Qualcomm",
+            "Texas Instruments",
+            "Apple"
+          ],
+          "skills": [
+            "Digital Design",
+            "VLSI",
+            "Embedded C",
+            "Circuit Simulation",
+            "Verilog"
+          ]
+        },
+        {
+          "title": "Control Systems Engineer",
+          "description": "Automate industrial processes and robotics using sophisticated control logic.",
+          "companies": [
+            "Honeywell",
+            "Bosch",
+            "Tesla",
+            "Schneider Electric",
+            "ABB"
+          ],
+          "skills": [
+            "PLC",
+            "SCADA",
+            "Control Theory",
+            "MATLAB/Simulink",
+            "Robotics"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 16, "median": 13, "highest": 85 },
-        { "year": 2023, "avg": 18, "median": 15, "highest": 95 },
-        { "year": 2024, "avg": 20, "median": 17, "highest": 110 }
+        {
+          "year": 2022,
+          "avg": 16,
+          "median": 13,
+          "highest": 85
+        },
+        {
+          "year": 2023,
+          "avg": 18,
+          "median": 15,
+          "highest": 95
+        },
+        {
+          "year": 2024,
+          "avg": 20,
+          "median": 17,
+          "highest": 110
+        }
       ],
-      "difficulty": { "mathematical": 4, "programming": 3, "workload": 4 },
+      "difficulty": {
+        "mathematical": 4,
+        "programming": 3,
+        "workload": 4
+      },
       "industryDemand": [
-        { "year": 2019, "score": 70 },
-        { "year": 2020, "score": 72 },
-        { "year": 2021, "score": 75 },
-        { "year": 2022, "score": 78 },
-        { "year": 2023, "score": 82 },
-        { "year": 2024, "score": 85 }
+        {
+          "year": 2019,
+          "score": 70
+        },
+        {
+          "year": 2020,
+          "score": 72
+        },
+        {
+          "year": 2021,
+          "score": 75
+        },
+        {
+          "year": 2022,
+          "score": 78
+        },
+        {
+          "year": 2023,
+          "score": 82
+        },
+        {
+          "year": 2024,
+          "score": 85
+        }
       ],
-      "topRecruiters": ["Siemens", "General Electric", "L&T", "Samsung", "Intel", "Qualcomm", "NTPC", "BHEL", "ABB", "Texas Instruments"],
-      "skills": ["Circuit Theory", "Control Systems", "Power Electronics", "VLSI", "Embedded Systems", "MATLAB", "Signals & Systems", "Electrical Machines", "Digital Electronics", "PLC"],
+      "topRecruiters": [
+        "Siemens",
+        "General Electric",
+        "L&T",
+        "Samsung",
+        "Intel",
+        "Qualcomm",
+        "NTPC",
+        "BHEL",
+        "ABB",
+        "Texas Instruments"
+      ],
+      "skills": [
+        "Circuit Theory",
+        "Control Systems",
+        "Power Electronics",
+        "VLSI",
+        "Embedded Systems",
+        "MATLAB",
+        "Signals & Systems",
+        "Electrical Machines",
+        "Digital Electronics",
+        "PLC"
+      ],
       "quiz": [
-        { "question": "Are you interested in how electricity and machines work together?", "weight": 3 },
-        { "question": "Do you enjoy working with both software and hardware gadgets?", "weight": 3 },
-        { "question": "Are you fascinated by renewable energy and power grids?", "weight": 2 },
-        { "question": "Do you like problem-solving in complex electrical networks?", "weight": 2 },
-        { "question": "Are you interested in robotics and automation?", "weight": 2 }
+        {
+          "question": "Are you interested in how electricity and machines work together?",
+          "weight": 3
+        },
+        {
+          "question": "Do you enjoy working with both software and hardware gadgets?",
+          "weight": 3
+        },
+        {
+          "question": "Are you fascinated by renewable energy and power grids?",
+          "weight": 2
+        },
+        {
+          "question": "Do you like problem-solving in complex electrical networks?",
+          "weight": 2
+        },
+        {
+          "question": "Are you interested in robotics and automation?",
+          "weight": 2
+        }
       ]
     },
     {
@@ -476,42 +2749,246 @@
       "color": "#94a3b8",
       "overview": "Metallurgical and Materials Engineering is the science of exploring, designing, and manufacturing new materials for the modern world. It covers everything from extraction of metals to development of high-tech alloys, nanomaterials, and smart composites. This branch is the backbone of aerospace, automotive, energy, and defense sectors, providing the fundamental materials that make advanced technology possible.",
       "syllabus": [
-        { "semester": 1, "subjects": ["Engineering Mathematics I", "Engineering Physics", "Engineering Mechanics", "Engineering Drawing", "Introduction to Programming", "Workshop"] },
-        { "semester": 2, "subjects": ["Engineering Mathematics II", "Engineering Chemistry", "Thermodynamics", "Materials Science", "English Communication", "Graphics Lab"] },
-        { "semester": 3, "subjects": ["Physical Metallurgy", "Mineral Processing", "Transport Phenomena", "Testing of Materials", "Numerical Methods", "Metallography Lab"] },
-        { "semester": 4, "subjects": ["Iron & Steel Making", "Extractive Metallurgy", "Mechanical Behavior", "Phase Transformations", "Polymer Science", "Extractive Lab"] },
-        { "semester": 5, "subjects": ["Corrosion Engineering", "Heat Treatment", "Casting & Solidification", "Powder Metallurgy", "Material Characterization", "Testing Lab"] },
-        { "semester": 6, "subjects": ["Ceramic Materials", "Composite Materials", "Joining of Materials", "Elective I", "X-Ray Diffraction", "Casting Lab"] },
-        { "semester": 7, "subjects": ["Nanomaterials", "Failure Analysis", "Elective II", "Elective III", "Major Project Phase I", "Industrial Training"] },
-        { "semester": 8, "subjects": ["Major Project Phase II", "Elective IV", "Professional Ethics", "Seminar", "Comprehensive Viva"] }
+        {
+          "semester": 1,
+          "subjects": [
+            "Engineering Mathematics I",
+            "Engineering Physics",
+            "Engineering Mechanics",
+            "Engineering Drawing",
+            "Introduction to Programming",
+            "Workshop"
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            "Engineering Mathematics II",
+            "Engineering Chemistry",
+            "Thermodynamics",
+            "Materials Science",
+            "English Communication",
+            "Graphics Lab"
+          ]
+        },
+        {
+          "semester": 3,
+          "subjects": [
+            "Physical Metallurgy",
+            "Mineral Processing",
+            "Transport Phenomena",
+            "Testing of Materials",
+            "Numerical Methods",
+            "Metallography Lab"
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            "Iron & Steel Making",
+            "Extractive Metallurgy",
+            "Mechanical Behavior",
+            "Phase Transformations",
+            "Polymer Science",
+            "Extractive Lab"
+          ]
+        },
+        {
+          "semester": 5,
+          "subjects": [
+            "Corrosion Engineering",
+            "Heat Treatment",
+            "Casting & Solidification",
+            "Powder Metallurgy",
+            "Material Characterization",
+            "Testing Lab"
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            "Ceramic Materials",
+            "Composite Materials",
+            "Joining of Materials",
+            "Elective I",
+            "X-Ray Diffraction",
+            "Casting Lab"
+          ]
+        },
+        {
+          "semester": 7,
+          "subjects": [
+            "Nanomaterials",
+            "Failure Analysis",
+            "Elective II",
+            "Elective III",
+            "Major Project Phase I",
+            "Industrial Training"
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            "Major Project Phase II",
+            "Elective IV",
+            "Professional Ethics",
+            "Seminar",
+            "Comprehensive Viva"
+          ]
+        }
       ],
       "careers": [
-        { "title": "Materials Scientist", "description": "Research and develop new materials with tailored properties for high-performance applications.", "companies": ["DRDO", "ISRO", "Tata Steel", "JSW Steel", "3M"], "skills": ["Characterization", "Material Science", "Nanotechnology", "SEM/TEM", "Research"] },
-        { "title": "Process Metallurgist", "description": "Optimize the extraction and refining processes for metals and alloys in large-scale plants.", "companies": ["Steel Authority of India (SAIL)", "Hindalco", "Vedanta", "Rio Tinto", "ArcelorMittal"], "skills": ["Pyrometallurgy", "Extractive Metallurgy", "Process Control", "Thermodynamics", "Lean"] },
-        { "title": "Quality Assurance Engineer", "description": "Ensure materials meet safety and performance standards for industries like automotive and aerospace.", "companies": ["Boeing", "Airbus", "Tata Motors", "Mahindra", "Rolls Royce"], "skills": ["NDT", "Failure Analysis", "Quality Control", "ASTM Standards", "Metallography"] }
+        {
+          "title": "Materials Scientist",
+          "description": "Research and develop new materials with tailored properties for high-performance applications.",
+          "companies": [
+            "DRDO",
+            "ISRO",
+            "Tata Steel",
+            "JSW Steel",
+            "3M"
+          ],
+          "skills": [
+            "Characterization",
+            "Material Science",
+            "Nanotechnology",
+            "SEM/TEM",
+            "Research"
+          ]
+        },
+        {
+          "title": "Process Metallurgist",
+          "description": "Optimize the extraction and refining processes for metals and alloys in large-scale plants.",
+          "companies": [
+            "Steel Authority of India (SAIL)",
+            "Hindalco",
+            "Vedanta",
+            "Rio Tinto",
+            "ArcelorMittal"
+          ],
+          "skills": [
+            "Pyrometallurgy",
+            "Extractive Metallurgy",
+            "Process Control",
+            "Thermodynamics",
+            "Lean"
+          ]
+        },
+        {
+          "title": "Quality Assurance Engineer",
+          "description": "Ensure materials meet safety and performance standards for industries like automotive and aerospace.",
+          "companies": [
+            "Boeing",
+            "Airbus",
+            "Tata Motors",
+            "Mahindra",
+            "Rolls Royce"
+          ],
+          "skills": [
+            "NDT",
+            "Failure Analysis",
+            "Quality Control",
+            "ASTM Standards",
+            "Metallography"
+          ]
+        }
       ],
       "salary": [
-        { "year": 2022, "avg": 12, "median": 10, "highest": 55 },
-        { "year": 2023, "avg": 14, "median": 11, "highest": 62 },
-        { "year": 2024, "avg": 15, "median": 13, "highest": 70 }
+        {
+          "year": 2022,
+          "avg": 12,
+          "median": 10,
+          "highest": 55
+        },
+        {
+          "year": 2023,
+          "avg": 14,
+          "median": 11,
+          "highest": 62
+        },
+        {
+          "year": 2024,
+          "avg": 15,
+          "median": 13,
+          "highest": 70
+        }
       ],
-      "difficulty": { "mathematical": 3, "programming": 2, "workload": 3 },
+      "difficulty": {
+        "mathematical": 3,
+        "programming": 2,
+        "workload": 3
+      },
       "industryDemand": [
-        { "year": 2019, "score": 50 },
-        { "year": 2020, "score": 52 },
-        { "year": 2021, "score": 55 },
-        { "year": 2022, "score": 60 },
-        { "year": 2023, "score": 65 },
-        { "year": 2024, "score": 68 }
+        {
+          "year": 2019,
+          "score": 50
+        },
+        {
+          "year": 2020,
+          "score": 52
+        },
+        {
+          "year": 2021,
+          "score": 55
+        },
+        {
+          "year": 2022,
+          "score": 60
+        },
+        {
+          "year": 2023,
+          "score": 65
+        },
+        {
+          "year": 2024,
+          "score": 68
+        }
       ],
-      "topRecruiters": ["Tata Steel", "JSW Steel", "Hindalco", "DRDO", "ISRO", "SAIL", "Boeing", "Airbus", "Vedanta", "ArcelorMittal"],
-      "skills": ["Physical Metallurgy", "Thermodynamics", "Material Science", "Extractive Metallurgy", "Corrosion", "Nanomaterials", "NDT", "Characterization", "Heat Treatment", "Phase Transformations"],
+      "topRecruiters": [
+        "Tata Steel",
+        "JSW Steel",
+        "Hindalco",
+        "DRDO",
+        "ISRO",
+        "SAIL",
+        "Boeing",
+        "Airbus",
+        "Vedanta",
+        "ArcelorMittal"
+      ],
+      "skills": [
+        "Physical Metallurgy",
+        "Thermodynamics",
+        "Material Science",
+        "Extractive Metallurgy",
+        "Corrosion",
+        "Nanomaterials",
+        "NDT",
+        "Characterization",
+        "Heat Treatment",
+        "Phase Transformations"
+      ],
       "quiz": [
-        { "question": "Are you interested in how metals and alloys are created?", "weight": 3 },
-        { "question": "Do you enjoy chemistry and thermodynamics?", "weight": 2 },
-        { "question": "Are you fascinated by high-tech materials like carbon fiber and nanomaterials?", "weight": 2 },
-        { "question": "Do you want to work in core industries like steel, aerospace, or space?", "weight": 2 },
-        { "question": "Are you interested in researching new materials for the future?", "weight": 2 }
+        {
+          "question": "Are you interested in how metals and alloys are created?",
+          "weight": 3
+        },
+        {
+          "question": "Do you enjoy chemistry and thermodynamics?",
+          "weight": 2
+        },
+        {
+          "question": "Are you fascinated by high-tech materials like carbon fiber and nanomaterials?",
+          "weight": 2
+        },
+        {
+          "question": "Do you want to work in core industries like steel, aerospace, or space?",
+          "weight": 2
+        },
+        {
+          "question": "Are you interested in researching new materials for the future?",
+          "weight": 2
+        }
       ]
     }
   ]

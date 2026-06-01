@@ -1,13 +1,8 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import AdBanner from '../components/ads/AdBanner'
-import {
-  getAvailableGroups,
-  getRawBranchesForGroup,
-  getDegreeType,
-  getDuration,
-  degreeCssClass,
-} from '../utils/branchGroups'
+
+import { getAvailableGroups, getRawBranchesForGroup, getDegreeType, getDuration, degreeCssClass } from '../utils/branchGroups';
 
 function processCsabPredictorData(matches, mainsRank) {
   let safe = []
@@ -166,12 +161,9 @@ export default function CsabPredictor() {
   const [gender, setGender] = useState('Gender-Neutral')
   const [results, setResults] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
-  const [expandedGroups, setExpandedGroups] = useState({})
+
   const resultsRef = useRef(null)
 
-  const toggleGroup = (groupName) => {
-    setExpandedGroups(prev => ({ ...prev, [groupName]: !prev[groupName] }))
-  }
 
   useEffect(() => {
     document.title = 'CSAB Special Round Predictor — College Decode'
@@ -211,7 +203,7 @@ export default function CsabPredictor() {
             fetch('/data/csab_iiit_y25_r3.json').then(r => r.json())
           ]);
           const merged = [...(resNit.data || []), ...(resIiit.data || [])];
-          
+
           currentYearData = merged.map(item => ({
             institute: item.Institute,
             branch: mapCsabBranchToJosaa(item["Academic Program Name"]),
@@ -235,7 +227,7 @@ export default function CsabPredictor() {
         .filter(d => {
           if (d.year !== targetYear) return false
           if (d.category !== category) return false
-          
+
           // Gender matching
           if (gender === 'Female-Only') {
             if (d.gender !== 'Female-Only' && d.gender !== 'Gender-Neutral') return false
@@ -348,15 +340,15 @@ export default function CsabPredictor() {
             )}
           </div>
         </div>
-          <div className="result-rank">
-            <div className="closing">{item.simulatedClosingRank.toLocaleString()}</div>
-            <div className="label">CSAB Closing Rank</div>
-            {!item.isRealCSAB && (
-              <div className="sub-label" style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.15rem' }}>
-                JoSAA Closing: {item.closingRank.toLocaleString()}
-              </div>
-            )}
-          </div>
+        <div className="result-rank">
+          <div className="closing">{item.simulatedClosingRank.toLocaleString()}</div>
+          <div className="label">CSAB Closing Rank</div>
+          {!item.isRealCSAB && (
+            <div className="sub-label" style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.15rem' }}>
+              JoSAA Closing: {item.closingRank.toLocaleString()}
+            </div>
+          )}
+        </div>
       </div>
     )
   }
@@ -406,48 +398,15 @@ export default function CsabPredictor() {
   return (
     <div className="animate-in">
       {/* Dynamic Top Tabs Switcher */}
-      <div style={{
-        display: 'flex',
-        background: 'var(--bg-card)',
-        border: '1px solid var(--border-color)',
-        padding: '0.35rem',
-        borderRadius: 'var(--radius-lg)',
-        gap: '0.35rem',
-        marginBottom: '2.5rem',
-        maxWidth: '500px',
-        margin: '1rem auto 2.5rem',
-      }}>
+      <div className="top-tabs">
         <Link
           to="/predict"
-          style={{
-            flex: 1,
-            textAlign: 'center',
-            padding: '0.65rem 1rem',
-            borderRadius: 'var(--radius-md)',
-            textDecoration: 'none',
-            fontSize: '0.85rem',
-            fontWeight: '600',
-            color: 'var(--text-secondary)',
-            transition: 'all 0.2s',
-          }}
-          className="hover-glow"
+          className="tab"
         >
-          🎯 JoSAA Predictor
+          🎯 JoSAA
         </Link>
-        <div
-          style={{
-            flex: 1,
-            textAlign: 'center',
-            padding: '0.65rem 1rem',
-            borderRadius: 'var(--radius-md)',
-            fontSize: '0.85rem',
-            fontWeight: '700',
-            background: 'var(--primary)',
-            color: 'black',
-            boxShadow: '0 2px 8px rgba(99, 102, 241, 0.3)',
-          }}
-        >
-          🚀 CSAB Special Rounds
+        <div className="tab active">
+          🚀 CSAB
         </div>
       </div>
 
@@ -455,6 +414,7 @@ export default function CsabPredictor() {
       <p className="page-subtitle">
         Enter your rank to find best-fit NITs, IIITs, and GFTIs in CSAB vacant seat rounds
       </p>
+      <p className="data-note" style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.5rem' }}>Using 2025 CSAB data</p>
       <p className="trust-line">Built by IIT student for JEE aspirants</p>
 
       <div className="predictor-input-card card">
@@ -501,20 +461,6 @@ export default function CsabPredictor() {
                 {INDIAN_STATES.map(s => (
                   <option key={s} value={s}>{s}</option>
                 ))}
-              </select>
-            </div>
-
-            <div className="form-group">
-              <label htmlFor="pred-year">Prediction Year</label>
-              <select
-                id="pred-year"
-                className="filter-select"
-                value={year}
-                onChange={e => setYear(e.target.value)}
-              >
-                <option value="2025">2025</option>
-                <option value="2024">2024</option>
-                <option value="2023">2023</option>
               </select>
             </div>
           </div>
@@ -650,6 +596,7 @@ export default function CsabPredictor() {
                   {renderSection('CSAB Safe Options', '✅', safe, 'section-safe', 5, 'Safe')}
                   {renderSection('CSAB Possible Options', '🎯', dream, 'section-dream', 3, 'Dream')}
 
+            
                   {/* Action Hooks */}
                   <div className="predictor-actions" style={{ marginTop: '2rem' }}>
                     <Link to="/predict" className="cta-card" id="predictor-cta-josaa-bottom" style={{ background: 'linear-gradient(135deg, rgba(99,102,241,0.06) 0%, rgba(139,92,246,0.06) 100%)' }}>

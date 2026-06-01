@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import AdBanner from '../components/ads/AdBanner'
+
 import {
   getAvailableGroups,
   getRawBranchesForGroup,
@@ -91,6 +92,7 @@ export default function RankPredictor() {
   const [isLoading, setIsLoading] = useState(false)
   const [expandedGroups, setExpandedGroups] = useState({})
   const resultsRef = useRef(null)
+
 
   const toggleGroup = (groupName) => {
     setExpandedGroups(prev => ({ ...prev, [groupName]: !prev[groupName] }))
@@ -274,49 +276,16 @@ export default function RankPredictor() {
 
   return (
     <div className="animate-in">
-      {/* Dynamic Top Tabs Switcher */}
-      <div style={{
-        display: 'flex',
-        background: 'var(--bg-card)',
-        border: '1px solid var(--border-color)',
-        padding: '0.35rem',
-        borderRadius: 'var(--radius-lg)',
-        gap: '0.35rem',
-        marginBottom: '2.5rem',
-        maxWidth: '500px',
-        margin: '1rem auto 2.5rem',
-      }}>
-        <div
-          style={{
-            flex: 1,
-            textAlign: 'center',
-            padding: '0.65rem 1rem',
-            borderRadius: 'var(--radius-md)',
-            fontSize: '0.85rem',
-            fontWeight: '700',
-            background: 'var(--primary)',
-            color: 'black',
-            boxShadow: '0 2px 8px rgba(99, 102, 241, 0.3)',
-          }}
-        >
-          🎯 JoSAA Predictor
+
+      <div className="top-tabs">
+        <div className="tab active">
+          🎯 JoSAA
         </div>
         <Link
           to="/predict-csab"
-          style={{
-            flex: 1,
-            textAlign: 'center',
-            padding: '0.65rem 1rem',
-            borderRadius: 'var(--radius-md)',
-            textDecoration: 'none',
-            fontSize: '0.85rem',
-            fontWeight: '600',
-            color: 'var(--text-secondary)',
-            transition: 'all 0.2s',
-          }}
-          className="hover-glow"
+          className="tab"
         >
-          🚀 CSAB Special Rounds
+          🚀 CSAB
         </Link>
       </div>
 
