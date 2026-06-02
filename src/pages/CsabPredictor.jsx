@@ -159,8 +159,10 @@ export default function CsabPredictor() {
   const [branchPref, setBranchPref] = useState('All')
   const [category, setCategory] = useState('General')
   const [gender, setGender] = useState('Gender-Neutral')
+  const [isLoading, setIsLoading] = useState(false);
+  const [expandedGroups, setExpandedGroups] = useState({});
   const [results, setResults] = useState(null)
-  const [isLoading, setIsLoading] = useState(false)
+  const toggleGroup = (groupName) => setExpandedGroups(prev => ({ ...prev, [groupName]: !prev[groupName] }));
 
   const resultsRef = useRef(null)
 
@@ -197,24 +199,34 @@ export default function CsabPredictor() {
       let currentYearData = dataByYear[targetYear]
       if (!currentYearData) {
         if (targetYear === 2025) {
-          // Fetch real 2025 CSAB data for NITs and IIITs
-          const [resNit, resIiit] = await Promise.all([
-            fetch('/data/csab_nit_y25_r3.json').then(r => r.json()),
-            fetch('/data/csab_iiit_y25_r3.json').then(r => r.json())
-          ]);
-          const merged = [...(resNit.data || []), ...(resIiit.data || [])];
-
-          currentYearData = merged.map(item => ({
-            institute: item.Institute,
-            branch: mapCsabBranchToJosaa(item["Academic Program Name"]),
-            quota: item.Quota,
-            category: item["Seat Type"] === 'OPEN' ? 'General' : item["Seat Type"],
-            gender: item.Gender === 'Female-only (including Supernumerary)' ? 'Female-Only' : item.Gender,
-            openingRank: parseInt(item["Opening Rank"], 10) || 0,
-            closingRank: parseInt(item["Closing Rank"], 10) || 0,
-            year: 2025,
-            isRealCSAB: true
-          }));
+          // Fetch real 2025 CSAB data for NITs and IIITs with fallback
+          let csabDataFetched = false;
+          try {
+            const [resNit, resIiit] = await Promise.all([
+              fetch('/data/csab_nit_y25_r3.json').then(r => r.json()),
+              fetch('/data/csab_iiit_y25_r3.json').then(r => r.json())
+            ]);
+            const merged = [...(resNit.data || []), ...(resIiit.data || [])];
+            currentYearData = merged.map(item => ({
+              institute: item.Institute,
+              branch: mapCsabBranchToJosaa(item["Academic Program Name"]),
+              quota: item.Quota,
+              category: item["Seat Type"] === 'OPEN' ? 'General' : item["Seat Type"],
+              gender: item.Gender === 'Female-only (including Supernumerary)' ? 'Female-Only' : item.Gender,
+              openingRank: parseInt(item["Opening Rank"], 10) || 0,
+              closingRank: parseInt(item["Closing Rank"], 10) || 0,
+              year: 2025,
+              isRealCSAB: true
+            }));
+            csabDataFetched = true;
+          } catch (e) {
+            console.warn('Failed to fetch CSAB data, falling back to JoSAA OCR:', e);
+          }
+          if (!csabDataFetched) {
+            // Fallback to JoSAA OCR data and simulate CSAB leniency
+            const response = await fetch(`/data/OCR_${targetYear}.json`);
+            currentYearData = await response.json();
+          }
         } else {
           // Fallback to JoSAA OCR data and simulate CSAB leniency
           const response = await fetch(`/data/OCR_${targetYear}.json`)
@@ -291,12 +303,14 @@ export default function CsabPredictor() {
     }
   }, [metadata, dataByYear, homeState, year, mainsRank, category, gender, branchPref])
 
-  const { safe, target, dream, totalValidOptions } = useMemo(() => {
+  const { safe, target, dream } = useMemo(() => {
     if (!results || results.matches.length === 0) {
-      return { bestChoice: null, safe: [], target: [], dream: [], totalValidOptions: 0 }
+      return { bestChoice: null, safe: [], target: [], dream: [] }
     }
     return processCsabPredictorData(results.matches, results.mainsRank)
   }, [results])
+
+  const totalValidOptions = results?.matches?.length || 0;
 
   const availableGroups = useMemo(() => {
     if (!metadata) return []
